@@ -2,7 +2,7 @@
   "name": "script",
   "license": "MIT",
   "scripts": {
-    "postinstall": "CI=1 && PRISMA_TELEMETRY_INFORMATION='e2e-tests platforms/gcp-functions postinstall' && yarn prisma generate"
+    "postinstall": "npx cross-env CI=1 && npx cross-env PRISMA_TELEMETRY_INFORMATION=\"e2e-tests platforms/gcp-functions postinstall\" && yarn prisma generate"
   },
   "devDependencies": {
     "prisma": "2.21.0-dev.21",

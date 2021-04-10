@@ -324,12 +324,13 @@ jobs:
 
   platforms:
     needs: start-time
-    runs-on: ubuntu-latest
+    runs-on: ${{ matrix.os }}
     timeout-minutes: 60
 
     strategy:
       fail-fast: false
       matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
         platform:
           - lambda
           - heroku
@@ -411,7 +412,7 @@ jobs:
         with:
           args: yarn --ignore-engines
 
-      - name: test ${{ matrix.platform }}
+      - name: test ${{ matrix.platform }} on ${{ matrix.os }}
         id: run-test
         uses: nick-invision/retry@v2
         with:

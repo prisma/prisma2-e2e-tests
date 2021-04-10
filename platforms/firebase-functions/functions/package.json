@@ -7,7 +7,7 @@
     "start": "npm run shell",
     "deploy": "firebase deploy --only functions",
     "logs": "firebase functions:log",
-    "postinstall": "CI=1 && PRISMA_TELEMETRY_INFORMATION='e2e-tests platforms/firebase-functions postinstall' && yarn prisma generate"
+    "postinstall": "npx cross-env CI=1 && npx cross-env PRISMA_TELEMETRY_INFORMATION=\"e2e-tests platforms/firebase-functions postinstall\" && yarn prisma generate"
   },
   "engines": {
     "node": "12"
