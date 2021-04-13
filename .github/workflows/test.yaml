@@ -510,7 +510,7 @@ jobs:
 
   databases:
     needs: start-time
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-16.04
 
     strategy:
       fail-fast: false
@@ -524,6 +524,7 @@ jobs:
           - sqlserver-azure-sql
           - gcp-postgresql-ssl
           - gcp-mysql-ssl
+          - bedrock
 
     name: databases ${{ matrix.database }}
     env:
