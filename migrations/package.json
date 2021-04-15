@@ -1,0 +1,10 @@
+{
+  "name": "script",
+  "license": "MIT",
+  "devDependencies": {
+    "prisma": "2.19.0-dev.10"
+  },
+  "dependencies": {
+    "@prisma/client": "2.19.0-dev.10"
+  }
+}

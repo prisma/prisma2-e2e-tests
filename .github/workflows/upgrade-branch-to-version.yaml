@@ -47,6 +47,6 @@ jobs:
 
       - name: report failure to slack
         run: echo "disabled"
-        # TODO run: bash .github/scripts/slack-workflow-status.sh "check-for-update :x:"
+        # TODO run: bash .github/slack/notify-workflow-result.sh "check-for-update :x:"
         env:
           SLACK_WEBHOOK_URL_WORKFLOWS: ${{ secrets.SLACK_WEBHOOK_URL_WORKFLOWS }}

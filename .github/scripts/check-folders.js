@@ -20,6 +20,7 @@ async function main() {
         'packagers/yarn-workspaces/prisma-project', // Yarn workspaces root doesn't have package.json but is included
         'platforms/aws-graviton/code', // aws-graviton doesn't have package.json at root but is included
         'platforms/codesandbox',
+        'migrations',
       ]
       return !ignoreFiles.includes(file)
     })

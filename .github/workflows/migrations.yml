@@ -1,0 +1,35 @@
+name: migrations
+on: push
+env:
+  PRISMA_TELEMETRY_INFORMATION: 'e2e-tests migrations.yml'
+
+jobs:
+  # report-to-slack-success:
+  #   TODO
+  # report-to-slack-failure:
+  #   TODO
+
+  databases:
+    strategy:
+      fail-fast: false
+      matrix:
+        database: [
+          MIGRATIONS_DATABASE_DO_POSTGRES,
+          MIGRATIONS_DATABASE_DO_MYSQL
+        ]
+        # os: [ubuntu-latest, windows-latest, macos-latest] TODO?
+    runs-on: ubuntu-latest # ${{ matrix.os }}
+    env:
+      SLACK_WEBHOOK_URL: ${{ secrets.MIGRATIONS_SLACK_WEBHOOK_URL }}
+      SLACK_WEBHOOK_URL_FAILING: ${{ secrets.MIGRATIONS_SLACK_WEBHOOK_URL_FAILING }}
+      CONNECTION_URL: ${{ secrets[matrix.database] }}
+    steps:
+      - uses: actions/checkout@v2
+      - run: yarn install
+      - uses: actions/setup-node@v2
+      - name: test migrations on database - ${{ matrix.database }}
+        run: bash .github/scripts/migrations.sh ${{ matrix.database }}
+
+      - name: notify-slack
+        if: failure()
+        run: bash .github/slack/notify-job-failure.sh migrations.yml/databases ${{ matrix.feature }}

@@ -23,7 +23,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
       - name: report success to slack
-        run: bash .github/scripts/slack-workflow-status.sh "(Optional tests) :white_check_mark:"         
+        run: bash .github/slack/notify-workflow-result.sh "(Optional tests) :white_check_mark:"
 
   report-to-slack-failure:
     runs-on: ubuntu-latest
@@ -34,7 +34,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
       - name: report failure to slack
-        run: bash .github/scripts/slack-workflow-status.sh "(Optional tests) :x:"
+        run: bash .github/slack/notify-workflow-result.sh "(Optional tests) :x:"
 
   community-generators:
     needs: start-time
@@ -80,4 +80,4 @@ jobs:
 
       - name: notify-slack
         if: failure()
-        run: bash .github/slack/notify-failure.sh community-generators ${{ matrix.feature }}
+        run: bash .github/slack/notify-job-failure.sh community-generators ${{ matrix.feature }}
