@@ -29,6 +29,7 @@ jobs:
       - packagers
       - frameworks
       - platforms
+      - platforms-serverless
       - bundlers
       - libraries
       - databases
@@ -52,6 +53,7 @@ jobs:
       - packagers
       - frameworks
       - platforms
+      - platforms-serverless
       - bundlers
       - libraries
       - databases
