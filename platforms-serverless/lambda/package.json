@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@prisma/client": "2.24.0-dev.20",
-    "@types/node": "13.13.52"
+    "@types/node": "13.13.52",
+    "execa": "^5.0.0"
   }
 }

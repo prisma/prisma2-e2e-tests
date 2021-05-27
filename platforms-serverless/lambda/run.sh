@@ -9,6 +9,10 @@ x="$AWS_ACCESS_KEY_ID"
 x="$AWS_SECRET_ACCESS_KEY"
 x="$AWS_ROLE"
 
+x="$PLANETSCALE_ORG"
+x="$PLANETSCALE_SERVICE_TOKEN_NAME"
+x="$PLANETSCALE_SERVICE_TOKEN"
+
 yarn install
 
 yarn prisma generate

@@ -11,6 +11,6 @@ rm -rf node_modules/prisma
 rm -rf node_modules/@prisma/engines
 rm -rf node_modules/typescript
 
-zip -r lambda.zip index.js prisma/schema.prisma node_modules/.prisma node_modules/**
+zip -r lambda.zip index.js prisma/schema.prisma node_modules/.prisma node_modules/** pscale
 
 du -b ./lambda.zip

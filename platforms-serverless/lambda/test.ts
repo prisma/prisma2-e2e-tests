@@ -6,6 +6,7 @@ const name = 'prisma2-e2e-tests'
 
 async function main() {
   console.log('testing function', name)
+  
   const measure_start = process.hrtime.bigint()
   const data = await invokeLambdaSync(name, '')
   const measure_end = process.hrtime.bigint()
