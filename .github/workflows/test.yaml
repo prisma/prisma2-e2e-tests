@@ -12,7 +12,7 @@ env:
 
 jobs:
   start-time:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     outputs:
       start-time: ${{ steps.start-time-output.outputs.start-time }}
     steps:
@@ -20,7 +20,7 @@ jobs:
         run: echo "::set-output name=start-time::$(date)"
 
   report-to-slack-success:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     needs:
       - core-features
       - os
@@ -44,7 +44,7 @@ jobs:
         run: bash .github/scripts/slack-workflow-status.sh ":white_check_mark:"
 
   report-to-slack-failure:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     needs:
       - core-features
       - os
@@ -73,7 +73,7 @@ jobs:
       fail-fast: false
       matrix:
         feature: [pm2]
-        os: [ubuntu-latest, windows-latest, macos-latest]
+        os: [self-hosted, windows-latest, macos-latest]
     runs-on: ${{ matrix.os }}
     env:
       START_TIME: ${{ needs.start-time.outputs.start-time }}
@@ -105,7 +105,7 @@ jobs:
 
   core-features:
     needs: start-time
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     strategy:
       fail-fast: false
       matrix:
@@ -143,7 +143,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [ubuntu-latest, macos-latest, windows-latest]
+        os: [self-hosted, macos-latest, windows-latest]
     runs-on: ${{ matrix.os }}
     env:
       START_TIME: ${{ needs.start-time.outputs.start-time }}
@@ -175,7 +175,7 @@ jobs:
 
   node:
     needs: start-time
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     strategy:
       fail-fast: false
@@ -222,7 +222,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [ubuntu-latest, macos-latest, windows-latest]
+        os: [self-hosted, macos-latest, windows-latest]
         binary: [pkg]
     runs-on: ${{ matrix.os }}
     env:
@@ -252,7 +252,7 @@ jobs:
 
   packagers:
     needs: start-time
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     strategy:
       fail-fast: false
@@ -295,7 +295,7 @@ jobs:
 
   frameworks:
     needs: start-time
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     strategy:
       fail-fast: false
@@ -334,7 +334,7 @@ jobs:
 
   platforms:
     needs: start-time
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     timeout-minutes: 60
 
     strategy:
@@ -385,7 +385,7 @@ jobs:
 
   platforms-serverless:
     needs: start-time
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     timeout-minutes: 60
 
     strategy:
@@ -473,7 +473,7 @@ jobs:
 
   bundlers:
     needs: start-time
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     strategy:
       fail-fast: false
@@ -514,7 +514,7 @@ jobs:
 
   libraries:
     needs: start-time
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     strategy:
       fail-fast: false
@@ -558,7 +558,7 @@ jobs:
 
   databases:
     needs: start-time
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     strategy:
       fail-fast: false
@@ -664,7 +664,7 @@ jobs:
 
   test-runners:
     needs: start-time
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     strategy:
       fail-fast: false
