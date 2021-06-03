@@ -558,7 +558,7 @@ jobs:
 
   databases:
     needs: start-time
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-16.04
 
     strategy:
       fail-fast: false
@@ -575,6 +575,7 @@ jobs:
           - mongodb-atlas
           - supabase
           - supabase-pool
+          - bedrock
 
     name: databases ${{ matrix.database }}
     env:
@@ -610,13 +611,9 @@ jobs:
         with:
           node-version: 12
 
+      - run: sudo service mysql stop
       - name: test ${{ matrix.database }}
-        id: run-test
-        uses: nick-invision/retry@v2
-        with:
-          timeout_minutes: 10
-          max_attempts: 3
-          command: bash .github/scripts/test-project.sh databases ${{ matrix.database }}
+        run: bash .github/scripts/test-project.sh databases ${{ matrix.database }}
 
       - name: notify-slack
         if: failure()

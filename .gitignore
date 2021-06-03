@@ -8,3 +8,4 @@ failed-*.md
 *-tmp.txt
 infrastructure/
 .envrc
+.vscode/settings.json
