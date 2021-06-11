@@ -603,6 +603,7 @@ jobs:
           - vercel-cli
           - vercel-with-redwood
           - vercel-with-nextjs
+          - vercel-with-nextjs-and-nexus-plugin-prisma
           - netlify-cli
           - netlify-ci
           - gcp-functions
@@ -647,6 +648,8 @@ jobs:
       VERCEL_WITH_REDWOOD_ORG_ID: ${{ secrets.VERCEL_WITH_REDWOOD_ORG_ID }}
       VERCEL_WITH_NEXTJS_PROJECT_ID: ${{ secrets.VERCEL_WITH_NEXTJS_PROJECT_ID }}
       VERCEL_WITH_NEXTJS_ORG_ID: ${{ secrets.VERCEL_WITH_NEXTJS_ORG_ID }}
+      VERCEL_WITH_NEXTJS_AND_NEXUS_PLUGIN_PRISMA_ORG_ID: ${{ secrets.VERCEL_WITH_NEXTJS_AND_NEXUS_PLUGIN_PRISMA_ORG_ID }}
+      VERCEL_WITH_NEXTJS_AND_NEXUS_PLUGIN_PRISMA_PROJECT_ID: ${{ secrets.VERCEL_WITH_NEXTJS_AND_NEXUS_PLUGIN_PRISMA_PROJECT_ID }}
       VERCEL_API_PROJECT_ID: ${{ secrets.VERCEL_API_PROJECT_ID }}
       VERCEL_API_ORG_ID: ${{ secrets.VERCEL_API_ORG_ID }}
       VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
