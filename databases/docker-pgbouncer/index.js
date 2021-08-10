@@ -1,8 +1,4 @@
 const { PrismaClient } = require('@prisma/client')
-const dotenv = require('dotenv')
-dotenv.config({
-  path: 'prisma/.env',
-})
 
 const client = new PrismaClient({
   errorFormat: 'colorless',

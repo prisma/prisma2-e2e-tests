@@ -9,8 +9,7 @@
     "prisma": "2.29.0-dev.48"
   },
   "dependencies": {
-    "@prisma/client": "2.29.0-dev.48",
-    "dotenv": "^10.0.0"
+    "@prisma/client": "2.29.0-dev.48"
   },
   "scripts": {
     "test": "jest"

@@ -11,13 +11,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/dotenv": "8.2.0",
     "@types/jest": "26.0.24",
     "prisma": "2.29.0-dev.48"
   },
   "dependencies": {
     "@prisma/client": "2.29.0-dev.48",
-    "dotenv": "^10.0.0",
     "jest": "^27.0.0"
   }
 }
