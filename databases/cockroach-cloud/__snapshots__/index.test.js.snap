@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests for Cockroach Cloud database should query the database 1`] = `Array []`;
