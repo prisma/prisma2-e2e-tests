@@ -8,7 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "@prisma/client": "3.1.0-dev.7",
+    "@prisma/client": "3.0.2-dev.1",
     "next": "11.1.2",
     "react": "17.0.2",
     "react-dom": "17.0.2"
@@ -16,7 +16,7 @@
   "devDependencies": {
     "@types/node": "12.20.24",
     "@types/react": "17.0.20",
-    "prisma": "3.1.0-dev.7",
+    "prisma": "3.0.2-dev.1",
     "typescript": "4.2.4"
   }
 }

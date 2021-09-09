@@ -711,10 +711,10 @@
   resolved "https://registry.yarnpkg.com/@oclif/screen/-/screen-1.0.4.tgz#b740f68609dfae8aa71c3a6cab15d816407ba493"
   integrity sha512-60CHpq+eqnTxLZQ4PGHYNwUX572hgpMHGPtTWMjdTMsAvlm69lZV/4ly6O3sAYkomo4NggGcomrDpBe34rxUqw==
 
-"@prisma/client@3.1.0-dev.7":
-  version "3.1.0-dev.7"
-  resolved "https://registry.yarnpkg.com/@prisma/client/-/client-3.1.0-dev.7.tgz#7201bc9e20f6de0f37961526f0788263696be2a7"
-  integrity sha512-q5fAiyTcegoawmHyRCI5wyu1u8qE902sIIGSl3sWLeDV7XUNbcRUFllXllgciUY/ah2l9LencgNEV1BK/RkxnA==
+"@prisma/client@3.0.2-dev.1":
+  version "3.0.2-dev.1"
+  resolved "https://registry.yarnpkg.com/@prisma/client/-/client-3.0.2-dev.1.tgz#6a7b8ba5904ef90cf667356b9d914bc27f31b857"
+  integrity sha512-F2n24WJAdZn4UESpx2nd/oD0m6g48sI+FybE2s+VBEw82zUGxzrMjRpELOgQqmp8Glz9BUgwMNggNT20+9oCUA==
   dependencies:
     "@prisma/engines-version" "2.31.0-32.2452cc6313d52b8b9a96999ac0e974d0aedf88db"
 
@@ -2675,10 +2675,10 @@ printf@0.5.1:
   resolved "https://registry.yarnpkg.com/printf/-/printf-0.5.1.tgz#e0466788260859ed153006dc6867f09ddf240cf3"
   integrity sha512-UaE/jO0hNsrvPGQEb4LyNzcrJv9Z00tsreBduOSxMtrebvoUhxiEJ4YCHX8YHf6akwfKsC2Gyv5zv47UXhMiLg==
 
-prisma@3.1.0-dev.7:
-  version "3.1.0-dev.7"
-  resolved "https://registry.yarnpkg.com/prisma/-/prisma-3.1.0-dev.7.tgz#a084843fc723faf6ad65620f1d11224311d3315b"
-  integrity sha512-B3F+W0KvWQ7lMLcs7J8MGjH1WKlzt3gwcEqiSKwgoXsPmhER5sopOq4CSY4Qg5GMUusjWVNbf/x4ZMLLpDY3pQ==
+prisma@3.0.2-dev.1:
+  version "3.0.2-dev.1"
+  resolved "https://registry.yarnpkg.com/prisma/-/prisma-3.0.2-dev.1.tgz#55d52e0caf22c4ae11b0575444bf3025e8ea47c3"
+  integrity sha512-e1pScRfMYAtvJgwqrH4jCwG5Wgjqhz+65uRWJ0N3gqvcK3za2HmWcarvasC7qHZxpto1gzMm8HvJ5kWALICKYg==
   dependencies:
     "@prisma/engines" "2.31.0-32.2452cc6313d52b8b9a96999ac0e974d0aedf88db"
 
