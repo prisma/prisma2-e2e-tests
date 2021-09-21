@@ -5,7 +5,7 @@
   "author": "Divyendu Singh <singh@prisma.io>",
   "license": "MIT",
   "dependencies": {
-    "@prisma/client": "3.1.0-dev.34",
+    "@prisma/client": "3.1.1",
     "dotenv": "^10.0.0",
     "express": "^4.17.1"
   },
@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "heroku": "7.59.0",
-    "prisma": "3.1.0-dev.34",
+    "prisma": "3.1.1",
     "ts-node": "10.2.1"
   }
 }

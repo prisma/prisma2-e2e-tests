@@ -4,12 +4,12 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "prisma": "3.1.0-dev.34",
+    "prisma": "3.1.1",
     "ts-node": "10.2.1",
     "vercel": "23.1.2"
   },
   "dependencies": {
-    "@prisma/client": "3.1.0-dev.34",
+    "@prisma/client": "3.1.1",
     "dotenv": "10.0.0",
     "fetch-retry": "5.0.1",
     "node-fetch": "2.6.2"
