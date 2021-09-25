@@ -412,6 +412,13 @@ jobs:
           max_attempts: 3
           command: bash .github/scripts/test-project.sh ${{ github.job}} ${{ matrix.binary }} ${{ matrix.os }}
 
+      - uses: actions/upload-artifact@v2
+        if: success()
+        with:
+          name: binaries-${{ matrix.binary }}-${{ matrix.os }}-${{ matrix.engine }}
+          path: |
+            ${{ github.workspace }}/binaries/${{ matrix.binary }}/prisma*
+            
       - name: notify-slack
         if: failure()
         run: bash .github/slack/notify-failure.sh ${{ github.job}} ${{ matrix.binary }} ${{ matrix.os }}
