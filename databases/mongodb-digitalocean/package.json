@@ -7,7 +7,7 @@
     "@types/node": "15.12.5",
     "prisma": "3.2.0-dev.11",
     "ts-node": "10.2.1",
-    "typescript": "4.2.3"
+    "typescript": "4.4.3"
   },
   "scripts": {
     "cmd": "ts-node ./script.ts"
