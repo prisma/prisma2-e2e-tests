@@ -5,7 +5,7 @@
   "license": "MIT",
   "devDependencies": {
     "prisma": "3.2.0-dev.11",
-    "prisma-nestjs-graphql": "11.4.5"
+    "prisma-nestjs-graphql": "14.2.1"
   },
   "dependencies": {
     "@prisma/client": "3.2.0-dev.11",
