@@ -5,6 +5,9 @@ shopt -s inherit_errexit || true
 
 export CI=true
 
+# enable immediate promise rejection failure for all
+export NODE_OPTIONS="--unhandled-rejections=strict"
+
 dir=$1
 project=$2
 set +u
