@@ -8,7 +8,7 @@ packageJSONDir="$1"
 echo "-------------------------"
 echo ""
 
-echo "node: $(node -v)"
+echo "node: $(node -v) ($(node -p process.arch))"
 echo "npm: $(npm -v)"
 
 echo "prisma-version.txt: $(cat .github/prisma-version.txt)"

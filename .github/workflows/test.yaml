@@ -326,7 +326,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        node:
+        node-version:
           - 12
           - 14
           - 15
@@ -334,7 +334,25 @@ jobs:
           - 12.6.0 # minimal node version via https://github.com/prisma/prisma/blob/master/src/packages/client/package.json and minimal minor version of node 12 via https://www.prisma.io/docs/reference/system-requirements
           - 14.0.0 # minimal minor version of node 14 via https://www.prisma.io/docs/reference/system-requirements
         clientEngine: ['library', 'binary']
+        architecture: [x64]
         os: [ubuntu-latest] #, windows-latest, macos-latest]
+        include: # include additional combinations for explicit x64 (64 bit Node) and x86 (32 bit Node) on Windows
+          - node-version: 14
+            clientEngine: library
+            architecture: x86
+            os: windows-latest
+          - node-version: 14
+            clientEngine: binary
+            architecture: x86
+            os: windows-latest
+          - node-version: 14
+            clientEngine: library
+            architecture: x64
+            os: windows-latest
+          - node-version: 14
+            clientEngine: binary
+            architecture: x64
+            os: windows-latest
     runs-on: ${{ matrix.os }}
 
     env:
@@ -346,10 +364,11 @@ jobs:
       - name: Define Client Engine Type to test
         run: echo "PRISMA_CLIENT_ENGINE_TYPE=${{ matrix.clientEngine }}" >> $GITHUB_ENV
 
-      - name: use node ${{ matrix.node }}
+      - name: use node ${{ matrix.node-version }} (${{ matrix.architecture }})
         uses: actions/setup-node@v2
         with:
-          node-version: ${{ matrix.node }}
+          node-version: ${{ matrix.node-version }}
+          architecture: ${{ matrix.architecture }}
 
       - name: Set test specific DATABASE_URL
         run: |
@@ -359,17 +378,17 @@ jobs:
           replaced=${string/$search/$replace}
           echo "DATABASE_URL=$replaced" >> $GITHUB_ENV
 
-      - name: test on node ${{ matrix.node }} - ${{matrix.clientEngine}}
+      - name: test on node ${{ matrix.node-version }} (${{ matrix.architecture }}) - ${{matrix.clientEngine}}
         id: run-test
         uses: nick-invision/retry@v2
         with:
           timeout_minutes: 10
           max_attempts: 3
-          command: bash .github/scripts/test-project.sh generic basic "node ${{ matrix.node }}"
+          command: bash .github/scripts/test-project.sh generic basic "node ${{ matrix.node-version }} (${{ matrix.architecture }})"
 
       - name: notify-slack
         if: failure()
-        run: bash .github/slack/notify-failure.sh generic basic "node ${{ matrix.node }}"
+        run: bash .github/slack/notify-failure.sh generic basic "node ${{ matrix.node-version }} (${{ matrix.architecture }})"
 
   binaries:
     needs: start-time
