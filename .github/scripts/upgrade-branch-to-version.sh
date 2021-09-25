@@ -10,22 +10,13 @@ cd ../..
 npm i -g json
 
 branch="$1"
-version="$2" # TODO this is not actually used yet in this script
+version="$2"
 
 echo ""
 echo "=========================="
 echo "upgrade-branch-to-version.sh"
 echo "branch: $branch"
 echo "version: $version"
-
-run_sync() {
-  dir="$1"
-  branch="$2"
-  cd "$dir"
-  bash .github/scripts/sync.sh "$branch"
-  echo "synced, exit."
-  exit 0
-}
 
 echo ""
 echo "=========================="
@@ -44,21 +35,11 @@ git fetch github "$branch"
 git reset --hard "github/$branch"
 git checkout "github/$branch"
 
-# prepare script: read package.json but ignore workspace package.json files, redwood "web" package.json file
+# prepare script: read package.json but ignore some
 pkg="var pkg=require('./package.json'); if (pkg.workspaces || pkg.name == '.prisma/client' || pkg.name == 'web') { process.exit(0); }"
 
 # store pwd for later usage
 dir=$(pwd)
-
-echo "=========================="
-echo "getting live package version:"
-v=$(bash .github/scripts/prisma-version.sh "$branch")
-if [ -z "$v" ]
-then
-      echo "Prisma version is empty: $v"
-      exit 0
-fi
-echo "$v (via Npm)"
 
 packages=$(find . -not -path "*/node_modules/*" -type f -name "package.json")
 echo "$packages" | tr ' ' '\n' | while read -r item; do
@@ -74,61 +55,24 @@ echo "$packages" | tr ' ' '\n' | while read -r item; do
 
   cd "$(dirname "$item")/"
 
-  hasResolutions="$(node -e "$pkg;console.log(!!pkg.resolutions)")"
+  vCLI="$(node -e "$pkg;console.log(pkg.devDependencies['prisma'])")"
 
-  if [ "$hasResolutions" = "true" ]; then
-    echo "note: project uses `resolutions`"
-    vCLI="$(node -e "$pkg;console.log(pkg.resolutions['prisma'])")"
+  if [ "$vCLI" != "" ]; then
+    if [ "$version" != "$vCLI" ]; then
+      echo "$item: prisma expected $version, actual $vCLI"
+      echo "> yarn add \"prisma@$version\" --dev"
+      yarn add "prisma@$version" --dev
+    fi
 
-    if [ "$vCLI" != "" ]; then
-      if [ "$v" != "$vCLI" ]; then
-        if [ "$branch" != "dev" ]; then
-          run_sync "$dir" "$branch"
-        fi
+    vPrismaClient="$(node -e "$pkg;console.log(pkg.dependencies['@prisma/client'])")"
 
-        echo "$item: prisma expected $v, actual $vCLI"
-        json -I -f package.json -e "this.resolutions['prisma']='$v'"
-      fi
-
-      vPrismaClient="$(node -e "$pkg;console.log(pkg.resolutions['@prisma/client'])")"
-
-      if [ "$v" != "$vPrismaClient" ]; then
-        if [ "$branch" != "dev" ]; then
-          run_sync "$dir" "$branch"
-        fi
-
-        echo "$item: @prisma/client expected $v, actual $vPrismaClient"
-        json -I -f package.json -e "this.resolutions['@prisma/client']='$v'"
-      fi
+    if [ "$version" != "$vPrismaClient" ]; then
+      echo "$item: @prisma/client expected $version, actual $vPrismaClient"
+      echo "> yarn add \"@prisma/client@$version\""
+      yarn add "@prisma/client@$version"
     fi
   else
-    vCLI="$(node -e "$pkg;console.log(pkg.devDependencies['prisma'])")"
-
-    if [ "$vCLI" != "" ]; then
-      if [ "$v" != "$vCLI" ]; then
-        if [ "$branch" != "dev" ]; then
-          run_sync "$dir" "$branch"
-        fi
-
-        echo "$item: prisma expected $v, actual $vCLI"
-        echo "> yarn add \"prisma@$v\" --dev"
-        yarn add "prisma@$v" --dev
-      fi
-
-      vPrismaClient="$(node -e "$pkg;console.log(pkg.dependencies['@prisma/client'])")"
-
-      if [ "$v" != "$vPrismaClient" ]; then
-        if [ "$branch" != "dev" ]; then
-          run_sync "$dir" "$branch"
-        fi
-
-        echo "$item: @prisma/client expected $v, actual $vPrismaClient"
-        echo "> yarn add \"@prisma/client@$v\""
-        yarn add "@prisma/client@$v"
-      fi
-    else
-      echo "Dependency not found"
-    fi
+    echo "Dependency not found"
   fi
 
   cd "$dir"
@@ -149,16 +93,16 @@ fi
 echo ""
 echo "=========================="
 echo "changes, upgrading..."
-echo "$v" > .github/prisma-version.txt
+echo "$version" > .github/prisma-version.txt
 
-git commit -am "chore(packages): bump prisma to $v"
+git commit -am "chore(packages): bump prisma to $version (upgrade-branch-to-version.sh)"
 
 set +e
 git pull github "$branch" --rebase
 code=$?
 if [ $code -ne 0 ]; then
   export webhook="$SLACK_WEBHOOK_URL_FAILING"
-  node .github/slack/notify.js "Prisma version $v :warning: Merge conflict at the end of check-for-update.sh script (via $branch)"
+  node .github/slack/notify.js "Prisma version $version :warning: Merge conflict at the end of upgrade-branch-to-version.sh script (via $branch)"
   exit 0
 fi
 set -e
@@ -171,9 +115,9 @@ echo "pushed commit"
 
 if [ $code -eq 0 ]; then
   export webhook="$SLACK_WEBHOOK_URL"
-  node .github/slack/notify.js "Prisma version $v released (via $branch)"
+  node .github/slack/notify.js "Prisma version $version released (via $branch)"
   export webhook="$SLACK_WEBHOOK_URL_FAILING"
-  node .github/slack/notify.js "Prisma version $v released (via $branch)"
+  node .github/slack/notify.js "Prisma version $version released (via $branch)"
 fi
 
 echo "done"
