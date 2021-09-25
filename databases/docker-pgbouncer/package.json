@@ -13,10 +13,10 @@
   "devDependencies": {
     "@types/dotenv": "8.2.0",
     "@types/jest": "27.0.2",
-    "prisma": "3.2.0-dev.11"
+    "prisma": "3.2.0-integration-feat-cfw-support.3"
   },
   "dependencies": {
-    "@prisma/client": "3.2.0-dev.11",
+    "@prisma/client": "3.2.0-integration-feat-cfw-support.3",
     "dotenv": "^10.0.0",
     "jest": "^27.0.0"
   }

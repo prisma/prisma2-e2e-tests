@@ -4,11 +4,11 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "prisma": "3.2.0-dev.11",
+    "prisma": "3.2.0-integration-feat-cfw-support.3",
     "prisma-json-schema-generator": "1.4.0"
   },
   "dependencies": {
-    "@prisma/client": "3.2.0-dev.11",
+    "@prisma/client": "3.2.0-integration-feat-cfw-support.3",
     "jest": "^27.0.0"
   },
   "scripts": {

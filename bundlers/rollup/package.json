@@ -5,11 +5,11 @@
   "license": "MIT",
   "devDependencies": {
     "jest": "27.2.1",
-    "prisma": "3.2.0-dev.11",
+    "prisma": "3.2.0-integration-feat-cfw-support.3",
     "rollup": "2.57.0"
   },
   "dependencies": {
-    "@prisma/client": "3.2.0-dev.11",
+    "@prisma/client": "3.2.0-integration-feat-cfw-support.3",
     "dotenv": "^10.0.0"
   },
   "scripts": {

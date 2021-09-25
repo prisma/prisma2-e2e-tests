@@ -21,9 +21,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@prisma/client@npm:3.2.0-dev.11":
-  version: 3.2.0-dev.11
-  resolution: "@prisma/client@npm:3.2.0-dev.11"
+"@prisma/client@npm:3.2.0-integration-feat-cfw-support.3":
+  version: 3.2.0-integration-feat-cfw-support.3
+  resolution: "@prisma/client@npm:3.2.0-integration-feat-cfw-support.3"
   dependencies:
     "@prisma/engines-version": 3.2.0-8.b3267b043a190a585bd06e9e91855e135eb7b1c6
   peerDependencies:
@@ -31,7 +31,7 @@ __metadata:
   peerDependenciesMeta:
     prisma:
       optional: true
-  checksum: 042f48fbad1699a36a882c30e618e87551f8569c946b5530c3bd2796973febd1dfdff47799d97c40bb0bb903e997a0cdc0e3e92c7c3a696c459d2c4e7edc3ba8
+  checksum: 547bc5d26aa26344fae84c39ee068b9cfd9238595d6871c3f6efb8820c3300a6b949062cdd0b0f1ede370eafea3d44011db5f83ca6a55244e5c0281480057ff3
   languageName: node
   linkType: hard
 
@@ -128,15 +128,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prisma@npm:3.2.0-dev.11":
-  version: 3.2.0-dev.11
-  resolution: "prisma@npm:3.2.0-dev.11"
+"prisma@npm:3.2.0-integration-feat-cfw-support.3":
+  version: 3.2.0-integration-feat-cfw-support.3
+  resolution: "prisma@npm:3.2.0-integration-feat-cfw-support.3"
   dependencies:
     "@prisma/engines": 3.2.0-8.b3267b043a190a585bd06e9e91855e135eb7b1c6
   bin:
     prisma: build/index.js
     prisma2: build/index.js
-  checksum: 957cf3eb84e6600f1ce042175171af939f35a41d13b43cc4a2c6c75bfd51697fc79eebc103bebaa1e8e5e9e03982d7754ec419f0cf1e5ffebc1876916508746a
+  checksum: 58be5b6550bfa56c88cf0aab3bbf779aa909cbccbff94d099870e94d7479eba1ef8e7199d68f5b04a688f8d6c9bd467d4726fdbac83625d9b5f0867564bd2b97
   languageName: node
   linkType: hard
 
@@ -144,9 +144,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "script@workspace:."
   dependencies:
-    "@prisma/client": 3.2.0-dev.11
+    "@prisma/client": 3.2.0-integration-feat-cfw-support.3
     "@types/node": 12.20.26
-    prisma: 3.2.0-dev.11
+    prisma: 3.2.0-integration-feat-cfw-support.3
     ts-node: 10.2.1
     typescript: 4.2.4
   languageName: unknown

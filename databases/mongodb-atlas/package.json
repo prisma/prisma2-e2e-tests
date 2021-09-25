@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "prisma": "3.2.0-dev.11",
+    "prisma": "3.2.0-integration-feat-cfw-support.3",
     "ts-node": "10.2.1",
     "typescript": "4.2.3"
   },
@@ -12,6 +12,6 @@
     "cmd": "ts-node ./script.ts"
   },
   "dependencies": {
-    "@prisma/client": "3.2.0-dev.11"
+    "@prisma/client": "3.2.0-integration-feat-cfw-support.3"
   }
 }

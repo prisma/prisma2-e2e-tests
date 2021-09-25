@@ -688,10 +688,10 @@
     "@nodelib/fs.scandir" "2.1.3"
     fastq "^1.6.0"
 
-"@prisma/client@3.2.0-dev.11":
-  version "3.2.0-dev.11"
-  resolved "https://registry.yarnpkg.com/@prisma/client/-/client-3.2.0-dev.11.tgz#a90ea9f564ad3e2b68e678f79c271486a33ef8f3"
-  integrity sha512-y/Ay/pk8YqNAwcrN4N6sbQ5C7LEF7PAP0iYy85RC05bDbYIV3ajxd+iEIrY4izRBsjtTXhAkGdRasnSUMBDaLA==
+"@prisma/client@3.2.0-integration-feat-cfw-support.3":
+  version "3.2.0-integration-feat-cfw-support.3"
+  resolved "https://registry.yarnpkg.com/@prisma/client/-/client-3.2.0-integration-feat-cfw-support.3.tgz#763a4ff11be7495f75bd7ba7005479e2cb926563"
+  integrity sha512-/OWwc5cAQ/IQr8K1We2NaOLDQTKYJuWADOm/noc5t+QzfV8Mq2kUeLEl+oXPs7yYuevYo+m/YbvVKC5fjQZFbg==
   dependencies:
     "@prisma/engines-version" "3.2.0-8.b3267b043a190a585bd06e9e91855e135eb7b1c6"
 
@@ -3021,10 +3021,10 @@ prisma-json-schema-generator@1.4.0:
     "@prisma/sdk" "^2.28.0"
     core-js "3.10.0"
 
-prisma@3.2.0-dev.11:
-  version "3.2.0-dev.11"
-  resolved "https://registry.yarnpkg.com/prisma/-/prisma-3.2.0-dev.11.tgz#81dd423afe0b461b26f542e031ac29649d8eae2f"
-  integrity sha512-8G8OSgCBHozNmPcsIocwnGoAZJUCfD6X67q4bH+QBDUKL5g5khtkdFKgOVbCqo0xw0vBHHkFe98mXoUetB9W3g==
+prisma@3.2.0-integration-feat-cfw-support.3:
+  version "3.2.0-integration-feat-cfw-support.3"
+  resolved "https://registry.yarnpkg.com/prisma/-/prisma-3.2.0-integration-feat-cfw-support.3.tgz#09af6e7553e356509c29a373aa1b90825e31bdf0"
+  integrity sha512-cPevVKgxnJ3HfjU75iJ6W/qxi2VSnQLniGGgk/UAp0Ro8Q89X2oIVUcMH4hwGvkJK6OVXNDasvcWjThJa83D2w==
   dependencies:
     "@prisma/engines" "3.2.0-8.b3267b043a190a585bd06e9e91855e135eb7b1c6"
 

@@ -6,14 +6,14 @@
   "devDependencies": {
     "@types/node": "12.20.26",
     "netlify-cli": "6.9.17",
-    "prisma": "3.2.0-dev.11",
+    "prisma": "3.2.0-integration-feat-cfw-support.3",
     "ts-node": "10.2.1"
   },
   "scripts": {
     "dev": " netlify dev"
   },
   "dependencies": {
-    "@prisma/client": "3.2.0-dev.11",
+    "@prisma/client": "3.2.0-integration-feat-cfw-support.3",
     "fetch-retry": "^5.0.0"
   }
 }

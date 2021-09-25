@@ -5,9 +5,9 @@
   "license": "MIT",
   "devDependencies": {
     "pkg": "4.5.1",
-    "prisma": "3.2.0-dev.11"
+    "prisma": "3.2.0-integration-feat-cfw-support.3"
   },
   "dependencies": {
-    "@prisma/client": "3.2.0-dev.11"
+    "@prisma/client": "3.2.0-integration-feat-cfw-support.3"
   }
 }

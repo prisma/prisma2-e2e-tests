@@ -5,7 +5,7 @@
   "license": "MIT",
   "devDependencies": {
     "@types/node": "12.20.26",
-    "prisma": "3.2.0-dev.11",
+    "prisma": "3.2.0-integration-feat-cfw-support.3",
     "ts-node": "10.2.1"
   },
   "scripts": {
@@ -13,6 +13,6 @@
     "build": "PRISMA_TELEMETRY_INFORMATION='e2e-tests platform netlify-ci build' && yarn prisma generate"
   },
   "dependencies": {
-    "@prisma/client": "3.2.0-dev.11"
+    "@prisma/client": "3.2.0-integration-feat-cfw-support.3"
   }
 }

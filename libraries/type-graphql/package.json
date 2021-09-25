@@ -6,7 +6,7 @@
     "dev": "ts-node-dev --no-notify --respawn --transpileOnly src/server"
   },
   "dependencies": {
-    "@prisma/client": "3.2.0-dev.11",
+    "@prisma/client": "3.2.0-integration-feat-cfw-support.3",
     "@types/graphql": "14.5.0",
     "apollo-server": "2.25.2",
     "class-validator": "0.13.1",
@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "@types/node": "12.20.26",
-    "prisma": "3.2.0-dev.11",
+    "prisma": "3.2.0-integration-feat-cfw-support.3",
     "ts-node": "10.2.1",
     "ts-node-dev": "1.1.8",
     "typescript": "4.2.4"
