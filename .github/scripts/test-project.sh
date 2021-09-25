@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -eu
+set -eux
 shopt -s inherit_errexit || true
 
 export CI=true

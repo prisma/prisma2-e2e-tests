@@ -1,6 +1,6 @@
 #!/bin/sh
 
-set -eu
+set -eux
 
 if [ "$PRISMA_CLIENT_ENGINE_TYPE" == "binary" ]; then
   files=',"files":["index-browser.js","index.d.ts","index.js","package.json","query-engine-debian-openssl-1.1.x","schema.prisma"]'

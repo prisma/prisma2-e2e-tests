@@ -1,6 +1,6 @@
 #!/bin/sh
 
-set -eu
+set -eux
 DEPLOYED_URL=$( tail -n 1 deployment-url.txt )
 
 if [ "$PRISMA_CLIENT_ENGINE_TYPE" == "binary" ]; then

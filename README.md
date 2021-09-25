@@ -68,7 +68,7 @@ Then in your project, create a file `test.sh` and use it as and entrypoint to ru
 ```shell script
 #!/bin/sh
 
-set -eu
+set -eux
 
 # ...
 ```

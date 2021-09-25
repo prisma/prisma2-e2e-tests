@@ -1,5 +1,5 @@
 #!/bin/sh
 
-set -eu
+set -eux
 
 yarn test

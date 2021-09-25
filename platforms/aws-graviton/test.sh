@@ -1,6 +1,6 @@
 #!/bin/sh
 
-set -eu
+set -eux
 
 if [ "$PRISMA_CLIENT_ENGINE_TYPE" == "binary" ]; then
   echo "Node-API: Disabled"

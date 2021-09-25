@@ -1,6 +1,6 @@
 #!/bin/sh
 
-set -eu
+set -eux
 
 ID=$( tail -n 1 id.txt )
 

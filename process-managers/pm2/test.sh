@@ -1,6 +1,6 @@
 #!/bin/sh
 
-set -eu
+set -eux
 
 expected="[]"
 actual=$(curl localhost:3000)
