@@ -5,7 +5,8 @@
   },
   "build": {
     "env": {
-      "VERCEL_API_PG_URL": "@vercel_api_pg_url"
+      "VERCEL_API_PG_URL": "@vercel_api_pg_url",
+      "NEXT_DEBUG_FUNCTION_SIZE": "1"
     }
   }
 }

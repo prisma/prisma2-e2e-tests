@@ -5,7 +5,8 @@
   },
   "build": {
     "env": {
-      "VERCEL_NODE_BUILDER_PG_URL": "@vercel_node_builder_pg_url"
+      "VERCEL_NODE_BUILDER_PG_URL": "@vercel_node_builder_pg_url",
+      "NEXT_DEBUG_FUNCTION_SIZE": "1"
     }
   },
   "builds": [{ "src": "*.js", "use": "@vercel/node" }]
