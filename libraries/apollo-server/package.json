@@ -8,7 +8,7 @@
   "dependencies": {
     "@prisma/client": "3.2.0-dev.11",
     "@types/node-fetch": "2.5.12",
-    "apollo-server": "2.25.2",
+    "apollo-server": "3.3.0",
     "graphql": "15.6.0"
   },
   "devDependencies": {
