@@ -1,7 +1,7 @@
 {
   "name": "db-seed-commonjs-pkg",
   "devDependencies": {
-    "@types/node": "12.20.27",
+    "@types/node": "14.17.19",
     "jest": "27.2.2",
     "prettier": "2.4.1",
     "prisma": "3.2.0-dev.11",
