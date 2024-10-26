@@ -12,6 +12,6 @@
   },
   "dependencies": {
     "@prisma/client": "5.22.0-dev.5",
-    "@types/node": "16.18.114"
+    "@types/node": "16.18.115"
   }
 }

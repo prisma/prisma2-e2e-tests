@@ -20,8 +20,8 @@ dependencies:
 
 devDependencies:
   '@types/node':
-    specifier: 16.18.114
-    version: 16.18.114
+    specifier: 16.18.115
+    version: 16.18.115
   '@types/react':
     specifier: 18.3.11
     version: 18.3.11
@@ -170,8 +170,8 @@ packages:
       tslib: 2.6.0
     dev: false
 
-  /@types/node@16.18.114:
-    resolution: {integrity: sha512-7oAtnxrgkMNzyzT443UDWwzkmYew81F1ZSPm3/lsITJfW/WludaSOpegTvUG+UdapcbrtWOtY/E4LyTkhPGJ5Q==}
+  /@types/node@16.18.115:
+    resolution: {integrity: sha512-NF5ajYn+dq0tRfswdyp8Df75h7D9z+L8TCIwrXoh46ZLK6KZVXkRhf/luXaZytvm/keUo9vU4m1Bg39St91a5w==}
     dev: true
 
   /@types/prop-types@15.7.13:

@@ -2,7 +2,7 @@
   "name": "@prisma/fail-alpine-3.17-arm64-openssl-3.0.x",
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "16.18.114",
+    "@types/node": "16.18.115",
     "prisma": "5.22.0-dev.5",
     "ts-node": "10.9.2",
     "typescript": "5.6.3"
