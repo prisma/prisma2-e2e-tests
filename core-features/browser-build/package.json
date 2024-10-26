@@ -14,7 +14,7 @@
     "react-dom": "18.3.1"
   },
   "devDependencies": {
-    "@types/node": "16.18.114",
+    "@types/node": "16.18.115",
     "@types/react": "18.3.11",
     "prisma": "5.22.0-dev.5",
     "typescript": "5.6.3"
