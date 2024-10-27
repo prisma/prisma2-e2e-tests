@@ -16,6 +16,6 @@
   "dependencies": {
     "@prisma/adapter-pg": "5.22.0-dev.5",
     "@prisma/client": "5.22.0-dev.5",
-    "pg": "8.13.0"
+    "pg": "8.13.1"
   }
 }
