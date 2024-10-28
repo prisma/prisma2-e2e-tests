@@ -13,8 +13,8 @@
     "vercel": "34.4.0"
   },
   "resolutions": {
-    "prisma": "5.22.0-dev.6",
-    "@prisma/client": "5.22.0-dev.6"
+    "prisma": "5.22.0-dev.7",
+    "@prisma/client": "5.22.0-dev.7"
   },
   "eslintConfig": {
     "extends": "@redwoodjs/eslint-config",
@@ -31,8 +31,8 @@
     "test": "yarn jest ./index.test.js"
   },
   "dependencies": {
-    "@prisma/client": "5.22.0-dev.6",
-    "prisma": "5.22.0-dev.6"
+    "@prisma/client": "5.22.0-dev.7",
+    "prisma": "5.22.0-dev.7"
   },
   "packageManager": "yarn@3.8.6"
 }
