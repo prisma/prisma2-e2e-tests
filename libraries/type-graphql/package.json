@@ -6,7 +6,7 @@
     "dev": "ts-node-dev --no-notify --respawn --transpileOnly src/server"
   },
   "dependencies": {
-    "@apollo/server": "4.11.0",
+    "@apollo/server": "4.11.2",
     "@prisma/client": "5.22.0-dev.9",
     "class-validator": "0.14.1",
     "graphql": "16.8.1",
