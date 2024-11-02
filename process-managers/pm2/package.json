@@ -2,7 +2,7 @@
   "name": "pm2",
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "16.18.115",
+    "@types/node": "16.18.118",
     "pm2": "5.4.2",
     "prisma": "5.22.0-dev.9",
     "ts-node": "10.9.2",
