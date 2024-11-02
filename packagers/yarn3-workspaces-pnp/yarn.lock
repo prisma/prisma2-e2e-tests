@@ -277,10 +277,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:16.18.115":
-  version: 16.18.115
-  resolution: "@types/node@npm:16.18.115"
-  checksum: a9caf3a72b8fca0a945c04b99502615f297fc9d12779147822cf10b4a3fe77161b631ae239b9522cf9ccda90fcd9d49abe255bd2012a3347f677210610760d6d
+"@types/node@npm:16.18.118":
+  version: 16.18.118
+  resolution: "@types/node@npm:16.18.118"
+  checksum: 0c315a2c4b54be51b853310570f14c0e36fd2ddff6f9eeb710d1472711afea6908a8e8b94a08781ea736ee45eca7787ad20a1d72dc09c1d6b17103373f25b37c
   languageName: node
   linkType: hard
 
@@ -1787,7 +1787,7 @@ __metadata:
   resolution: "sub-project-1@workspace:packages/sub-project-1"
   dependencies:
     "@prisma/client": 5.22.0-dev.9
-    "@types/node": 16.18.115
+    "@types/node": 16.18.118
     "@yarnpkg/pnpify": 3.1.8
     prisma: 5.22.0-dev.9
     ts-node: 10.9.2
@@ -1799,7 +1799,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "sub-project-2@workspace:packages/sub-project-2"
   dependencies:
-    "@types/node": 16.18.115
+    "@types/node": 16.18.118
     sub-project-1: "workspace:packages/sub-project-1"
     ts-node: 10.9.2
     typescript: 5.6.3
