@@ -6,8 +6,8 @@ settings:
 
 devDependencies:
   firebase-tools:
-    specifier: 13.23.0
-    version: 13.23.0
+    specifier: 13.23.1
+    version: 13.23.1
 
 packages:
 
@@ -1524,8 +1524,8 @@ packages:
       - supports-color
     dev: true
 
-  /firebase-tools@13.23.0:
-    resolution: {integrity: sha512-Nt5FFrd3z684OqwioAr53iWVuhItvRnVtTBjhjAxQy6Cc6l2kgNEvGwGgkvhkMbUEml7rvGe/UocxnmtwpgP5Q==}
+  /firebase-tools@13.23.1:
+    resolution: {integrity: sha512-nMaI9fsW+Eeavm1qfp3iRUP4BhEJlSTiMiUCCw2Pf0FhooIRjvoWjfTWmt4zsBUDxe3blRfrgHsukE9pYst5rw==}
     engines: {node: '>=18.0.0 || >=20.0.0'}
     hasBin: true
     dependencies:
@@ -1583,7 +1583,6 @@ packages:
       sql-formatter: 15.4.0
       stream-chain: 2.2.5
       stream-json: 1.7.5
-      strip-ansi: 6.0.1
       superstatic: 9.0.3
       tar: 6.1.13
       tcp-port-used: 1.0.2
