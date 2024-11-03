@@ -2,7 +2,7 @@
   "name": "@prisma/fail-debian-buster-amd64-openssl-1.1.x",
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "16.18.118",
+    "@types/node": "16.18.119",
     "prisma": "5.22.0-dev.9",
     "ts-node": "10.9.2",
     "typescript": "5.6.3"
