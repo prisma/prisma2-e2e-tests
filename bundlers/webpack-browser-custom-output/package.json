@@ -6,7 +6,7 @@
   "devDependencies": {
     "jest": "29.7.0",
     "prisma": "5.22.0-dev.9",
-    "webpack": "5.95.0",
+    "webpack": "5.96.1",
     "webpack-cli": "5.1.4"
   },
   "dependencies": {
