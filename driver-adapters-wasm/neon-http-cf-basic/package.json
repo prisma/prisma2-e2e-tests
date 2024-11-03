@@ -9,7 +9,7 @@
     "@jest/globals": "29.7.0",
     "jest": "29.7.0",
     "prisma": "5.22.0-dev.9",
-    "wrangler": "3.81.0",
+    "wrangler": "3.84.1",
     "node-fetch": "2.7.0"
   },
   "dependencies": {
