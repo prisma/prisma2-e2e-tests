@@ -2,10 +2,10 @@
   "name": "deno",
   "license": "MIT",
   "dependencies": {
-    "@prisma/client": "5.22.0-dev.9",
+    "@prisma/client": "5.22.0-dev.10",
     "@prisma/extension-accelerate": "1.2.1"
   },
   "devDependencies": {
-    "prisma": "5.22.0-dev.9"
+    "prisma": "5.22.0-dev.10"
   }
 }
