@@ -15,8 +15,8 @@
   "dependencies": {
     "@cloudflare/kv-asset-handler": "^0.3.0",
     "@neondatabase/serverless": "0.10.1",
-    "@prisma/adapter-neon": "5.22.0-dev.10",
-    "@prisma/client": "5.22.0-dev.10",
+    "@prisma/adapter-neon": "5.22.0-dev.11",
+    "@prisma/client": "5.22.0-dev.11",
     "@remix-run/cloudflare": "^2.8.0",
     "@remix-run/css-bundle": "^2.8.0",
     "@remix-run/react": "^2.8.0",
@@ -40,7 +40,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "jest": "29.7.0",
     "node-fetch": "2.7.0",
-    "prisma": "5.22.0-dev.10",
+    "prisma": "5.22.0-dev.11",
     "typescript": "^5.1.6",
     "wrangler": "^3.24.0"
   },
