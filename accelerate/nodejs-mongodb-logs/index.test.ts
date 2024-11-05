@@ -16,7 +16,21 @@ test('accelerate logs with mongodb', async () => {
   const onQuery = jest.fn<(event: Prisma.QueryEvent) => void>()
   prisma.$on('query', onQuery)
 
-  await xprisma.user.findMany()
+  await xprisma.user.findMany({
+    // Workaround for "This request could not be understood by the server" error:
+    // ```json
+    // {
+    //   "type": "UnknownJsonError",
+    //   "body": {
+    //     "code": "P6009",
+    //     "message": "The response size of the query exceeded the the maximum of 5MB with 7.17MB.
+    //                 Consider refining the query by narrowing the selection set or applying appropriate filters.
+    //                 This limit is configurable, see pris.ly/configure-limits for more information."
+    //   }
+    // }
+    // ```
+    limit: 10,
+  })
 
   const lastQueryIndex = onQuery.mock.calls.length - 1
   expect(onQuery.mock.calls[lastQueryIndex][0].query).toMatchInlineSnapshot(
