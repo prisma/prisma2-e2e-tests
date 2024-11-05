@@ -16,10 +16,14 @@ test('accelerate logs with mongodb', async () => {
   const onQuery = jest.fn<(event: Prisma.QueryEvent) => void>()
   prisma.$on('query', onQuery)
 
-  await xprisma.user.findMany()
+  await xprisma.user.findMany({
+    // `take` was added to avoid the error `P6009`, thrown when the response size of
+    // the query exceeded the the maximum of 5MB.
+    take: 10,
+  })
 
   const lastQueryIndex = onQuery.mock.calls.length - 1
   expect(onQuery.mock.calls[lastQueryIndex][0].query).toMatchInlineSnapshot(
-    `"db.User.aggregate([ { $project: { _id: 1, email: 1, name: 1, val: 1, }, }, ])"`,
+    `"db.User.aggregate([ { $sort: { _id: 1, }, }, { $limit: 10, }, { $project: { _id: 1, email: 1, name: 1, val: 1, }, }, ])"`,
   )
 })
