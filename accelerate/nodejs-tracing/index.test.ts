@@ -116,7 +116,7 @@ test('accelerate tracing with postgres', async () => {
   },
   {
     "attributes": {
-      "db.type": "postgres",
+      "db.system": "postgresql",
     },
     "kind": 0,
     "links": [],
@@ -126,8 +126,9 @@ test('accelerate tracing with postgres', async () => {
   {
     "attributes": {
       "db.statement": "<dbStatement>",
+      "db.system": "postgresql",
     },
-    "kind": 0,
+    "kind": 2,
     "links": [],
     "name": "prisma:engine:db_query",
     "parentSpanId": "<parentSpanId>",
