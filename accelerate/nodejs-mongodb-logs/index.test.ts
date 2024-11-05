@@ -29,7 +29,7 @@ test('accelerate logs with mongodb', async () => {
     //   }
     // }
     // ```
-    limit: 10,
+    take: 10,
   })
 
   const lastQueryIndex = onQuery.mock.calls.length - 1
