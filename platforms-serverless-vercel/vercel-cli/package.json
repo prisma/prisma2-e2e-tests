@@ -6,7 +6,7 @@
   "devDependencies": {
     "prisma": "5.23.0-dev.3",
     "ts-node": "10.9.2",
-    "vercel": "34.4.0"
+    "vercel": "37.14.0"
   },
   "dependencies": {
     "@prisma/client": "5.23.0-dev.3",

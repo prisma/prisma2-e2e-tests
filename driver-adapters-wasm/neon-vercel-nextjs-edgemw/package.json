@@ -12,7 +12,7 @@
     "@jest/globals": "29.7.0",
     "jest": "29.7.0",
     "prisma": "5.23.0-dev.3",
-    "vercel": "34.4.0"
+    "vercel": "37.14.0"
   },
   "dependencies": {
     "@neondatabase/serverless": "0.10.1",
