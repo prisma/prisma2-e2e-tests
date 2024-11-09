@@ -9,11 +9,11 @@ dependencies:
     specifier: ^0.3.0
     version: 0.3.4
   '@neondatabase/serverless':
-    specifier: 0.10.1
-    version: 0.10.1
+    specifier: 0.10.3
+    version: 0.10.3
   '@prisma/adapter-neon':
     specifier: 5.23.0-dev.3
-    version: 5.23.0-dev.3(@neondatabase/serverless@0.10.1)
+    version: 5.23.0-dev.3(@neondatabase/serverless@0.10.3)
   '@prisma/client':
     specifier: 5.23.0-dev.3
     version: 5.23.0-dev.3(prisma@5.23.0-dev.3)
@@ -1418,7 +1418,7 @@ packages:
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     dependencies:
       '@jest/types': 29.6.3
-      '@types/node': 20.12.8
+      '@types/node': 22.8.7
       chalk: 4.1.2
       jest-message-util: 29.7.0
       jest-util: 29.7.0
@@ -1534,7 +1534,7 @@ packages:
       '@jest/transform': 29.7.0
       '@jest/types': 29.6.3
       '@jridgewell/trace-mapping': 0.3.25
-      '@types/node': 20.12.8
+      '@types/node': 22.8.7
       chalk: 4.1.2
       collect-v8-coverage: 1.0.2
       exit: 0.1.2
@@ -1692,8 +1692,8 @@ packages:
       - supports-color
     dev: true
 
-  /@neondatabase/serverless@0.10.1:
-    resolution: {integrity: sha512-Upn555uEYL/q8aqMdPSviggNWeeZLCl5FhCIs7A4hmshfoOAAfML+Sqbcxr+Re2WZN5+hpyM9JClImXnBuhuXw==}
+  /@neondatabase/serverless@0.10.3:
+    resolution: {integrity: sha512-F4kqSj++GUwLnO3OzPb95Y/xn3qVLkjJA/36YTqT7c3MRgA/IBOIs/Is1+HBZkGfEwfMG3A9tFkxiEg5eBjxDw==}
     dependencies:
       '@types/pg': 8.11.6
     dev: false
@@ -1776,12 +1776,12 @@ packages:
     dev: true
     optional: true
 
-  /@prisma/adapter-neon@5.23.0-dev.3(@neondatabase/serverless@0.10.1):
+  /@prisma/adapter-neon@5.23.0-dev.3(@neondatabase/serverless@0.10.3):
     resolution: {integrity: sha512-AA05EQyER52vabjJciEybX4U3G0atyw28ujfupLjgBilRBHsuzkFZ75k5eh/Dyc5fP+qqAQqTe24tFB6BuMSgQ==}
     peerDependencies:
       '@neondatabase/serverless': ^0.6.0 || ^0.7.0 || ^0.8.0 || ^0.9.0 || ^0.10.0
     dependencies:
-      '@neondatabase/serverless': 0.10.1
+      '@neondatabase/serverless': 0.10.3
       '@prisma/driver-adapter-utils': 5.23.0-dev.3
       postgres-array: 3.0.2
     dev: false
@@ -2255,7 +2255,7 @@ packages:
   /@types/graceful-fs@4.1.9:
     resolution: {integrity: sha512-olP3sd1qOEe5dXTSaFvQG+02VdRXcdytWLAZsAq1PecU8uqQAhkrnbli7DagjtXKW/Bl7YJbUsa8MPcuc8LHEQ==}
     dependencies:
-      '@types/node': 20.12.8
+      '@types/node': 22.8.7
     dev: true
 
   /@types/hast@2.3.10:
@@ -2320,22 +2320,15 @@ packages:
       undici-types: 5.26.5
     dev: true
 
-  /@types/node@22.7.7:
-    resolution: {integrity: sha512-SRxCrrg9CL/y54aiMCG3edPKdprgMVGDXjA3gB8UmmBW5TcXzRUYAh8EWzTnSJFAd1rgImPELza+A3bJ+qxz8Q==}
-    dependencies:
-      undici-types: 6.19.8
-    dev: false
-
   /@types/node@22.8.7:
     resolution: {integrity: sha512-LidcG+2UeYIWcMuMUpBKOnryBWG/rnmOHQR5apjn8myTQcx3rinFRn7DcIFhMnS0PPFSC6OafdIKEad0lj6U0Q==}
     dependencies:
       undici-types: 6.19.8
-    dev: true
 
   /@types/pg@8.11.6:
     resolution: {integrity: sha512-/2WmmBXHLsfRqzfHW7BNZ8SbYzE8OSk7i3WjFYvfgRHj7S1xj+16Je5fUKv3lVdVzk/zn9TXOqf+avFCFIE0yQ==}
     dependencies:
-      '@types/node': 22.7.7
+      '@types/node': 22.8.7
       pg-protocol: 1.6.1
       pg-types: 4.0.2
     dev: false
@@ -5164,7 +5157,7 @@ packages:
       '@jest/expect': 29.7.0
       '@jest/test-result': 29.7.0
       '@jest/types': 29.6.3
-      '@types/node': 20.12.8
+      '@types/node': 22.8.7
       chalk: 4.1.2
       co: 4.6.0
       dedent: 1.5.3
@@ -5288,7 +5281,7 @@ packages:
       '@jest/environment': 29.7.0
       '@jest/fake-timers': 29.7.0
       '@jest/types': 29.6.3
-      '@types/node': 20.12.8
+      '@types/node': 22.8.7
       jest-mock: 29.7.0
       jest-util: 29.7.0
     dev: true
@@ -5304,7 +5297,7 @@ packages:
     dependencies:
       '@jest/types': 29.6.3
       '@types/graceful-fs': 4.1.9
-      '@types/node': 20.12.8
+      '@types/node': 22.8.7
       anymatch: 3.1.3
       fb-watchman: 2.0.2
       graceful-fs: 4.2.11
@@ -5410,7 +5403,7 @@ packages:
       '@jest/test-result': 29.7.0
       '@jest/transform': 29.7.0
       '@jest/types': 29.6.3
-      '@types/node': 20.12.8
+      '@types/node': 22.8.7
       chalk: 4.1.2
       emittery: 0.13.1
       graceful-fs: 4.2.11
@@ -5441,7 +5434,7 @@ packages:
       '@jest/test-result': 29.7.0
       '@jest/transform': 29.7.0
       '@jest/types': 29.6.3
-      '@types/node': 20.12.8
+      '@types/node': 22.8.7
       chalk: 4.1.2
       cjs-module-lexer: 1.2.3
       collect-v8-coverage: 1.0.2
@@ -5518,7 +5511,7 @@ packages:
     dependencies:
       '@jest/test-result': 29.7.0
       '@jest/types': 29.6.3
-      '@types/node': 20.12.8
+      '@types/node': 22.8.7
       ansi-escapes: 4.3.2
       chalk: 4.1.2
       emittery: 0.13.1
@@ -5530,7 +5523,7 @@ packages:
     resolution: {integrity: sha512-eIz2msL/EzL9UFTFFx7jBTkeZfku0yUAyZZZmJ93H2TYEiroIx2PQjEXcwYtYl8zXCxb+PAmA2hLIt/6ZEkPHw==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     dependencies:
-      '@types/node': 20.12.8
+      '@types/node': 22.8.7
       jest-util: 29.7.0
       merge-stream: 2.0.0
       supports-color: 8.1.1

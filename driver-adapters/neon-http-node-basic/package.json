@@ -12,7 +12,7 @@
     "prisma": "5.23.0-dev.3"
   },
   "dependencies": {
-    "@neondatabase/serverless": "0.10.1",
+    "@neondatabase/serverless": "0.10.3",
     "@prisma/adapter-neon": "5.23.0-dev.3",
     "@prisma/client": "5.23.0-dev.3",
     "undici": "6.20.1"

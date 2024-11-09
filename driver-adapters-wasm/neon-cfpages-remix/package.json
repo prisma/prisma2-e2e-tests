@@ -16,7 +16,7 @@
     "test": "jest index.test.js"
   },
   "dependencies": {
-    "@neondatabase/serverless": "0.10.1",
+    "@neondatabase/serverless": "0.10.3",
     "@prisma/adapter-neon": "5.23.0-dev.3",
     "@prisma/client": "5.23.0-dev.3",
     "@remix-run/cloudflare": "2.12.1",

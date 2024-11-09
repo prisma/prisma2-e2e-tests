@@ -6,11 +6,11 @@ settings:
 
 dependencies:
   '@neondatabase/serverless':
-    specifier: 0.10.1
-    version: 0.10.1
+    specifier: 0.10.3
+    version: 0.10.3
   '@prisma/adapter-neon':
     specifier: 5.23.0-dev.3
-    version: 5.23.0-dev.3(@neondatabase/serverless@0.10.1)
+    version: 5.23.0-dev.3(@neondatabase/serverless@0.10.3)
   '@prisma/client':
     specifier: 5.23.0-dev.3
     version: 5.23.0-dev.3(prisma@5.23.0-dev.3)
@@ -825,8 +825,8 @@ packages:
       - supports-color
     dev: true
 
-  /@neondatabase/serverless@0.10.1:
-    resolution: {integrity: sha512-Upn555uEYL/q8aqMdPSviggNWeeZLCl5FhCIs7A4hmshfoOAAfML+Sqbcxr+Re2WZN5+hpyM9JClImXnBuhuXw==}
+  /@neondatabase/serverless@0.10.3:
+    resolution: {integrity: sha512-F4kqSj++GUwLnO3OzPb95Y/xn3qVLkjJA/36YTqT7c3MRgA/IBOIs/Is1+HBZkGfEwfMG3A9tFkxiEg5eBjxDw==}
     dependencies:
       '@types/pg': 8.11.6
     dev: false
@@ -937,12 +937,12 @@ packages:
       fastq: 1.15.0
     dev: true
 
-  /@prisma/adapter-neon@5.23.0-dev.3(@neondatabase/serverless@0.10.1):
+  /@prisma/adapter-neon@5.23.0-dev.3(@neondatabase/serverless@0.10.3):
     resolution: {integrity: sha512-AA05EQyER52vabjJciEybX4U3G0atyw28ujfupLjgBilRBHsuzkFZ75k5eh/Dyc5fP+qqAQqTe24tFB6BuMSgQ==}
     peerDependencies:
       '@neondatabase/serverless': ^0.6.0 || ^0.7.0 || ^0.8.0 || ^0.9.0 || ^0.10.0
     dependencies:
-      '@neondatabase/serverless': 0.10.1
+      '@neondatabase/serverless': 0.10.3
       '@prisma/driver-adapter-utils': 5.23.0-dev.3
       postgres-array: 3.0.2
     dev: false
