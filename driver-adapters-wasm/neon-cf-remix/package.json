@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@cloudflare/kv-asset-handler": "^0.3.0",
-    "@neondatabase/serverless": "0.10.1",
+    "@neondatabase/serverless": "0.10.3",
     "@prisma/adapter-neon": "5.23.0-dev.3",
     "@prisma/client": "5.23.0-dev.3",
     "@remix-run/cloudflare": "^2.8.0",

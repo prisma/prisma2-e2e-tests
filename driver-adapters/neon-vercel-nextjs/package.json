@@ -16,7 +16,7 @@
     "vercel": "34.4.0"
   },
   "dependencies": {
-    "@neondatabase/serverless": "0.10.1",
+    "@neondatabase/serverless": "0.10.3",
     "@prisma/adapter-neon": "5.23.0-dev.3",
     "@prisma/client": "5.23.0-dev.3",
     "next": "14.2.16",
