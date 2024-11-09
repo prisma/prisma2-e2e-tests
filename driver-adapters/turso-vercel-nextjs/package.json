@@ -19,7 +19,7 @@
     "@libsql/client": "^0.14.0",
     "@prisma/adapter-libsql": "5.23.0-dev.3",
     "@prisma/client": "5.23.0-dev.3",
-    "next": "14.2.16",
+    "next": "14.2.17",
     "node-fetch": "2.7.0",
     "react": "18.3.1",
     "react-dom": "18.3.1"
