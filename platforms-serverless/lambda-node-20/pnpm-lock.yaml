@@ -14,8 +14,8 @@ dependencies:
 
 devDependencies:
   aws-sdk:
-    specifier: 2.1691.0
-    version: 2.1691.0
+    specifier: 2.1692.0
+    version: 2.1692.0
   prisma:
     specifier: 5.23.0-dev.3
     version: 5.23.0-dev.3
@@ -132,8 +132,8 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /aws-sdk@2.1691.0:
-    resolution: {integrity: sha512-/F2YC+DlsY3UBM2Bdnh5RLHOPNibS/+IcjUuhP8XuctyrN+MlL+fWDAiela32LTDk7hMy4rx8MTgvbJ+0blO5g==}
+  /aws-sdk@2.1692.0:
+    resolution: {integrity: sha512-x511uiJ/57FIsbgUe5csJ13k3uzu25uWQE+XqfBis/sB0SFoiElJWXRkgEAUh0U6n40eT3ay5Ue4oPkRMu1LYw==}
     engines: {node: '>= 10.0.0'}
     requiresBuild: true
     dependencies:

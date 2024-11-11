@@ -2,7 +2,7 @@
   "name": "serverless-framework-lambda",
   "license": "MIT",
   "devDependencies": {
-    "aws-sdk": "2.1691.0",
+    "aws-sdk": "2.1692.0",
     "prisma": "5.23.0-dev.3",
     "serverless": "3.39.0",
     "ts-node": "10.9.2",
