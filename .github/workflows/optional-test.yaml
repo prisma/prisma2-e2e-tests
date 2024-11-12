@@ -37,7 +37,7 @@ env:
   PRISMA_ENGINES_MIRROR: '' # 'https://pub-4c8d0335265c4484a8734643b596ecb2.r2.dev'
   # These logs will make it easy to verify that `PRISMA_ENGINES_MIRROR` is used
   # DEBUG: 'prisma:fetch-engine*'
-  
+
 defaults:
   run:
     # this makes windows use bash as well, which makes `...  >> $GITHUB_ENV` work there
@@ -62,7 +62,7 @@ jobs:
           version: 8
       - uses: actions/setup-node@v4
         with:
-          node-version: 16
+          node-version: 18
           cache: 'pnpm'
       - name: Install Dependencies
         run: pnpm install
@@ -133,7 +133,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 16
+          node-version: 18
           cache: 'pnpm'
           cache-dependency-path: ${{ github.job }}/${{ matrix.generator }}/pnpm-lock.yaml
 
