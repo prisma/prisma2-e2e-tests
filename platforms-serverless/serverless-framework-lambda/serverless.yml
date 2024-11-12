@@ -2,7 +2,7 @@ service: platforms-serverless-slsf-${env:PRISMA_CLIENT_ENGINE_TYPE}
 
 provider:
   name: aws
-  runtime: nodejs16.x
+  runtime: nodejs20.x
   memorySize: 512
   timeout: 10
   versionFunctions: false

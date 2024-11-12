@@ -16,8 +16,8 @@ rm -rf lambda.zip
 zip --symlinks -r lambda.zip index.js prisma/schema.prisma node_modules/@prisma/client node_modules/.pnpm/@prisma+client*
 du -b ./lambda.zip
 
-AWS_RUNTIME=nodejs16.x
-AWS_RUNTIME_VERSION=16
+AWS_RUNTIME=nodejs18.x
+AWS_RUNTIME_VERSION=18
 
 # https://docs.aws.amazon.com/cli/latest/reference/lambda/
 
