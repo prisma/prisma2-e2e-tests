@@ -23,17 +23,17 @@ dependencies:
 
 devDependencies:
   '@types/node':
-    specifier: 18.11.9
-    version: 18.11.9
+    specifier: 16.18.119
+    version: 16.18.119
   prisma:
     specifier: 5.23.0-dev.5
     version: 5.23.0-dev.5
   ts-node:
     specifier: 10.9.2
-    version: 10.9.2(@types/node@18.11.9)(typescript@5.6.3)
+    version: 10.9.2(@types/node@16.18.119)(typescript@5.6.3)
   ts-node-dev:
     specifier: 2.0.0
-    version: 2.0.0(@types/node@18.11.9)(typescript@5.6.3)
+    version: 2.0.0(@types/node@16.18.119)(typescript@5.6.3)
   typescript:
     specifier: 5.6.3
     version: 5.6.3
@@ -421,19 +421,19 @@ packages:
     resolution: {integrity: sha512-ALYone6pm6QmwZoAgeyNksccT9Q4AWZQ6PvfwR37GT6r6FWUPguq6sUmNGSMV2Wr761oQoBxwGGa6DR5o1DC9g==}
     dependencies:
       '@types/connect': 3.4.35
-      '@types/node': 18.11.9
+      '@types/node': 16.18.119
     dev: false
 
   /@types/connect@3.4.35:
     resolution: {integrity: sha512-cdeYyv4KWoEgpBISTxWvqYsVy444DOqehiF3fM3ne10AmJ62RSyNkUnxMJXHQWRQQX2eR94m5y1IZyDwBjV9FQ==}
     dependencies:
-      '@types/node': 18.11.9
+      '@types/node': 16.18.119
     dev: false
 
   /@types/express-serve-static-core@4.17.33:
     resolution: {integrity: sha512-TPBqmR/HRYI3eC2E5hmiivIzv+bidAfXofM+sbonAGvyDhySGw9/PQZFt2BLOrjUUR++4eJVpx6KnLQK1Fk9tA==}
     dependencies:
-      '@types/node': 18.11.9
+      '@types/node': 16.18.119
       '@types/qs': 6.9.7
       '@types/range-parser': 1.2.4
     dev: false
@@ -458,12 +458,12 @@ packages:
   /@types/node-fetch@2.6.11:
     resolution: {integrity: sha512-24xFj9R5+rfQJLRyM56qh+wnVSYhyXC2tkoBndtY0U+vubqNsYXGjufB2nn8Q6gt0LrARwL6UBtMCSVCwl4B1g==}
     dependencies:
-      '@types/node': 18.11.9
+      '@types/node': 16.18.119
       form-data: 4.0.0
     dev: false
 
-  /@types/node@18.11.9:
-    resolution: {integrity: sha512-CRpX21/kGdzjOpFsZSkcrXMGIBWMGNIHXXBVFSH+ggkftxg+XYP20TESbh+zFvFj3EQOl5byk0HTRn1IL6hbqg==}
+  /@types/node@16.18.119:
+    resolution: {integrity: sha512-ia7V9a2FnhUFfetng4/sRPBMTwHZUkPFY736rb1cg9AgG7MZdR97q7/nLR9om+sq5f1la9C857E0l/nrI0RiFQ==}
 
   /@types/qs@6.9.7:
     resolution: {integrity: sha512-FGa1F62FT09qcrueBA6qYTrJPVDzah9a+493+o2PCXsesWHIn27G98TsSMs3WPNbZIEj4+VJf6saSFpvD+3Zsw==}
@@ -477,7 +477,7 @@ packages:
     resolution: {integrity: sha512-NUo5XNiAdULrJENtJXZZ3fHtfMolzZwczzBbnAeBbqBwG+LaG6YaJtuwzwGSQZ2wsCrxjEhNNjAkKigy3n8teQ==}
     dependencies:
       '@types/mime': 3.0.1
-      '@types/node': 18.11.9
+      '@types/node': 16.18.119
     dev: false
 
   /@types/strip-bom@3.0.0:
@@ -1426,7 +1426,7 @@ packages:
       tslib: 2.5.0
     dev: false
 
-  /ts-node-dev@2.0.0(@types/node@18.11.9)(typescript@5.6.3):
+  /ts-node-dev@2.0.0(@types/node@16.18.119)(typescript@5.6.3):
     resolution: {integrity: sha512-ywMrhCfH6M75yftYvrvNarLEY+SUXtUvU8/0Z6llrHQVBx12GiFk5sStF8UdfE/yfzk9IAq7O5EEbTQsxlBI8w==}
     engines: {node: '>=0.8.0'}
     hasBin: true
@@ -1445,7 +1445,7 @@ packages:
       rimraf: 2.7.1
       source-map-support: 0.5.21
       tree-kill: 1.2.2
-      ts-node: 10.9.2(@types/node@18.11.9)(typescript@5.6.3)
+      ts-node: 10.9.2(@types/node@16.18.119)(typescript@5.6.3)
       tsconfig: 7.0.0
       typescript: 5.6.3
     transitivePeerDependencies:
@@ -1454,7 +1454,7 @@ packages:
       - '@types/node'
     dev: true
 
-  /ts-node@10.9.2(@types/node@18.11.9)(typescript@5.6.3):
+  /ts-node@10.9.2(@types/node@16.18.119)(typescript@5.6.3):
     resolution: {integrity: sha512-f0FFpIdcHgn8zcPSbf1dRevwt047YMnaiJM3u2w2RewrB+fob/zePZcrOyQoLMMO7aBIddLcQIEK5dYjkLnGrQ==}
     hasBin: true
     peerDependencies:
@@ -1473,7 +1473,7 @@ packages:
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.3
-      '@types/node': 18.11.9
+      '@types/node': 16.18.119
       acorn: 8.8.2
       acorn-walk: 8.2.0
       arg: 4.1.3
