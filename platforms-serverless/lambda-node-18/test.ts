@@ -2,7 +2,7 @@ import { Prisma } from '@prisma/client'
 import { invokeLambdaSync } from './utils'
 const process = require('process')
 
-const name = `platforms-serverless-lambda-node-16-${process.env.PRISMA_CLIENT_ENGINE_TYPE}`
+const name = `platforms-serverless-lambda-node-18-${process.env.PRISMA_CLIENT_ENGINE_TYPE}`
 
 async function main() {
   console.log('testing function', name)
@@ -19,9 +19,9 @@ async function main() {
   const actual = JSON.stringify(original)
   console.log('actual', actual)
   // TODO Update to only expect on engine file after zip script was updated
-  let files = `,"files":["default.d.ts","default.js","deno","edge.d.ts","edge.js","index-browser.js","index.d.ts","index.js","libquery_engine-debian-openssl-1.1.x.so.node","libquery_engine-rhel-openssl-1.0.x.so.node","package.json","schema.prisma","wasm.d.ts","wasm.js"]`
+  let files = `,"files":["default.d.ts","default.js","deno","edge.d.ts","edge.js","index-browser.js","index.d.ts","index.js","libquery_engine-debian-openssl-3.0.x.so.node","libquery_engine-rhel-openssl-3.0.x.so.node","package.json","schema.prisma","wasm.d.ts","wasm.js"]`
   if (process.env.PRISMA_CLIENT_ENGINE_TYPE === 'binary') {
-    files = `,"files":["default.d.ts","default.js","deno","edge.d.ts","edge.js","index-browser.js","index.d.ts","index.js","package.json","query-engine-debian-openssl-1.1.x","query-engine-rhel-openssl-1.0.x","schema.prisma","wasm.d.ts","wasm.js"]`
+    files = `,"files":["default.d.ts","default.js","deno","edge.d.ts","edge.js","index-browser.js","index.d.ts","index.js","package.json","query-engine-debian-openssl-3.0.x","query-engine-rhel-openssl-3.0.x","schema.prisma","wasm.d.ts","wasm.js"]`
   }
 
   const expect =

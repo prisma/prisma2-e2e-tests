@@ -19,9 +19,9 @@ az functionapp config appsettings set --name "$app" --resource-group "$group" --
 az functionapp config appsettings set --name "$app" --resource-group "$group" --settings "DATABASE_URL=$DATABASE_URL"
 # https://docs.microsoft.com/en-us/azure/azure-functions/set-runtime-version?tabs=portal
 # Runtime versions details at https://docs.microsoft.com/en-us/azure/azure-functions/functions-versions?tabs=in-process%2Cazure-cli%2Cv4&pivots=programming-language-javascript#languages
-# 4 = Is the "Recommended runtime version for functions in all languages." and has GA Node.js 14 & 16
+# 4 = Is the "Recommended runtime version for functions in all languages." and has GA Node.js LTS
 az functionapp config appsettings set --name "$app" --resource-group "$group" --settings "FUNCTIONS_EXTENSION_VERSION=~4"
-az functionapp config appsettings set --name "$app" --resource-group "$group" --settings "WEBSITE_NODE_DEFAULT_VERSION=~16"
+az functionapp config appsettings set --name "$app" --resource-group "$group" --settings "WEBSITE_NODE_DEFAULT_VERSION=~20"
 
 sleep 30
 
