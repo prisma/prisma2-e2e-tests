@@ -9,7 +9,7 @@
     "ts-node": "10.9.2",
     "typegraphql-prisma": "0.28.0",
     "typescript": "5.6.3",
-    "@types/node": "18.11.9"
+    "@types/node": "18.19.64"
   },
   "dependencies": {
     "@prisma/client": "5.23.0-dev.5",
