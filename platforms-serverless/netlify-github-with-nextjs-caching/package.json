@@ -11,7 +11,7 @@
   "devDependencies": {
     "jest": "29.7.0",
     "prisma": "5.23.0-dev.10",
-    "ci-info": "4.0.0"
+    "ci-info": "4.1.0"
   },
   "dependencies": {
     "@prisma/client": "5.23.0-dev.10",
