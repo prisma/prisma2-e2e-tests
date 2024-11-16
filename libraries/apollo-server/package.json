@@ -9,7 +9,7 @@
     "@apollo/client": "3.11.10",
     "@apollo/server": "4.11.2",
     "@prisma/client": "5.23.0-dev.10",
-    "@types/node-fetch": "2.6.11",
+    "@types/node-fetch": "2.6.12",
     "graphql": "16.9.0"
   },
   "devDependencies": {

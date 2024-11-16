@@ -12,7 +12,7 @@
     "@cloudflare/workers-types": "4.20241106.0",
     "@types/jest": "29.5.14",
     "@types/node": "16.18.119",
-    "@types/node-fetch": "2.6.11",
+    "@types/node-fetch": "2.6.12",
     "jest": "29.7.0",
     "node-fetch": "2.7.0",
     "prisma": "5.23.0-dev.10",
