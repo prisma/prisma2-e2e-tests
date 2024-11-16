@@ -29,8 +29,8 @@ devDependencies:
     specifier: 16.18.119
     version: 16.18.119
   '@types/node-fetch':
-    specifier: 2.6.11
-    version: 2.6.11
+    specifier: 2.6.12
+    version: 2.6.12
   '@types/react':
     specifier: 18.3.12
     version: 18.3.12
@@ -1164,8 +1164,8 @@ packages:
     resolution: {integrity: sha512-Hr5Jfhc9eYOQNPYO5WLDq/n4jqijdHNlDXjuAQkkt+mWdQR+XJToOHrsD4cPaMXpn6KO7y2+wM8AZEs8VpBLVA==}
     dev: true
 
-  /@types/node-fetch@2.6.11:
-    resolution: {integrity: sha512-24xFj9R5+rfQJLRyM56qh+wnVSYhyXC2tkoBndtY0U+vubqNsYXGjufB2nn8Q6gt0LrARwL6UBtMCSVCwl4B1g==}
+  /@types/node-fetch@2.6.12:
+    resolution: {integrity: sha512-8nneRWKCg3rMtF69nLQJnOYUcbafYeFSjqkw3jCRLsqkWFlHaoQrr5mXmofFGOx3DKn7UfmBMyov8ySvLRVldA==}
     dependencies:
       '@types/node': 16.18.119
       form-data: 4.0.0
