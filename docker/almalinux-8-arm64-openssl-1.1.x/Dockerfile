@@ -1,7 +1,7 @@
 # syntax=docker/dockerfile:1
 
 # substitute for centos
-FROM almalinux:8
+FROM almalinux:9
 
 ARG NODE_VERSION="18.12.1"
 ARG ARCH="arm64"
