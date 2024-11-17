@@ -10,7 +10,7 @@
     "jest": "29.7.0",
     "node-fetch": "2.7.0",
     "prisma": "5.23.0-dev.10",
-    "wrangler": "3.86.0"
+    "wrangler": "3.87.0"
   },
   "dependencies": {
     "@prisma/adapter-d1": "5.23.0-dev.10",
