@@ -27,8 +27,8 @@ dependencies:
     specifier: 18.3.1
     version: 18.3.1(react@18.3.1)
   undici:
-    specifier: 6.20.1
-    version: 6.20.1
+    specifier: 6.21.0
+    version: 6.21.0
 
 devDependencies:
   '@jest/globals':
@@ -4176,8 +4176,8 @@ packages:
       '@fastify/busboy': 2.1.0
     dev: true
 
-  /undici@6.20.1:
-    resolution: {integrity: sha512-AjQF1QsmqfJys+LXfGTNum+qw4S88CojRInG/6t31W/1fk6G59s92bnAvGz5Cmur+kQv2SURXEvvudLmbrE8QA==}
+  /undici@6.21.0:
+    resolution: {integrity: sha512-BUgJXc752Kou3oOIuU1i+yZZypyZRqNPW0vqoMPl8VaoalSfeR0D8/t4iAS3yirs79SSMTxTag+ZC86uswv+Cw==}
     engines: {node: '>=18.17'}
     dev: false
 

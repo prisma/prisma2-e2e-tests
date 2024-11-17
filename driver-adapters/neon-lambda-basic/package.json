@@ -16,6 +16,6 @@
     "@neondatabase/serverless": "0.10.3",
     "@prisma/adapter-neon": "5.23.0-dev.10",
     "@prisma/client": "5.23.0-dev.10",
-    "undici": "6.20.1"
+    "undici": "6.21.0"
   }
 }
