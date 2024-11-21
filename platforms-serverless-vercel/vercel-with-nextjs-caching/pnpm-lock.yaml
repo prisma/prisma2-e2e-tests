@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@prisma/client':
-    specifier: 5.23.0-dev.14
-    version: 5.23.0-dev.14(prisma@5.23.0-dev.14)
+    specifier: 5.23.0-dev.15
+    version: 5.23.0-dev.15(prisma@5.23.0-dev.15)
   next:
     specifier: 14.2.18
     version: 14.2.18(@babel/core@7.22.8)(react-dom@18.3.1)(react@18.3.1)
@@ -26,8 +26,8 @@ devDependencies:
     specifier: 29.7.0
     version: 29.7.0(@types/node@16.18.11)
   prisma:
-    specifier: 5.23.0-dev.14
-    version: 5.23.0-dev.14
+    specifier: 5.23.0-dev.15
+    version: 5.23.0-dev.15
   vercel:
     specifier: 34.4.0
     version: 34.4.0
@@ -960,8 +960,8 @@ packages:
       fastq: 1.15.0
     dev: true
 
-  /@prisma/client@5.23.0-dev.14(prisma@5.23.0-dev.14):
-    resolution: {integrity: sha512-XfOy5P958yuY62D3+YC4Qqo0y8gwzVY0BO7FpfZzYwA1HOe76T6V2aINRETGJ1H78DgzwiwAnem9jWxk7i5rIg==}
+  /@prisma/client@5.23.0-dev.15(prisma@5.23.0-dev.15):
+    resolution: {integrity: sha512-zwIfd8JfKx75QAMjM8CuNS6Q/UudN7ecIv8qZ1/mbkGJxFK2jq55ks6nKd9F3eKoHZiw4aBRicKdhKaW0v2AsA==}
     engines: {node: '>=18.18'}
     requiresBuild: true
     peerDependencies:
@@ -970,35 +970,35 @@ packages:
       prisma:
         optional: true
     dependencies:
-      prisma: 5.23.0-dev.14
+      prisma: 5.23.0-dev.15
     dev: false
 
-  /@prisma/debug@5.23.0-dev.14:
-    resolution: {integrity: sha512-xzJ+zOkovUvVLh9lEK+/Huh2wRmOuR3yg4ruuNKojeeTsTetsF6s67sLjPfew2J1tsrc3Tg/eJKqF2yueOTSxQ==}
+  /@prisma/debug@5.23.0-dev.15:
+    resolution: {integrity: sha512-kTQUH02WEkUJlhdJXB8VSfeeXMU723shKvmNJVD7B9TPwGGCzrwPOOtWtSs0CAsV2DIJMhtLDZ5bOA9KV8MfGw==}
 
   /@prisma/engines-version@5.23.0-11.90c6eb338aab4ebc379a3dfb6d0130b1535db96c:
     resolution: {integrity: sha512-OBzHzJ8HWAhSfL2QdCxpblesqTuZ85wZh+Ar6N31uNam/wQQ+v2qm43c2XBI/iw2vcckDT9a7IrvxsmYe7sCYw==}
 
-  /@prisma/engines@5.23.0-dev.14:
-    resolution: {integrity: sha512-4ahgLn1kefA//nXeovSonJ+90eUR3QfYK8oWUG1mFzOpxcnqK0DwrHOiWMpI7WGcuYX41wLwFZsS5/41CdSwSA==}
+  /@prisma/engines@5.23.0-dev.15:
+    resolution: {integrity: sha512-3KzDnvVCqp1q/vXOG/Bfa50iw4xdDMpMTe9WINHWo0hqXDT6Cs1jktRfdLBouL13Ezax6nXZ8giS3xe/AuNYlw==}
     requiresBuild: true
     dependencies:
-      '@prisma/debug': 5.23.0-dev.14
+      '@prisma/debug': 5.23.0-dev.15
       '@prisma/engines-version': 5.23.0-11.90c6eb338aab4ebc379a3dfb6d0130b1535db96c
-      '@prisma/fetch-engine': 5.23.0-dev.14
-      '@prisma/get-platform': 5.23.0-dev.14
+      '@prisma/fetch-engine': 5.23.0-dev.15
+      '@prisma/get-platform': 5.23.0-dev.15
 
-  /@prisma/fetch-engine@5.23.0-dev.14:
-    resolution: {integrity: sha512-DC+SbiAezyT2Cr7m1HE35AO4p+wHKjk7UZwrzd35p4vgBdoW7XWVdEE3W3gBkxt2pX3pqNgIeIyRG2Y/lFNJuw==}
+  /@prisma/fetch-engine@5.23.0-dev.15:
+    resolution: {integrity: sha512-E1VsDAwPieyvMRPH3PmA9xWViYZ4qmdQaJQYy/Q2oqjkxAW+97Hq+Z02i9ngW0apEY72oQVTeRIfg68deYpRhQ==}
     dependencies:
-      '@prisma/debug': 5.23.0-dev.14
+      '@prisma/debug': 5.23.0-dev.15
       '@prisma/engines-version': 5.23.0-11.90c6eb338aab4ebc379a3dfb6d0130b1535db96c
-      '@prisma/get-platform': 5.23.0-dev.14
+      '@prisma/get-platform': 5.23.0-dev.15
 
-  /@prisma/get-platform@5.23.0-dev.14:
-    resolution: {integrity: sha512-c396njYukQ722GDSUi+ObyJqSwAsDua45+F5+GEcikVroWgXryglRRzr+hXEItTQphoXIPQ/Z+VP9mi/7Sj1Fw==}
+  /@prisma/get-platform@5.23.0-dev.15:
+    resolution: {integrity: sha512-7z60cYOHu2smCFvCCfOhwraqEzdDfTEUQeP9XuZUX04PtQQ4bDO9VBO2BhIG0Jfw4R1Y7L2VHQESS5zCPLJzRA==}
     dependencies:
-      '@prisma/debug': 5.23.0-dev.14
+      '@prisma/debug': 5.23.0-dev.15
 
   /@rollup/pluginutils@4.2.1:
     resolution: {integrity: sha512-iKnFXr7NkdZAIHiIWE+BX5ULi/ucVFYWD6TbAV+rZctiRTY2PL6tsIKhoIOaoskiWAkgu+VsbXgUVDNLHf+InQ==}
@@ -3566,13 +3566,13 @@ packages:
       parse-ms: 2.1.0
     dev: true
 
-  /prisma@5.23.0-dev.14:
-    resolution: {integrity: sha512-RN1Qw82zvnWqTVbViu9R3bzjpTcNu6Z5l7FWqwYhqviw+qNcCEWJS7k+zW8MYLjvRyWgZUtv+jO85ERSXhKXsg==}
+  /prisma@5.23.0-dev.15:
+    resolution: {integrity: sha512-gClT6W80UWjC62ydRE0YTXmtwEZjDSZr5qFyjOsWjNocwm6qqln3sMAEpBhNvPoACb+8C0308vLNbaH2WGxkww==}
     engines: {node: '>=18.18'}
     hasBin: true
     requiresBuild: true
     dependencies:
-      '@prisma/engines': 5.23.0-dev.14
+      '@prisma/engines': 5.23.0-dev.15
     optionalDependencies:
       fsevents: 2.3.3
 
