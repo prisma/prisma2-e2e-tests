@@ -11,12 +11,12 @@
     "@jest/types": "29.6.3",
     "esbuild": "0.24.0",
     "jest": "29.7.0",
-    "prisma": "5.23.0-dev.12"
+    "prisma": "5.23.0-dev.13"
   },
   "dependencies": {
     "@neondatabase/serverless": "0.10.3",
-    "@prisma/adapter-neon": "5.23.0-dev.12",
-    "@prisma/client": "5.23.0-dev.12",
+    "@prisma/adapter-neon": "5.23.0-dev.13",
+    "@prisma/client": "5.23.0-dev.13",
     "undici": "6.21.0"
   }
 }
