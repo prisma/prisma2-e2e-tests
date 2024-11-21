@@ -5,10 +5,10 @@
   "license": "MIT",
   "devDependencies": {
     "jest": "29.7.0",
-    "prisma": "5.23.0-dev.13"
+    "prisma": "5.23.0-dev.14"
   },
   "dependencies": {
-    "@prisma/client": "5.23.0-dev.13"
+    "@prisma/client": "5.23.0-dev.14"
   },
   "scripts": {
     "test": "jest"

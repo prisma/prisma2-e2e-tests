@@ -9,11 +9,11 @@
     "@jest/globals": "29.7.0",
     "@types/pg": "^8.10.2",
     "jest": "29.7.0",
-    "prisma": "5.23.0-dev.13"
+    "prisma": "5.23.0-dev.14"
   },
   "dependencies": {
-    "@prisma/adapter-pg": "5.23.0-dev.13",
-    "@prisma/client": "5.23.0-dev.13",
+    "@prisma/adapter-pg": "5.23.0-dev.14",
+    "@prisma/client": "5.23.0-dev.14",
     "pg": "8.13.1"
   }
 }
