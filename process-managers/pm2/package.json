@@ -4,7 +4,7 @@
   "devDependencies": {
     "@types/node": "16.18.119",
     "pm2": "5.4.3",
-    "prisma": "5.23.0-dev.15",
+    "prisma": "5.23.0-dev.16",
     "ts-node": "10.9.2",
     "typescript": "5.6.3"
   },
@@ -12,7 +12,7 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "@prisma/client": "5.23.0-dev.15",
+    "@prisma/client": "5.23.0-dev.16",
     "express": "4.21.1"
   }
 }
