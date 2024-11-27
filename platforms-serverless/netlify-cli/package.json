@@ -6,14 +6,14 @@
   "devDependencies": {
     "@types/node": "16.18.119",
     "netlify-cli": "17.37.2",
-    "prisma": "5.23.0-dev.27",
+    "prisma": "5.23.0-dev.28",
     "ts-node": "10.9.2"
   },
   "scripts": {
     "dev": "netlify dev"
   },
   "dependencies": {
-    "@prisma/client": "5.23.0-dev.27",
+    "@prisma/client": "5.23.0-dev.28",
     "fetch-retry": "^6.0.0"
   }
 }
