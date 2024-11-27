@@ -9,12 +9,12 @@
     "@jest/globals": "29.7.0",
     "jest": "29.7.0",
     "node-fetch": "2.7.0",
-    "prisma": "5.23.0-dev.19",
+    "prisma": "5.23.0-dev.20",
     "wrangler": "3.87.0"
   },
   "dependencies": {
-    "@prisma/adapter-pg-worker": "5.23.0-dev.19",
-    "@prisma/client": "5.23.0-dev.19",
-    "@prisma/pg-worker": "5.23.0-dev.19"
+    "@prisma/adapter-pg-worker": "5.23.0-dev.20",
+    "@prisma/client": "5.23.0-dev.20",
+    "@prisma/pg-worker": "5.23.0-dev.20"
   }
 }
