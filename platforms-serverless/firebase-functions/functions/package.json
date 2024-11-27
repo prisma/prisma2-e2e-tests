@@ -11,14 +11,14 @@
     "gcp-build": "CI=1 && PRISMA_TELEMETRY_INFORMATION='ecosystem-tests platforms/firebase-functions postinstall' && npx prisma generate"
   },
   "dependencies": {
-    "@prisma/client": "5.23.0-dev.28",
+    "@prisma/client": "5.23.0-dev.29",
     "firebase-admin": "11.11.1",
     "firebase-functions": "5.1.1"
   },
   "devDependencies": {
     "@types/node": "16.18.119",
     "firebase-functions-test": "3.3.0",
-    "prisma": "5.23.0-dev.28",
+    "prisma": "5.23.0-dev.29",
     "ts-node": "10.9.2",
     "typescript": "4.9.5"
   },
