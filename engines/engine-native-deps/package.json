@@ -8,7 +8,7 @@
     "update-snapshots": "pnpm test -- --update"
   },
   "dependencies": {
-    "@prisma/client": "6.1.0-dev.6",
+    "@prisma/client": "6.1.0-dev.7",
     "zx": "8.2.2"
   }
 }
