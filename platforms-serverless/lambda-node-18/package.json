@@ -1,5 +1,5 @@
 {
-  "name": "lambda-node-16",
+  "name": "lambda-node-18",
   "version": "1.0.0",
   "license": "MIT",
   "devDependencies": {
@@ -10,6 +10,6 @@
   },
   "dependencies": {
     "@prisma/client": "6.1.0-dev.7",
-    "@types/node": "16.18.119"
+    "@types/node": "18.19.64"
   }
 }

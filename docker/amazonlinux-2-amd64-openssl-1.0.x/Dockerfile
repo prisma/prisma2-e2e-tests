@@ -6,7 +6,7 @@ FROM amazonlinux:2
 # Node.js 18 isn't compatible with Amazon Linux due to glibc version. It would throw with:
 #   node: /lib64/libm.so.6: version `GLIBC_2.27' not found (required by node)
 #   node: /lib64/libc.so.6: version `GLIBC_2.28' not found (required by node)
-ARG NODE_VERSION="16.14.0"
+ARG NODE_VERSION="18.18.0"
 ARG ARCH="x64"
 
 WORKDIR /usr/src/app

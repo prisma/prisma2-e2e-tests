@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@prisma/client": "6.1.0-dev.7",
-    "@types/node": "16.18.119"
+    "@types/node": "18.19.64"
   },
   "resolutions": {
     "crc32-stream": "6.0.0"

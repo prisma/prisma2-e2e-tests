@@ -22,6 +22,6 @@ case $OS in
   ;;
 esac
 
-pnpm exec pkg node_modules/prisma -t node16-$os
+pnpm exec pkg node_modules/prisma -t node18-$os
 
 ./$filename --version
