@@ -679,7 +679,6 @@ jobs:
       fail-fast: false
       matrix:
         platform:
-          - lambda-node-18
           - lambda-node-20
           - netlify-cli
           - netlify-github
