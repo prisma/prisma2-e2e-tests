@@ -1750,9 +1750,6 @@ jobs:
           - almalinux-8-arm64-openssl-1.1.x
           - almalinux-latest-amd64-openssl-3.0.x
           - almalinux-latest-arm64-openssl-3.0.x
-          - alpine-3.16-amd64-openssl-1.1.x
-          - alpine-3.16-arm64-openssl-1.1.x
-          - alpine-3.16-arm64-openssl-1.1.x-with-libc
           - alpine-3.17-amd64-openssl-1.1.x
           - alpine-3.17-amd64-openssl-3.0.x
           - alpine-3.17-arm64-openssl-3.0.x
@@ -1842,6 +1839,9 @@ jobs:
       fail-fast: false
       matrix:
         feature:
+          - alpine-3.16-amd64-openssl-1.1.x
+          - alpine-3.16-arm64-openssl-1.1.x
+          - alpine-3.16-arm64-openssl-1.1.x-with-libc
           - debian-buster-amd64-openssl-1.1.x
           - debian-latest-arm-openssl-1.1.x
         clientEngine: [library, binary]
