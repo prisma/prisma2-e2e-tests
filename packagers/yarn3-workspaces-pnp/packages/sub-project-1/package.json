@@ -5,7 +5,7 @@
   "types": "./lib/index.d.ts",
   "packageManager": "yarn@3.8.6",
   "devDependencies": {
-    "@types/node": "16.18.119",
+    "@types/node": "18.19.64",
     "prisma": "6.1.0-dev.7",
     "ts-node": "10.9.2",
     "typescript": "5.6.3"

@@ -6,8 +6,8 @@ FROM amazonlinux:2
 # Node.js 18 isn't compatible with Amazon Linux due to glibc version. It would throw with:
 #   node: /lib64/libm.so.6: version `GLIBC_2.27' not found (required by node)
 #   node: /lib64/libc.so.6: version `GLIBC_2.28' not found (required by node)
-ARG NODE_VERSION="16.14.0"
-ARG ARCH="arm64"
+ARG NODE_VERSION="18.18.0"
+ARG ARCH="x64"
 
 WORKDIR /usr/src/app
 COPY --from=app . ./
@@ -28,7 +28,7 @@ RUN if [ ! -e /lib64/libssl.so.10 ]; then echo 'OpenSSL 1.0 not found in /lib64/
 RUN if [ -e /lib64/libssl.so.3 ]; then echo 'OpenSSL 3 must not be installed (found in /lib64/libssl.so.3)'; exit 1; fi
 
 # expected target platform for Prisma, retrieved by `prisma -v`
-ARG EXPECTED_PRISMA_TARGET_PLATFORM="linux-arm64-openssl-1.0.x"
+ARG EXPECTED_PRISMA_TARGET_PLATFORM="rhel-openssl-1.0.x"
 ARG PRISMA_ENGINES_MIRROR
 ARG PRISMA_CLIENT_ENGINE_TYPE
 ARG PRISMA_CLI_QUERY_ENGINE_TYPE

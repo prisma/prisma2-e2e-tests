@@ -41,20 +41,20 @@ devDependencies:
     specifier: 1.3.9
     version: 1.3.9
   '@types/node':
-    specifier: 16.18.119
-    version: 16.18.119
+    specifier: 18.19.64
+    version: 18.19.64
   prisma:
     specifier: 6.1.0-dev.7
     version: 6.1.0-dev.7
   ts-node:
     specifier: 10.9.2
-    version: 10.9.2(@types/node@16.18.119)(typescript@4.9.5)
+    version: 10.9.2(@types/node@18.19.64)(typescript@5.6.3)
   typegraphql-prisma:
     specifier: 0.28.0
-    version: 0.28.0(@prisma/client@6.1.0-dev.7)(@types/graphql-fields@1.3.9)(@types/node@16.18.119)(graphql-fields@2.0.3)(graphql-scalars@1.23.0)(prisma@6.1.0-dev.7)(tslib@2.8.1)(type-graphql@2.0.0-rc.2)
+    version: 0.28.0(@prisma/client@6.1.0-dev.7)(@types/graphql-fields@1.3.9)(@types/node@18.19.64)(graphql-fields@2.0.3)(graphql-scalars@1.23.0)(prisma@6.1.0-dev.7)(tslib@2.8.1)(type-graphql@2.0.0-rc.2)
   typescript:
-    specifier: 4.9.5
-    version: 4.9.5
+    specifier: 5.6.3
+    version: 5.6.3
 
 packages:
 
@@ -513,19 +513,19 @@ packages:
     resolution: {integrity: sha512-ALYone6pm6QmwZoAgeyNksccT9Q4AWZQ6PvfwR37GT6r6FWUPguq6sUmNGSMV2Wr761oQoBxwGGa6DR5o1DC9g==}
     dependencies:
       '@types/connect': 3.4.35
-      '@types/node': 16.18.119
+      '@types/node': 18.19.64
     dev: false
 
   /@types/connect@3.4.35:
     resolution: {integrity: sha512-cdeYyv4KWoEgpBISTxWvqYsVy444DOqehiF3fM3ne10AmJ62RSyNkUnxMJXHQWRQQX2eR94m5y1IZyDwBjV9FQ==}
     dependencies:
-      '@types/node': 16.18.119
+      '@types/node': 18.19.64
     dev: false
 
   /@types/express-serve-static-core@4.17.33:
     resolution: {integrity: sha512-TPBqmR/HRYI3eC2E5hmiivIzv+bidAfXofM+sbonAGvyDhySGw9/PQZFt2BLOrjUUR++4eJVpx6KnLQK1Fk9tA==}
     dependencies:
-      '@types/node': 16.18.119
+      '@types/node': 18.19.64
       '@types/qs': 6.9.7
       '@types/range-parser': 1.2.4
     dev: false
@@ -556,12 +556,14 @@ packages:
   /@types/node-fetch@2.6.11:
     resolution: {integrity: sha512-24xFj9R5+rfQJLRyM56qh+wnVSYhyXC2tkoBndtY0U+vubqNsYXGjufB2nn8Q6gt0LrARwL6UBtMCSVCwl4B1g==}
     dependencies:
-      '@types/node': 16.18.119
+      '@types/node': 18.19.64
       form-data: 4.0.0
     dev: false
 
-  /@types/node@16.18.119:
-    resolution: {integrity: sha512-ia7V9a2FnhUFfetng4/sRPBMTwHZUkPFY736rb1cg9AgG7MZdR97q7/nLR9om+sq5f1la9C857E0l/nrI0RiFQ==}
+  /@types/node@18.19.64:
+    resolution: {integrity: sha512-955mDqvO2vFf/oL7V3WiUtiz+BugyX8uVbaT2H8oj3+8dRyH2FLiNdowe7eNqRM7IOIZvzDH76EoAT+gwm6aIQ==}
+    dependencies:
+      undici-types: 5.26.5
 
   /@types/qs@6.9.7:
     resolution: {integrity: sha512-FGa1F62FT09qcrueBA6qYTrJPVDzah9a+493+o2PCXsesWHIn27G98TsSMs3WPNbZIEj4+VJf6saSFpvD+3Zsw==}
@@ -578,7 +580,7 @@ packages:
     resolution: {integrity: sha512-NUo5XNiAdULrJENtJXZZ3fHtfMolzZwczzBbnAeBbqBwG+LaG6YaJtuwzwGSQZ2wsCrxjEhNNjAkKigy3n8teQ==}
     dependencies:
       '@types/mime': 3.0.1
-      '@types/node': 16.18.119
+      '@types/node': 18.19.64
     dev: false
 
   /@types/validator@13.11.8:
@@ -1418,7 +1420,7 @@ packages:
       code-block-writer: 13.0.2
     dev: true
 
-  /ts-node@10.9.2(@types/node@16.18.119)(typescript@4.9.5):
+  /ts-node@10.9.2(@types/node@18.19.64)(typescript@5.6.3):
     resolution: {integrity: sha512-f0FFpIdcHgn8zcPSbf1dRevwt047YMnaiJM3u2w2RewrB+fob/zePZcrOyQoLMMO7aBIddLcQIEK5dYjkLnGrQ==}
     hasBin: true
     peerDependencies:
@@ -1437,14 +1439,14 @@ packages:
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.3
-      '@types/node': 16.18.119
+      '@types/node': 18.19.64
       acorn: 8.8.2
       acorn-walk: 8.2.0
       arg: 4.1.3
       create-require: 1.1.1
       diff: 4.0.2
       make-error: 1.3.6
-      typescript: 4.9.5
+      typescript: 5.6.3
       v8-compile-cache-lib: 3.0.1
       yn: 3.1.1
     dev: true
@@ -1464,7 +1466,7 @@ packages:
         optional: true
     dependencies:
       '@graphql-yoga/subscription': 5.0.0
-      '@types/node': 16.18.119
+      '@types/node': 18.19.64
       '@types/semver': 7.5.8
       class-validator: 0.14.1
       graphql: 16.8.1
@@ -1481,7 +1483,7 @@ packages:
       mime-types: 2.1.35
     dev: false
 
-  /typegraphql-prisma@0.28.0(@prisma/client@6.1.0-dev.7)(@types/graphql-fields@1.3.9)(@types/node@16.18.119)(graphql-fields@2.0.3)(graphql-scalars@1.23.0)(prisma@6.1.0-dev.7)(tslib@2.8.1)(type-graphql@2.0.0-rc.2):
+  /typegraphql-prisma@0.28.0(@prisma/client@6.1.0-dev.7)(@types/graphql-fields@1.3.9)(@types/node@18.19.64)(graphql-fields@2.0.3)(graphql-scalars@1.23.0)(prisma@6.1.0-dev.7)(tslib@2.8.1)(type-graphql@2.0.0-rc.2):
     resolution: {integrity: sha512-LMTsYEAteeXhnJRmH2sBWarR8Jc9Um13mtSpi8Vh6G8QUTlp5tRfqMjd+Fw06HS6SBshU6NilZJlsPaz26SQCw==}
     engines: {node: '>=20.11.1'}
     hasBin: true
@@ -1499,7 +1501,7 @@ packages:
       '@prisma/generator-helper': 5.18.0
       '@prisma/internals': 5.18.0
       '@types/graphql-fields': 1.3.9
-      '@types/node': 16.18.119
+      '@types/node': 18.19.64
       graphql-fields: 2.0.3
       graphql-scalars: 1.23.0(graphql@16.8.1)
       pluralize: 8.0.0
@@ -1510,11 +1512,14 @@ packages:
       type-graphql: 2.0.0-rc.2(class-validator@0.14.1)(graphql-scalars@1.23.0)(graphql@16.8.1)
     dev: true
 
-  /typescript@4.9.5:
-    resolution: {integrity: sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==}
-    engines: {node: '>=4.2.0'}
+  /typescript@5.6.3:
+    resolution: {integrity: sha512-hjcS1mhfuyi4WW8IWtjP7brDrG2cuDZukyrYrSauoXGNgx0S7zceP07adYkJycEr56BOUTNPzbInooiN3fn1qw==}
+    engines: {node: '>=14.17'}
     hasBin: true
     dev: true
+
+  /undici-types@5.26.5:
+    resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
 
   /universalify@2.0.0:
     resolution: {integrity: sha512-hAZsKq7Yy11Zu1DE0OzWjw7nnLZmJZYTDZZyEFHZdUhV8FkH5MCfoU1XMaxXovpyW5nq5scPqq0ZDP9Zyl04oQ==}

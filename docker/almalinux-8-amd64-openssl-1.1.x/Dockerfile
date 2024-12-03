@@ -3,7 +3,7 @@
 # substitute for centos
 FROM almalinux:8
 
-ARG NODE_VERSION="18.12.1"
+ARG NODE_VERSION="18.18.0"
 ARG ARCH="x64"
 
 WORKDIR /usr/src/app

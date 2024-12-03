@@ -2,7 +2,7 @@
 
 FROM arm64v8/ubuntu:latest
 
-ARG NODE_VERSION="18.12.1"
+ARG NODE_VERSION="18.18.0"
 ARG ARCH="arm64"
 
 WORKDIR /usr/src/app

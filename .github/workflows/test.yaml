@@ -93,7 +93,6 @@ jobs:
       - migrate
       - engines
       - os
-      - node16dot13
       - node
       - binaries
       - packagers
@@ -126,7 +125,6 @@ jobs:
       - migrate
       - engines
       - os
-      - node16dot13
       - node
       - binaries
       - packagers
@@ -169,7 +167,6 @@ jobs:
       - migrate
       - engines
       - os
-      - node16dot13
       - node
       - binaries
       - packagers
@@ -526,7 +523,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: ${{ matrix.node || 16 }}
+          node-version: ${{ matrix.node || 18 }}
           cache: |
             ${{
               contains(matrix.packager, 'yarn') && 'yarn' ||
@@ -644,7 +641,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 16
+          node-version: 18
           cache: 'pnpm'
           cache-dependency-path: ${{ github.job }}/${{ matrix.platform }}/pnpm-lock.yaml
 
@@ -682,7 +679,6 @@ jobs:
       fail-fast: false
       matrix:
         platform:
-          - lambda-node-16
           - lambda-node-20
           - netlify-cli
           - netlify-github
@@ -732,9 +728,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          # The `firebase-tools` version used in `firebase-functions` requires Node.js 18,
-          # but Prisma still supports Node.js 16.
-          node-version: ${{ matrix.node || '16' }}
+          node-version: ${{ matrix.node || '18' }}
           cache: |
             ${{
               contains(matrix.platform, 'azure') && 'npm' ||
@@ -822,7 +816,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: ${{ matrix.node || 16 }}
+          node-version: ${{ matrix.node || 18 }}
           cache: |
             ${{
               contains(matrix.platform, 'redwood') && 'yarn' ||
@@ -900,12 +894,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          # browser-build uses Next.js
-          # Since Next.js v14, Node.js v18+ is required
-          node-version: |
-            ${{
-              matrix.feature == 'browser-build' && 18 || 16
-            }}
+          node-version: 18
           cache: |
             ${{
               contains(matrix.feature, '-yarn') && 'yarn' ||
@@ -965,7 +954,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 16
+          node-version: 18
           cache: 'pnpm'
           cache-dependency-path: ${{ github.job }}/${{ matrix.feature }}/pnpm-lock.yaml
 
@@ -1020,7 +1009,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 16
+          node-version: 18
           cache: 'pnpm'
           cache-dependency-path: ${{ github.job }}/${{ matrix.feature }}/pnpm-lock.yaml
 
@@ -1065,7 +1054,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 16
+          node-version: 18
           cache: 'pnpm'
           cache-dependency-path: generic/basic/pnpm-lock.yaml
 
@@ -1113,7 +1102,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 16
+          node-version: 18
           cache: 'pnpm'
           cache-dependency-path: generic/basic-m1/pnpm-lock.yaml
 
@@ -1139,59 +1128,6 @@ jobs:
         if: failure()
         run: bash .github/slack/notify-failure.sh generic basic-m1
 
-  # pnpm requires Node.js v 16.14 or higher
-  # so as a workaround we test this version with npm
-  node16dot13:
-    needs: [detect_jobs_to_run]
-    if: contains(fromJSON(needs.detect_jobs_to_run.outputs.jobs), 'node16dot13')
-
-    strategy:
-      fail-fast: false
-      matrix:
-        node:
-          - 16.13
-        clientEngine: ['library', 'binary']
-        os: [ubuntu-20.04]
-    runs-on: ${{ matrix.os }}
-
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Define Client Engine Type to test
-        run: echo "PRISMA_CLIENT_ENGINE_TYPE=${{ matrix.clientEngine }}" >> $GITHUB_ENV
-
-      - name: use node ${{ matrix.node }}
-        uses: actions/setup-node@v4
-        with:
-          node-version: ${{ matrix.node }}
-
-      # This version of the pnpm CLI is packaged with Node.js into an executable.
-      # see https://www.npmjs.com/package/@pnpm/exe
-      - name: Install pnpm v8
-        run: npm install -g @pnpm/exe@8
-
-      - name: Install Dependencies
-        run: pnpm install
-
-      - name: Set test specific DATABASE_URL
-        run: |
-          string=${{ env.DATABASE_URL_POSTGRES_TEMPLATE }}
-          search=database
-          replace=${{ github.job }}_${{ matrix.node }}_${{ matrix.os }}_${{ matrix.clientEngine }}
-          replaced=${string/$search/$replace}
-          echo "DATABASE_URL=$replaced" >> $GITHUB_ENV
-
-      - name: test on node ${{ matrix.node }} - ${{ matrix.clientEngine }}
-        uses: nick-invision/retry@v3
-        with:
-          timeout_minutes: 10
-          max_attempts: 3
-          command: bash .github/scripts/test-project.sh generic basic "node ${{ matrix.node }}"
-
-      - name: notify-slack
-        if: failure()
-        run: bash .github/slack/notify-failure.sh generic basic "node ${{ matrix.node }}"
-
   node:
     needs: [detect_jobs_to_run]
     if: contains(fromJSON(needs.detect_jobs_to_run.outputs.jobs), 'node')
@@ -1200,15 +1136,11 @@ jobs:
       fail-fast: false
       matrix:
         node:
-          # Prisma's minimum is 16.13 but pnpm 8 requires Node.js 16.14, so we test it separately, see `node16dot13` - which is why the next line is commented out
-          # - 16.13 # minimal node version via https://github.com/prisma/prisma/blob/main/packages/client/package.json and minimal minor+patch version of node via https://www.prisma.io/docs/reference/system-requirements
-          - 16 # latest minor+patch on GH Actions
-          - 17
+          - 18.18 # Prisma's minimum version, see: https://www.prisma.io/docs/reference/system-requirements
           - 18
-          - 19
           - 20
-          - 21
           - 22
+          - 23 # we expect this to fail
         clientEngine: ['library', 'binary']
         os: [ubuntu-20.04]
     runs-on: ${{ matrix.os }}
@@ -1278,7 +1210,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 16
+          node-version: 18
           cache: 'pnpm'
           cache-dependency-path: ${{ github.job }}/${{ matrix.binary }}/pnpm-lock.yaml
 
@@ -1354,7 +1286,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 16
+          node-version: 18
           cache: 'pnpm'
           cache-dependency-path: ${{ github.job }}/${{ matrix.platform }}/pnpm-lock.yaml
 
@@ -1443,7 +1375,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 16
+          node-version: 18
           cache: 'pnpm'
           cache-dependency-path: ${{ github.job }}/${{ matrix.bundler }}/pnpm-lock.yaml
 
@@ -1496,7 +1428,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 16
+          node-version: 18
           cache: 'pnpm'
           cache-dependency-path: ${{ github.job }}/${{ matrix.library }}/pnpm-lock.yaml
 
@@ -1591,7 +1523,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 16
+          node-version: 18
           cache: 'pnpm'
           cache-dependency-path: ${{ github.job }}/${{ matrix.database }}/pnpm-lock.yaml
 
@@ -1637,7 +1569,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 16
+          node-version: 18
           cache: 'pnpm'
           cache-dependency-path: ${{ github.job }}/${{ matrix.database }}/pnpm-lock.yaml
 
@@ -1680,7 +1612,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 16
+          node-version: 18
           cache: 'pnpm'
           cache-dependency-path: ${{ github.job }}/${{ matrix.test-runner }}/pnpm-lock.yaml
 
@@ -1734,7 +1666,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 16
+          node-version: 18
           cache: 'pnpm'
           cache-dependency-path: ${{ github.job }}/${{ matrix.runtime }}/pnpm-lock.yaml
 
@@ -1780,7 +1712,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 16
+          node-version: 18
           cache: 'pnpm'
           cache-dependency-path: ${{ github.job }}/${{ matrix.feature }}/pnpm-lock.yaml
 
@@ -1818,16 +1750,11 @@ jobs:
           - almalinux-8-arm64-openssl-1.1.x
           - almalinux-latest-amd64-openssl-3.0.x
           - almalinux-latest-arm64-openssl-3.0.x
-          - alpine-3.16-amd64-openssl-1.1.x
-          - alpine-3.16-arm64-openssl-1.1.x
-          - alpine-3.16-arm64-openssl-1.1.x-with-libc
           - alpine-3.17-amd64-openssl-1.1.x
           - alpine-3.17-amd64-openssl-3.0.x
           - alpine-3.17-arm64-openssl-3.0.x
           - alpine-3.17-arm64-openssl-3.0.x-with-libc
           - alpine-latest-amd64-openssl-3.0.x
-          - amazonlinux-2-amd64-openssl-1.0.x
-          - amazonlinux-2-arm64-openssl-1.0.x
           - amazonlinux-2022-amd64-openssl-3.0.x
           - amazonlinux-2022-arm64-openssl-3.0.x
           - archlinux-latest-amd64-openssl-3.0.x
@@ -1874,7 +1801,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 16
+          node-version: 18
           cache: 'pnpm'
           cache-dependency-path: ${{ github.job }}/${{ matrix.feature }}/pnpm-lock.yaml
 
@@ -1910,8 +1837,13 @@ jobs:
       fail-fast: false
       matrix:
         feature:
+          - alpine-3.16-amd64-openssl-1.1.x
+          - alpine-3.16-arm64-openssl-1.1.x
+          - alpine-3.16-arm64-openssl-1.1.x-with-libc
           - debian-buster-amd64-openssl-1.1.x
           - debian-latest-arm-openssl-1.1.x
+          - amazonlinux-2-amd64-openssl-1.0.x
+          - amazonlinux-2-arm64-openssl-1.0.x
         clientEngine: [library, binary]
         os: [ubuntu-20.04]
     runs-on: ${{ matrix.os }}
@@ -1925,7 +1857,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 16
+          node-version: 18
           cache: 'pnpm'
           cache-dependency-path: ${{ github.job }}/${{ matrix.feature }}/pnpm-lock.yaml
 
