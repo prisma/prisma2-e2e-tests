@@ -29,8 +29,8 @@ dependencies:
 
 devDependencies:
   '@antfu/ni':
-    specifier: 0.23.0
-    version: 0.23.0
+    specifier: 0.23.1
+    version: 0.23.1
   '@slack/webhook':
     specifier: 6.1.0
     version: 6.1.0
@@ -54,8 +54,8 @@ packages:
       '@jridgewell/trace-mapping': 0.3.18
     dev: false
 
-  /@antfu/ni@0.23.0:
-    resolution: {integrity: sha512-R5/GkA3PfGewAXLzz6lN5XagunF6PKeDtWt8dbZQXvHfebLS0qEczV+Azg/d+tKgSh6kRBpxvu8oSjARdPtw0A==}
+  /@antfu/ni@0.23.1:
+    resolution: {integrity: sha512-VFAvMTJhjP6L7CuBKT5FioDCSpdmZxJ4POKTJOrFNicI2CK6mlaRwVEBGWLGm2V6BtQgdbBn9X68piHSbw5wQQ==}
     hasBin: true
     dev: true
 
