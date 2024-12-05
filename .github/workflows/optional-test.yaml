@@ -47,7 +47,7 @@ jobs:
   # Depending on the output we will run some or all tests as fallback
   detect_jobs_to_run:
     name: Detect jobs to run
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     outputs:
       jobs: ${{ steps.detect.outputs.jobs }}
     steps:
@@ -70,7 +70,7 @@ jobs:
         run: ./.github/workflows/scripts/detect-jobs-to-run.js <<<'${{ steps.files.outputs.all }}'
 
   report-to-slack-success:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     needs:
       - community-generators
 
@@ -89,7 +89,7 @@ jobs:
         run: bash .github/scripts/slack-workflow-status.sh "(Optional tests) :white_check_mark:"
 
   report-to-slack-failure:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     needs:
       - community-generators
 
@@ -116,7 +116,7 @@ jobs:
       matrix:
         generator: [prisma-dbml-generator, typegraphql-prisma, prisma-json-schema-generator, prisma-nestjs-graphql]
         clientEngine: ['library', 'binary']
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
 
     env:
       DB_URL_COMMUNITY_GENERATOR_TYPEGRAPHQL_PRISMA: ${{ secrets.DB_URL_COMMUNITY_GENERATOR_TYPEGRAPHQL_PRISMA }}
