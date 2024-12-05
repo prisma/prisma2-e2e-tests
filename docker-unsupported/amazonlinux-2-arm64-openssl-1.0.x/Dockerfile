@@ -1,7 +1,7 @@
 # syntax=docker/dockerfile:1
 
 # substitute for centos
-FROM amazonlinux:2
+FROM amazonlinux:2023
 
 # Node.js 18 isn't compatible with Amazon Linux due to glibc version. It would throw with:
 #   node: /lib64/libm.so.6: version `GLIBC_2.27' not found (required by node)
