@@ -9,7 +9,7 @@
     "yaml": "2.6.0"
   },
   "devDependencies": {
-    "@antfu/ni": "0.23.0",
+    "@antfu/ni": "0.23.1",
     "@slack/webhook": "6.1.0",
     "@types/node": "18.19.64",
     "ts-node": "10.9.2",
