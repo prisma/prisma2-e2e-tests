@@ -2,7 +2,7 @@
   "name": "@prisma/alpine-3.16-amd64-openssl-1.1.x",
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "18.19.64",
+    "@types/node": "18.19.67",
     "prisma": "6.1.0-dev.13",
     "ts-node": "10.9.2",
     "typescript": "5.6.3"

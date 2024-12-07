@@ -14,17 +14,17 @@ dependencies:
 
 devDependencies:
   '@types/node':
-    specifier: 18.19.64
-    version: 18.19.64
+    specifier: 18.19.67
+    version: 18.19.67
   heroku:
     specifier: 8.11.5
-    version: 8.11.5(@oclif/config@1.18.17)(@types/node@18.19.64)(typescript@5.6.3)
+    version: 8.11.5(@oclif/config@1.18.17)(@types/node@18.19.67)(typescript@5.6.3)
   prisma:
     specifier: 6.1.0-dev.13
     version: 6.1.0-dev.13
   ts-node:
     specifier: 10.9.2
-    version: 10.9.2(@types/node@18.19.64)(typescript@5.6.3)
+    version: 10.9.2(@types/node@18.19.67)(typescript@5.6.3)
 
 packages:
 
@@ -63,12 +63,12 @@ packages:
       tslib: 1.14.1
     dev: true
 
-  /@heroku-cli/command@10.0.0(@types/node@18.19.64)(typescript@5.6.3):
+  /@heroku-cli/command@10.0.0(@types/node@18.19.67)(typescript@5.6.3):
     resolution: {integrity: sha512-O+kjmaZtCcDL4nRiJTYxIPM4LA7S9wl1DH7DX6Wkdrd7qSFmyxxVhBDlKKTJyKvTTpZdPi4S0Q5CpMVXKVj/XQ==}
     engines: {node: '>=14.0.0'}
     dependencies:
       '@heroku-cli/color': 1.1.16
-      '@oclif/core': 2.16.0(@types/node@18.19.64)(typescript@5.6.3)
+      '@oclif/core': 2.16.0(@types/node@18.19.67)(typescript@5.6.3)
       cli-ux: 6.0.9
       debug: 4.3.4(supports-color@8.1.1)
       fs-extra: 7.0.1
@@ -180,11 +180,11 @@ packages:
       printf: 0.3.0
     dev: true
 
-  /@heroku-cli/plugin-apps-v5@8.11.2(@types/node@18.19.64)(typescript@5.6.3):
+  /@heroku-cli/plugin-apps-v5@8.11.2(@types/node@18.19.67)(typescript@5.6.3):
     resolution: {integrity: sha512-p4vXSUKRrV041CNu4Lr3bVEt81m1wgcR3U59usye7EnHDG7i+1NGTFXR0M8/8hTMpF1vvBhk/Ei4aBb/mol0sg==}
     dependencies:
       '@heroku-cli/command': 9.0.2
-      '@oclif/core': 2.16.0(@types/node@18.19.64)(typescript@5.6.3)
+      '@oclif/core': 2.16.0(@types/node@18.19.67)(typescript@5.6.3)
       filesize: 4.2.1
       fs-extra: 7.0.1
       heroku-cli-util: 8.0.12
@@ -217,12 +217,12 @@ packages:
       psl: 1.9.0
     dev: true
 
-  /@heroku-cli/plugin-ci-v5@8.11.5(@types/node@18.19.64)(typescript@5.6.3):
+  /@heroku-cli/plugin-ci-v5@8.11.5(@types/node@18.19.67)(typescript@5.6.3):
     resolution: {integrity: sha512-QI2wG9JAqjgAAtMAMMXEFzJen9sZsFMpBMV8x73NVmYcCFZFiYLkJl57ob2+CU4q26LYK60ik0AH8VKxmajp6w==}
     engines: {node: '>=14'}
     dependencies:
       '@heroku-cli/command': 9.0.2
-      '@heroku-cli/plugin-run-v5': 8.11.5(@types/node@18.19.64)(typescript@5.6.3)
+      '@heroku-cli/plugin-run-v5': 8.11.5(@types/node@18.19.67)(typescript@5.6.3)
       ansi-escapes: 3.2.0
       bluebird: 3.7.2
       github-url-to-object: 4.0.6
@@ -315,14 +315,14 @@ packages:
       ssh2: 1.15.0
     dev: true
 
-  /@heroku-cli/plugin-run-v5@8.11.5(@types/node@18.19.64)(typescript@5.6.3):
+  /@heroku-cli/plugin-run-v5@8.11.5(@types/node@18.19.67)(typescript@5.6.3):
     resolution: {integrity: sha512-a4WdBmgBYKkAC0tMS/dHUwAmIhZGtcFBPMP6C1APxKYiHPGySCxVzDJkTZSymCh4QyHDAj0pacjpLlrEvhKNMA==}
     dependencies:
       '@heroku-cli/color': 2.0.1
       '@heroku-cli/command': 9.0.2
       '@heroku-cli/notifications': 1.2.4
       '@heroku/eventsource': 1.0.7
-      '@oclif/core': 2.16.0(@types/node@18.19.64)(typescript@5.6.3)
+      '@oclif/core': 2.16.0(@types/node@18.19.67)(typescript@5.6.3)
       debug: 4.3.7(supports-color@8.1.1)
       fs-extra: 7.0.1
       heroku-cli-util: 8.0.12
@@ -534,7 +534,7 @@ packages:
       wrap-ansi: 7.0.0
     dev: true
 
-  /@oclif/core@2.16.0(@types/node@18.19.64)(typescript@5.6.3):
+  /@oclif/core@2.16.0(@types/node@18.19.67)(typescript@5.6.3):
     resolution: {integrity: sha512-dL6atBH0zCZl1A1IXCKJgLPrM/wR7K+Wi401E/IvqsK8m2iCHW+0TEOGrans/cuN3oTW+uxIyJFHJ8Im0k4qBw==}
     engines: {node: '>=14.0.0'}
     dependencies:
@@ -561,7 +561,7 @@ packages:
       strip-ansi: 6.0.1
       supports-color: 8.1.1
       supports-hyperlinks: 2.3.0
-      ts-node: 10.9.2(@types/node@18.19.64)(typescript@5.6.3)
+      ts-node: 10.9.2(@types/node@18.19.67)(typescript@5.6.3)
       tslib: 2.6.2
       widest-line: 3.1.0
       wordwrap: 1.0.0
@@ -626,11 +626,11 @@ packages:
       lodash: 4.17.21
     dev: true
 
-  /@oclif/plugin-help@5.2.20(@types/node@18.19.64)(typescript@5.6.3):
+  /@oclif/plugin-help@5.2.20(@types/node@18.19.67)(typescript@5.6.3):
     resolution: {integrity: sha512-u+GXX/KAGL9S10LxAwNUaWdzbEBARJ92ogmM7g3gDVud2HioCmvWQCDohNRVZ9GYV9oKwZ/M8xwd6a1d95rEKQ==}
     engines: {node: '>=12.0.0'}
     dependencies:
-      '@oclif/core': 2.16.0(@types/node@18.19.64)(typescript@5.6.3)
+      '@oclif/core': 2.16.0(@types/node@18.19.67)(typescript@5.6.3)
     transitivePeerDependencies:
       - '@swc/core'
       - '@swc/wasm'
@@ -664,12 +664,12 @@ packages:
       lodash: 4.17.21
     dev: true
 
-  /@oclif/plugin-plugins@2.4.3(@types/node@18.19.64)(typescript@5.6.3):
+  /@oclif/plugin-plugins@2.4.3(@types/node@18.19.67)(typescript@5.6.3):
     resolution: {integrity: sha512-dkbzijBkWVCwETQHFIsWTyjX4Sfk8qF6LoWSb5jE6drwlYd89YcrneMLEYn3Fbs/vKUUjxDhO1wFwAatibbHGw==}
     engines: {node: '>=12.0.0'}
     dependencies:
       '@oclif/color': 1.0.13
-      '@oclif/core': 2.16.0(@types/node@18.19.64)(typescript@5.6.3)
+      '@oclif/core': 2.16.0(@types/node@18.19.67)(typescript@5.6.3)
       chalk: 4.1.2
       debug: 4.3.4(supports-color@8.1.1)
       fs-extra: 9.1.0
@@ -687,11 +687,11 @@ packages:
       - typescript
     dev: true
 
-  /@oclif/plugin-update@3.2.4(@types/node@18.19.64)(typescript@5.6.3):
+  /@oclif/plugin-update@3.2.4(@types/node@18.19.67)(typescript@5.6.3):
     resolution: {integrity: sha512-41G7NTKND+yTpb8LHlvlMIcNoaEUIIJuEwju9igL+ME/pN/53opeXgFV2IjjeFiexXj50OfesY9OQ6lqOZHw+g==}
     engines: {node: '>=12.0.0'}
     dependencies:
-      '@oclif/core': 2.16.0(@types/node@18.19.64)(typescript@5.6.3)
+      '@oclif/core': 2.16.0(@types/node@18.19.67)(typescript@5.6.3)
       chalk: 4.1.2
       cross-spawn: 7.0.3
       debug: 4.3.4(supports-color@8.1.1)
@@ -711,11 +711,11 @@ packages:
       - typescript
     dev: true
 
-  /@oclif/plugin-version@1.3.10(@types/node@18.19.64)(typescript@5.6.3):
+  /@oclif/plugin-version@1.3.10(@types/node@18.19.67)(typescript@5.6.3):
     resolution: {integrity: sha512-TiRZALUcv4hwGTPoTyA3nOWtRew9DT4Ge1FeYx16xnuAsWryvJe3IHXmCm6b1VYhzTJhV2XH5U1DqllrQB2YaA==}
     engines: {node: '>=14.0.0'}
     dependencies:
-      '@oclif/core': 2.16.0(@types/node@18.19.64)(typescript@5.6.3)
+      '@oclif/core': 2.16.0(@types/node@18.19.67)(typescript@5.6.3)
     transitivePeerDependencies:
       - '@swc/core'
       - '@swc/wasm'
@@ -723,11 +723,11 @@ packages:
       - typescript
     dev: true
 
-  /@oclif/plugin-warn-if-update-available@2.0.29(@types/node@18.19.64)(typescript@5.6.3):
+  /@oclif/plugin-warn-if-update-available@2.0.29(@types/node@18.19.67)(typescript@5.6.3):
     resolution: {integrity: sha512-F69P5DwKzKYQgIND//ekFWTo7IGHhSOgC9mC3SieImP0+X8catxnyxSHZZA1uElSntK4xqGyd9ZPuURilBTJOw==}
     engines: {node: '>=12.0.0'}
     dependencies:
-      '@oclif/core': 2.16.0(@types/node@18.19.64)(typescript@5.6.3)
+      '@oclif/core': 2.16.0(@types/node@18.19.67)(typescript@5.6.3)
       chalk: 4.1.2
       debug: 4.3.4(supports-color@8.1.1)
       fs-extra: 9.1.0
@@ -1058,17 +1058,17 @@ packages:
   /@types/cli-progress@3.11.5:
     resolution: {integrity: sha512-D4PbNRbviKyppS5ivBGyFO29POlySLmA2HyUFE4p5QGazAMM3CwkKWcvTl8gvElSuxRh6FPKL8XmidX873ou4g==}
     dependencies:
-      '@types/node': 18.19.64
+      '@types/node': 18.19.67
     dev: true
 
   /@types/keyv@3.1.4:
     resolution: {integrity: sha512-BQ5aZNSCpj7D6K2ksrRCTmKRLEpnPvWDiLPfoGyhZ++8YtiK9d/3DBKPJgry359X/P1PfruyYwvnvwFjuEiEIg==}
     dependencies:
-      '@types/node': 18.19.64
+      '@types/node': 18.19.67
     dev: true
 
-  /@types/node@18.19.64:
-    resolution: {integrity: sha512-955mDqvO2vFf/oL7V3WiUtiz+BugyX8uVbaT2H8oj3+8dRyH2FLiNdowe7eNqRM7IOIZvzDH76EoAT+gwm6aIQ==}
+  /@types/node@18.19.67:
+    resolution: {integrity: sha512-wI8uHusga+0ZugNp0Ol/3BqQfEcCCNfojtO6Oou9iVNGPTL6QNSdnUdqq85fRgIorLhLMuPIKpsN98QE9Nh+KQ==}
     dependencies:
       undici-types: 5.26.5
     dev: true
@@ -1076,7 +1076,7 @@ packages:
   /@types/responselike@1.0.3:
     resolution: {integrity: sha512-H/+L+UkTV33uf49PH5pCAUBVPNj2nDBXTN+qS1dOwyyg24l3CcicicCA7ca+HMvJBZcFgl5r8e+RR6elsb4Lyw==}
     dependencies:
-      '@types/node': 18.19.64
+      '@types/node': 18.19.67
     dev: true
 
   /@types/shimmer@1.0.5:
@@ -2364,19 +2364,19 @@ packages:
     resolution: {integrity: sha512-bfnA2ZfydOonhdJDdk4AyH90+ln/O2gva+t2tx7YIM7tny6ExPwEyfqPeklwVM6zTraimSGNQfyE2DNRpLa/KA==}
     dev: true
 
-  /heroku@8.11.5(@oclif/config@1.18.17)(@types/node@18.19.64)(typescript@5.6.3):
+  /heroku@8.11.5(@oclif/config@1.18.17)(@types/node@18.19.67)(typescript@5.6.3):
     resolution: {integrity: sha512-Or3J5qW9fyO+A/w0G4pybjfvd+5AVK8l1fJn7Y+XGKUfAOhZf1Hb5+4Ev6udv2Jxzk1KLHUWEo5dqTAtWv9W+A==}
     engines: {node: ~16.20.0}
     hasBin: true
     dependencies:
       '@heroku-cli/color': 2.0.1
-      '@heroku-cli/command': 10.0.0(@types/node@18.19.64)(typescript@5.6.3)
+      '@heroku-cli/command': 10.0.0(@types/node@18.19.67)(typescript@5.6.3)
       '@heroku-cli/command-v9': /@heroku-cli/command@9.1.0
       '@heroku-cli/notifications': 1.2.4
       '@heroku-cli/plugin-addons-v5': 8.11.2
-      '@heroku-cli/plugin-apps-v5': 8.11.2(@types/node@18.19.64)(typescript@5.6.3)
+      '@heroku-cli/plugin-apps-v5': 8.11.2(@types/node@18.19.67)(typescript@5.6.3)
       '@heroku-cli/plugin-certs-v5': 8.11.3
-      '@heroku-cli/plugin-ci-v5': 8.11.5(@types/node@18.19.64)(typescript@5.6.3)
+      '@heroku-cli/plugin-ci-v5': 8.11.5(@types/node@18.19.67)(typescript@5.6.3)
       '@heroku-cli/plugin-container-registry-v5': 8.11.2
       '@heroku-cli/plugin-orgs-v5': 8.11.2
       '@heroku-cli/plugin-pg-v5': 8.11.2
@@ -2388,16 +2388,16 @@ packages:
       '@heroku-cli/schema': 1.0.25
       '@heroku/buildpack-registry': 1.0.1
       '@heroku/eventsource': 1.0.7
-      '@oclif/core': 2.16.0(@types/node@18.19.64)(typescript@5.6.3)
+      '@oclif/core': 2.16.0(@types/node@18.19.67)(typescript@5.6.3)
       '@oclif/core-v1': /@oclif/core@1.26.2
       '@oclif/plugin-commands': 2.2.2
-      '@oclif/plugin-help': 5.2.20(@types/node@18.19.64)(typescript@5.6.3)
+      '@oclif/plugin-help': 5.2.20(@types/node@18.19.67)(typescript@5.6.3)
       '@oclif/plugin-legacy': 1.3.6(@oclif/config@1.18.17)
       '@oclif/plugin-not-found': 2.3.16
-      '@oclif/plugin-plugins': 2.4.3(@types/node@18.19.64)(typescript@5.6.3)
-      '@oclif/plugin-update': 3.2.4(@types/node@18.19.64)(typescript@5.6.3)
-      '@oclif/plugin-version': 1.3.10(@types/node@18.19.64)(typescript@5.6.3)
-      '@oclif/plugin-warn-if-update-available': 2.0.29(@types/node@18.19.64)(typescript@5.6.3)
+      '@oclif/plugin-plugins': 2.4.3(@types/node@18.19.67)(typescript@5.6.3)
+      '@oclif/plugin-update': 3.2.4(@types/node@18.19.67)(typescript@5.6.3)
+      '@oclif/plugin-version': 1.3.10(@types/node@18.19.67)(typescript@5.6.3)
+      '@oclif/plugin-warn-if-update-available': 2.0.29(@types/node@18.19.67)(typescript@5.6.3)
       '@oclif/plugin-which': 2.2.8
       '@opentelemetry/api': 1.8.0
       '@opentelemetry/exporter-trace-otlp-http': 0.41.2(@opentelemetry/api@1.8.0)
@@ -3911,7 +3911,7 @@ packages:
     resolution: {integrity: sha512-ZdlJjMyNBtOjlR0qbYboAfdnXYhUPuD5F5QOAaKEgdUPg3UTxuTfC5cu3MidWIRemI3iWcuUZEwKybDJXP0Ocw==}
     dev: true
 
-  /ts-node@10.9.2(@types/node@18.19.64)(typescript@5.6.3):
+  /ts-node@10.9.2(@types/node@18.19.67)(typescript@5.6.3):
     resolution: {integrity: sha512-f0FFpIdcHgn8zcPSbf1dRevwt047YMnaiJM3u2w2RewrB+fob/zePZcrOyQoLMMO7aBIddLcQIEK5dYjkLnGrQ==}
     hasBin: true
     peerDependencies:
@@ -3930,7 +3930,7 @@ packages:
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.3
-      '@types/node': 18.19.64
+      '@types/node': 18.19.67
       acorn: 8.8.2
       acorn-walk: 8.2.0
       arg: 4.1.3
