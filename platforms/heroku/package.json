@@ -5,7 +5,7 @@
   "license": "MIT",
   "devDependencies": {
     "@types/node": "18.19.67",
-    "heroku": "8.11.5",
+    "heroku": "9.5.1",
     "prisma": "6.1.0-dev.13",
     "ts-node": "10.9.2"
   },
