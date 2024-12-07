@@ -5,7 +5,7 @@
   "license": "MIT",
   "packageManager": "pnpm@8.15.9",
   "devDependencies": {
-    "@types/node": "18.19.64",
+    "@types/node": "18.19.67",
     "prisma": "6.1.0-dev.13",
     "ts-node": "10.9.2"
   },

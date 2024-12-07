@@ -20,8 +20,8 @@ dependencies:
 
 devDependencies:
   '@types/node':
-    specifier: 18.19.64
-    version: 18.19.64
+    specifier: 18.19.67
+    version: 18.19.67
   '@types/react':
     specifier: 18.3.12
     version: 18.3.12
@@ -170,8 +170,8 @@ packages:
       tslib: 2.6.0
     dev: false
 
-  /@types/node@18.19.64:
-    resolution: {integrity: sha512-955mDqvO2vFf/oL7V3WiUtiz+BugyX8uVbaT2H8oj3+8dRyH2FLiNdowe7eNqRM7IOIZvzDH76EoAT+gwm6aIQ==}
+  /@types/node@18.19.67:
+    resolution: {integrity: sha512-wI8uHusga+0ZugNp0Ol/3BqQfEcCCNfojtO6Oou9iVNGPTL6QNSdnUdqq85fRgIorLhLMuPIKpsN98QE9Nh+KQ==}
     dependencies:
       undici-types: 5.26.5
     dev: true

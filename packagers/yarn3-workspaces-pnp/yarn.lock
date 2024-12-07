@@ -277,12 +277,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:18.19.64":
-  version: 18.19.64
-  resolution: "@types/node@npm:18.19.64"
+"@types/node@npm:18.19.67":
+  version: 18.19.67
+  resolution: "@types/node@npm:18.19.67"
   dependencies:
     undici-types: ~5.26.4
-  checksum: e7680215b03c9bee8a33947f03d06048e8e460f23b1b7b29c45350cf437faa5f8fcb7d8c3eb8dfec8427923e7a184df42bc710c1b6252b4852e3ed7064c6228f
+  checksum: 700f92c6a0b63352ce6327286392adab30bb17623c2a788811e9cf092c4dc2fb5e36ca4727247a981b3f44185fdceef20950a3b7a8ab72721e514ac037022a08
   languageName: node
   linkType: hard
 
@@ -1789,7 +1789,7 @@ __metadata:
   resolution: "sub-project-1@workspace:packages/sub-project-1"
   dependencies:
     "@prisma/client": 6.1.0-dev.13
-    "@types/node": 18.19.64
+    "@types/node": 18.19.67
     "@yarnpkg/pnpify": 3.1.8
     prisma: 6.1.0-dev.13
     ts-node: 10.9.2
@@ -1801,7 +1801,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "sub-project-2@workspace:packages/sub-project-2"
   dependencies:
-    "@types/node": 18.19.64
+    "@types/node": 18.19.67
     sub-project-1: "workspace:packages/sub-project-1"
     ts-node: 10.9.2
     typescript: 5.6.3
