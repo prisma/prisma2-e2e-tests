@@ -3,7 +3,7 @@
   "name": "sub-project-1",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
-  "packageManager": "yarn@3.8.6",
+  "packageManager": "yarn@3.8.7",
   "devDependencies": {
     "@types/node": "18.19.67",
     "prisma": "6.1.0-dev.13",

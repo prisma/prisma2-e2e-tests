@@ -3,7 +3,7 @@
     "workspaces": [
         "packages/*"
     ],
-    "packageManager": "yarn@3.8.6",
+    "packageManager": "yarn@3.8.7",
     "dependencies": {
         "@prisma/client": "6.1.0-dev.13",
         "prisma": "6.1.0-dev.13"
