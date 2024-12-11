@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "sub-project-2",
-  "packageManager": "yarn@3.8.6",
+  "packageManager": "yarn@3.8.7",
   "dependencies": {
     "sub-project-1": "workspace:packages/sub-project-1"
   },
