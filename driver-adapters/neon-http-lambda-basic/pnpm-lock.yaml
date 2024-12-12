@@ -6,11 +6,11 @@ settings:
 
 dependencies:
   '@neondatabase/serverless':
-    specifier: 0.10.3
-    version: 0.10.3
+    specifier: 0.10.4
+    version: 0.10.4
   '@prisma/adapter-neon':
     specifier: 6.1.0-dev.13
-    version: 6.1.0-dev.13(@neondatabase/serverless@0.10.3)
+    version: 6.1.0-dev.13(@neondatabase/serverless@0.10.4)
   '@prisma/client':
     specifier: 6.1.0-dev.13
     version: 6.1.0-dev.13(prisma@6.1.0-dev.13)
@@ -1524,8 +1524,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.14
     dev: true
 
-  /@neondatabase/serverless@0.10.3:
-    resolution: {integrity: sha512-F4kqSj++GUwLnO3OzPb95Y/xn3qVLkjJA/36YTqT7c3MRgA/IBOIs/Is1+HBZkGfEwfMG3A9tFkxiEg5eBjxDw==}
+  /@neondatabase/serverless@0.10.4:
+    resolution: {integrity: sha512-2nZuh3VUO9voBauuh+IGYRhGU/MskWHt1IuZvHcJw6GLjDgtqj/KViKo7SIrLdGLdot7vFbiRRw+BgEy3wT9HA==}
     dependencies:
       '@types/pg': 8.11.6
     dev: false
@@ -1535,12 +1535,12 @@ packages:
     hasBin: true
     dev: true
 
-  /@prisma/adapter-neon@6.1.0-dev.13(@neondatabase/serverless@0.10.3):
+  /@prisma/adapter-neon@6.1.0-dev.13(@neondatabase/serverless@0.10.4):
     resolution: {integrity: sha512-AahIStX33UOFW0eOuRmm8vOlMPGDBdRjaFwwdxN5B49qslyqQBrbaBhMrW9QWmsnEmogI2ONVmf+wixEPY6Ptw==}
     peerDependencies:
       '@neondatabase/serverless': ^0.6.0 || ^0.7.0 || ^0.8.0 || ^0.9.0 || ^0.10.0
     dependencies:
-      '@neondatabase/serverless': 0.10.3
+      '@neondatabase/serverless': 0.10.4
       '@prisma/driver-adapter-utils': 6.1.0-dev.13
       postgres-array: 3.0.2
     dev: false
