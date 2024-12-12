@@ -6,11 +6,11 @@ settings:
 
 dependencies:
   '@neondatabase/serverless':
-    specifier: 0.10.3
-    version: 0.10.3
+    specifier: 0.10.4
+    version: 0.10.4
   '@prisma/adapter-neon':
     specifier: 6.1.0-dev.13
-    version: 6.1.0-dev.13(@neondatabase/serverless@0.10.3)
+    version: 6.1.0-dev.13(@neondatabase/serverless@0.10.4)
   '@prisma/client':
     specifier: 6.1.0-dev.13
     version: 6.1.0-dev.13(prisma@6.1.0-dev.13)
@@ -1808,8 +1808,8 @@ packages:
       - supports-color
     dev: true
 
-  /@neondatabase/serverless@0.10.3:
-    resolution: {integrity: sha512-F4kqSj++GUwLnO3OzPb95Y/xn3qVLkjJA/36YTqT7c3MRgA/IBOIs/Is1+HBZkGfEwfMG3A9tFkxiEg5eBjxDw==}
+  /@neondatabase/serverless@0.10.4:
+    resolution: {integrity: sha512-2nZuh3VUO9voBauuh+IGYRhGU/MskWHt1IuZvHcJw6GLjDgtqj/KViKo7SIrLdGLdot7vFbiRRw+BgEy3wT9HA==}
     dependencies:
       '@types/pg': 8.11.6
     dev: false
@@ -1887,12 +1887,12 @@ packages:
     dev: true
     optional: true
 
-  /@prisma/adapter-neon@6.1.0-dev.13(@neondatabase/serverless@0.10.3):
+  /@prisma/adapter-neon@6.1.0-dev.13(@neondatabase/serverless@0.10.4):
     resolution: {integrity: sha512-AahIStX33UOFW0eOuRmm8vOlMPGDBdRjaFwwdxN5B49qslyqQBrbaBhMrW9QWmsnEmogI2ONVmf+wixEPY6Ptw==}
     peerDependencies:
       '@neondatabase/serverless': ^0.6.0 || ^0.7.0 || ^0.8.0 || ^0.9.0 || ^0.10.0
     dependencies:
-      '@neondatabase/serverless': 0.10.3
+      '@neondatabase/serverless': 0.10.4
       '@prisma/driver-adapter-utils': 6.1.0-dev.13
       postgres-array: 3.0.2
     dev: false
@@ -2375,7 +2375,7 @@ packages:
   /@types/graceful-fs@4.1.9:
     resolution: {integrity: sha512-olP3sd1qOEe5dXTSaFvQG+02VdRXcdytWLAZsAq1PecU8uqQAhkrnbli7DagjtXKW/Bl7YJbUsa8MPcuc8LHEQ==}
     dependencies:
-      '@types/node': 20.12.11
+      '@types/node': 22.9.0
     dev: true
 
   /@types/hast@2.3.10:
@@ -2436,17 +2436,17 @@ packages:
     resolution: {integrity: sha512-Xjs4y5UPO/CLdzpgR6GirZJx36yScjh73+2NlLlkFRSoQN8B0DpfXPdZGnvVmLRLOsqDpOfTNv7D9trgGhmOIA==}
     dependencies:
       undici-types: 6.19.8
+    dev: true
 
   /@types/node@22.9.0:
     resolution: {integrity: sha512-vuyHg81vvWA1Z1ELfvLko2c8f34gyA0zaic0+Rllc5lbCnbSyuvb2Oxpm6TAUAC/2xZN3QGqxBNggD1nNR2AfQ==}
     dependencies:
       undici-types: 6.19.8
-    dev: true
 
   /@types/pg@8.11.6:
     resolution: {integrity: sha512-/2WmmBXHLsfRqzfHW7BNZ8SbYzE8OSk7i3WjFYvfgRHj7S1xj+16Je5fUKv3lVdVzk/zn9TXOqf+avFCFIE0yQ==}
     dependencies:
-      '@types/node': 22.5.5
+      '@types/node': 22.9.0
       pg-protocol: 1.6.1
       pg-types: 4.0.2
     dev: false
@@ -2653,7 +2653,7 @@ packages:
       '@babel/plugin-syntax-typescript': 7.25.9(@babel/core@7.26.0)
       '@vanilla-extract/babel-plugin-debug-ids': 1.1.0
       '@vanilla-extract/css': 1.16.0
-      esbuild: 0.17.6
+      esbuild: 0.17.19
       eval: 0.1.8
       find-up: 5.0.0
       javascript-stringify: 2.1.0
