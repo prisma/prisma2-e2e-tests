@@ -1,10 +1,12 @@
 # syntax=docker/dockerfile:1
 
-FROM node:current-alpine
+FROM node:22-alpine3.21
 
 WORKDIR /usr/src/app
 COPY --from=app . ./
 COPY --from=utils . ./
+
+RUN apk update
 
 # Only OpenSSL 3 is expected to be on this system
 RUN if [ ! -e /usr/lib/libssl.so.3 ]; then echo 'OpenSSL 3 not found in /lib/libssl.so.3'; exit 1; fi
@@ -15,7 +17,7 @@ RUN if [ -e /lib/libssl.so.3 ]; then echo '/lib/libssl.so.3 must not exist'; exi
 RUN if [ -e /lib/libssl.so.1.1 ]; then echo '/lib/libssl.so.1.1'; exit 1; fi
 
 # expected target platform for Prisma, retrieved by `prisma -v`
-ARG EXPECTED_PRISMA_TARGET_PLATFORM="linux-musl-openssl-3.0.x"
+ARG EXPECTED_PRISMA_TARGET_PLATFORM="linux-musl-arm64-openssl-3.0.x"
 ARG PRISMA_ENGINES_MIRROR
 ARG PRISMA_CLIENT_ENGINE_TYPE
 ARG PRISMA_CLI_QUERY_ENGINE_TYPE
