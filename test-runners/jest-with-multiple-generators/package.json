@@ -10,7 +10,7 @@
   },
   "devDependencies": {
     "@types/jest": "29.5.14",
-    "@types/node": "18.19.67",
+    "@types/node": "18.19.68",
     "prisma": "6.1.0-dev.14",
     "ts-node": "10.9.2",
     "typescript": "5.6.3"
