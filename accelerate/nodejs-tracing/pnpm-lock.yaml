@@ -48,10 +48,10 @@ devDependencies:
     version: 6.1.0-dev.15
   ts-jest:
     specifier: 29.2.5
-    version: 29.2.5(@babel/core@7.21.8)(jest@29.7.0)(typescript@5.6.3)
+    version: 29.2.5(@babel/core@7.21.8)(jest@29.7.0)(typescript@5.7.2)
   typescript:
-    specifier: 5.6.3
-    version: 5.6.3
+    specifier: 5.7.2
+    version: 5.7.2
 
 packages:
 
@@ -2463,7 +2463,7 @@ packages:
       is-number: 7.0.0
     dev: true
 
-  /ts-jest@29.2.5(@babel/core@7.21.8)(jest@29.7.0)(typescript@5.6.3):
+  /ts-jest@29.2.5(@babel/core@7.21.8)(jest@29.7.0)(typescript@5.7.2):
     resolution: {integrity: sha512-KD8zB2aAZrcKIdGk4OwpJggeLcH1FgrICqDSROWqlnJXGCXK4Mn6FcdK2B6670Xr73lHMG1kHw8R87A0ecZ+vA==}
     engines: {node: ^14.15.0 || ^16.10.0 || ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -2497,7 +2497,7 @@ packages:
       lodash.memoize: 4.1.2
       make-error: 1.3.6
       semver: 7.6.3
-      typescript: 5.6.3
+      typescript: 5.7.2
       yargs-parser: 21.1.1
     dev: true
 
@@ -2511,8 +2511,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /typescript@5.6.3:
-    resolution: {integrity: sha512-hjcS1mhfuyi4WW8IWtjP7brDrG2cuDZukyrYrSauoXGNgx0S7zceP07adYkJycEr56BOUTNPzbInooiN3fn1qw==}
+  /typescript@5.7.2:
+    resolution: {integrity: sha512-i5t66RHxDvVN40HfDd1PsEThGNnlMCMT3jMUuoh9/0TaqWevNontacunWyN02LA9/fIbEWlcHZcgTKb9QoaLfg==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true

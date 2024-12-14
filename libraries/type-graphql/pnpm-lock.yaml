@@ -39,13 +39,13 @@ devDependencies:
     version: 6.1.0-dev.15
   ts-node:
     specifier: 10.9.2
-    version: 10.9.2(@types/node@18.19.68)(typescript@5.6.3)
+    version: 10.9.2(@types/node@18.19.68)(typescript@5.7.2)
   ts-node-dev:
     specifier: 2.0.0
-    version: 2.0.0(@types/node@18.19.68)(typescript@5.6.3)
+    version: 2.0.0(@types/node@18.19.68)(typescript@5.7.2)
   typescript:
-    specifier: 5.6.3
-    version: 5.6.3
+    specifier: 5.7.2
+    version: 5.7.2
 
 packages:
 
@@ -1388,7 +1388,7 @@ packages:
     hasBin: true
     dev: true
 
-  /ts-node-dev@2.0.0(@types/node@18.19.68)(typescript@5.6.3):
+  /ts-node-dev@2.0.0(@types/node@18.19.68)(typescript@5.7.2):
     resolution: {integrity: sha512-ywMrhCfH6M75yftYvrvNarLEY+SUXtUvU8/0Z6llrHQVBx12GiFk5sStF8UdfE/yfzk9IAq7O5EEbTQsxlBI8w==}
     engines: {node: '>=0.8.0'}
     hasBin: true
@@ -1407,16 +1407,16 @@ packages:
       rimraf: 2.7.1
       source-map-support: 0.5.21
       tree-kill: 1.2.2
-      ts-node: 10.9.2(@types/node@18.19.68)(typescript@5.6.3)
+      ts-node: 10.9.2(@types/node@18.19.68)(typescript@5.7.2)
       tsconfig: 7.0.0
-      typescript: 5.6.3
+      typescript: 5.7.2
     transitivePeerDependencies:
       - '@swc/core'
       - '@swc/wasm'
       - '@types/node'
     dev: true
 
-  /ts-node@10.9.2(@types/node@18.19.68)(typescript@5.6.3):
+  /ts-node@10.9.2(@types/node@18.19.68)(typescript@5.7.2):
     resolution: {integrity: sha512-f0FFpIdcHgn8zcPSbf1dRevwt047YMnaiJM3u2w2RewrB+fob/zePZcrOyQoLMMO7aBIddLcQIEK5dYjkLnGrQ==}
     hasBin: true
     peerDependencies:
@@ -1442,7 +1442,7 @@ packages:
       create-require: 1.1.1
       diff: 4.0.2
       make-error: 1.3.6
-      typescript: 5.6.3
+      typescript: 5.7.2
       v8-compile-cache-lib: 3.0.1
       yn: 3.1.1
     dev: true
@@ -1490,8 +1490,8 @@ packages:
       mime-types: 2.1.35
     dev: false
 
-  /typescript@5.6.3:
-    resolution: {integrity: sha512-hjcS1mhfuyi4WW8IWtjP7brDrG2cuDZukyrYrSauoXGNgx0S7zceP07adYkJycEr56BOUTNPzbInooiN3fn1qw==}
+  /typescript@5.7.2:
+    resolution: {integrity: sha512-i5t66RHxDvVN40HfDd1PsEThGNnlMCMT3jMUuoh9/0TaqWevNontacunWyN02LA9/fIbEWlcHZcgTKb9QoaLfg==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
