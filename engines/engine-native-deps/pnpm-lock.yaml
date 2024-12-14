@@ -9,8 +9,8 @@ dependencies:
     specifier: 6.1.0-dev.15
     version: 6.1.0-dev.15
   zx:
-    specifier: 8.2.2
-    version: 8.2.2
+    specifier: 8.2.4
+    version: 8.2.4
 
 packages:
 
@@ -56,8 +56,8 @@ packages:
     dev: false
     optional: true
 
-  /zx@8.2.2:
-    resolution: {integrity: sha512-HSIdpU5P2ONI0nssnhsUZNCH9Sd/Z8LIFk9n8QTbu6JufzJx7qR7ajrMN21s06JqWSApcN012377iWsv8Vs5bg==}
+  /zx@8.2.4:
+    resolution: {integrity: sha512-g9wVU+5+M+zVen/3IyAZfsZFmeqb6vDfjqFggakviz5uLK7OAejOirX+jeTOkyvAh/OYRlCgw+SdqzN7F61QVQ==}
     engines: {node: '>= 12.17.0'}
     hasBin: true
     optionalDependencies:
