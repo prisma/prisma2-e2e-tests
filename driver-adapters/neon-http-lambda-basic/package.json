@@ -6,7 +6,7 @@
     "test": "jest index.test.js"
   },
   "devDependencies": {
-    "@aws-sdk/client-lambda": "3.693.0",
+    "@aws-sdk/client-lambda": "3.712.0",
     "@jest/globals": "29.7.0",
     "@jest/types": "29.6.3",
     "esbuild": "0.24.0",
