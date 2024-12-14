@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@prisma/client": "6.1.0-dev.15",
-    "express": "4.21.1",
+    "express": "4.21.2",
     "fetch-retry": "6.0.0",
     "node-fetch": "2.7.0"
   },
