@@ -6,7 +6,7 @@
   "license": "MIT",
   "dependencies": {
     "@prisma/client": "6.1.0-dev.15",
-    "dotenv": "16.4.5"
+    "dotenv": "16.4.7"
   },
   "scripts": {
     "test": "jest",
