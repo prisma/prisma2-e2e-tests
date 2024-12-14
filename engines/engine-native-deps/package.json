@@ -9,6 +9,6 @@
   },
   "dependencies": {
     "@prisma/client": "6.1.0-dev.15",
-    "zx": "8.2.2"
+    "zx": "8.2.4"
   }
 }
