@@ -13,7 +13,7 @@
     "@slack/webhook": "6.1.0",
     "@types/node": "18.19.68",
     "ts-node": "10.9.2",
-    "typescript": "5.6.3"
+    "typescript": "5.7.2"
   },
   "engines": {
     "pnpm": "8"
