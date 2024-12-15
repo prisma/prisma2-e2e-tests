@@ -6,11 +6,11 @@
   },
   "dependencies": {
     "@opentelemetry/api": "1.9.0",
-    "@opentelemetry/context-async-hooks": "1.27.0",
-    "@opentelemetry/instrumentation": "0.54.2",
-    "@opentelemetry/resources": "1.27.0",
-    "@opentelemetry/sdk-trace-base": "1.27.0",
-    "@opentelemetry/semantic-conventions": "1.27.0",
+    "@opentelemetry/context-async-hooks": "1.29.0",
+    "@opentelemetry/instrumentation": "0.56.0",
+    "@opentelemetry/resources": "1.29.0",
+    "@opentelemetry/sdk-trace-base": "1.29.0",
+    "@opentelemetry/semantic-conventions": "1.28.0",
     "@prisma/client": "6.1.0-dev.15",
     "@prisma/extension-accelerate": "1.2.1",
     "@prisma/instrumentation": "6.1.0-dev.15"
