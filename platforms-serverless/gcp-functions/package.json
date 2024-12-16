@@ -5,13 +5,13 @@
     "gcp-build": "CI=1 && PRISMA_TELEMETRY_INFORMATION='ecosystem-tests platforms/gcp-functions postinstall' && npx prisma generate"
   },
   "devDependencies": {
-    "prisma": "6.1.0-dev.25",
+    "prisma": "6.1.0-dev.27",
     "ts-node": "10.9.2",
     "typescript": "5.7.2"
   },
   "dependencies": {
     "@google-cloud/functions-framework": "3.4.3",
-    "@prisma/client": "6.1.0-dev.25",
+    "@prisma/client": "6.1.0-dev.27",
     "@types/node": "18.19.68"
   }
 }

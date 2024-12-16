@@ -4,11 +4,11 @@
     "@types/node": "18.19.68",
     "jest": "29.7.0",
     "prettier": "3.4.2",
-    "prisma": "6.1.0-dev.25",
+    "prisma": "6.1.0-dev.27",
     "ts-node": "10.9.2"
   },
   "dependencies": {
-    "@prisma/client": "6.1.0-dev.25"
+    "@prisma/client": "6.1.0-dev.27"
   },
   "scripts": {
     "test": "jest"
