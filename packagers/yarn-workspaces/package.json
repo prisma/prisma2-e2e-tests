@@ -4,7 +4,7 @@
     "prisma-project"
   ],
   "dependencies": {
-    "@prisma/client": "6.1.0-dev.16",
-    "prisma": "6.1.0-dev.16"
+    "@prisma/client": "6.1.0-dev.17",
+    "prisma": "6.1.0-dev.17"
   }
 }
