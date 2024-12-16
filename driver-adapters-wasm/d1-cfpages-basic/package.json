@@ -9,11 +9,11 @@
     "@jest/globals": "29.7.0",
     "jest": "29.7.0",
     "node-fetch": "2.7.0",
-    "prisma": "6.1.0-dev.24",
+    "prisma": "6.1.0-dev.25",
     "wrangler": "3.95.0"
   },
   "dependencies": {
-    "@prisma/adapter-d1": "6.1.0-dev.24",
-    "@prisma/client": "6.1.0-dev.24"
+    "@prisma/adapter-d1": "6.1.0-dev.25",
+    "@prisma/client": "6.1.0-dev.25"
   }
 }
