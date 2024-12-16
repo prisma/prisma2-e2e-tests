@@ -5,7 +5,7 @@
   "author": "Divyendu Singh <singh@prisma.io>",
   "license": "MIT",
   "dependencies": {
-    "@prisma/client": "6.1.0-dev.22"
+    "@prisma/client": "6.1.0-dev.24"
   },
   "scripts": {
     "test": "jest",
@@ -13,6 +13,6 @@
   },
   "devDependencies": {
     "jest": "29.7.0",
-    "prisma": "6.1.0-dev.22"
+    "prisma": "6.1.0-dev.24"
   }
 }
