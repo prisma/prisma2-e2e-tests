@@ -7,17 +7,17 @@
     "test": "jest --verbose"
   },
   "dependencies": {
-    "@prisma/client": "6.1.0-dev.14",
+    "@prisma/client": "6.1.0-dev.18",
     "execa": "^5.0.1",
     "fs-extra": "^11.0.0"
   },
   "devDependencies": {
     "@types/fs-extra": "11.0.4",
     "@types/jest": "29.5.14",
-    "@types/node": "18.19.67",
+    "@types/node": "18.19.68",
     "jest": "29.7.0",
-    "prisma": "6.1.0-dev.14",
+    "prisma": "6.1.0-dev.18",
     "ts-jest": "29.2.5",
-    "typescript": "5.6.3"
+    "typescript": "5.7.2"
   }
 }

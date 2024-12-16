@@ -6,17 +6,17 @@
     "dev": "ts-node-dev --no-notify --respawn --transpileOnly src/server"
   },
   "dependencies": {
-    "@apollo/client": "3.11.10",
+    "@apollo/client": "3.12.3",
     "@apollo/server": "4.11.2",
-    "@prisma/client": "6.1.0-dev.14",
+    "@prisma/client": "6.1.0-dev.18",
     "@types/node-fetch": "2.6.12",
-    "graphql": "16.9.0"
+    "graphql": "16.10.0"
   },
   "devDependencies": {
-    "@types/node": "18.19.67",
-    "prisma": "6.1.0-dev.14",
+    "@types/node": "18.19.68",
+    "prisma": "6.1.0-dev.18",
     "ts-node": "10.9.2",
     "ts-node-dev": "2.0.0",
-    "typescript": "5.6.3"
+    "typescript": "5.7.2"
   }
 }

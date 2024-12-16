@@ -4,16 +4,16 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "18.19.67",
+    "@types/node": "18.19.68",
     "heroku": "8.11.5",
-    "prisma": "6.1.0-dev.14",
+    "prisma": "6.1.0-dev.18",
     "ts-node": "10.9.2"
   },
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "@prisma/client": "6.1.0-dev.14",
+    "@prisma/client": "6.1.0-dev.18",
     "express": "^4.17.1"
   }
 }

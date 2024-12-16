@@ -5,11 +5,11 @@
   "license": "MIT",
   "devDependencies": {
     "jest": "29.7.0",
-    "prettier": "3.3.3",
-    "prisma": "6.1.0-dev.14"
+    "prettier": "3.4.2",
+    "prisma": "6.1.0-dev.18"
   },
   "dependencies": {
-    "@prisma/client": "6.1.0-dev.14"
+    "@prisma/client": "6.1.0-dev.18"
   },
   "scripts": {
     "test": "jest"

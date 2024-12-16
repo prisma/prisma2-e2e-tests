@@ -4,16 +4,16 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "18.19.67",
-    "netlify-cli": "17.37.2",
-    "prisma": "6.1.0-dev.14",
+    "@types/node": "18.19.68",
+    "netlify-cli": "17.38.0",
+    "prisma": "6.1.0-dev.18",
     "ts-node": "10.9.2"
   },
   "scripts": {
     "dev": "netlify dev"
   },
   "dependencies": {
-    "@prisma/client": "6.1.0-dev.14",
+    "@prisma/client": "6.1.0-dev.18",
     "fetch-retry": "^6.0.0"
   }
 }

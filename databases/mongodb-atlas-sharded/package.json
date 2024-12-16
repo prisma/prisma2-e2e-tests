@@ -4,14 +4,14 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "prisma": "6.1.0-dev.14",
+    "prisma": "6.1.0-dev.18",
     "ts-node": "10.9.2",
-    "typescript": "5.6.3"
+    "typescript": "5.7.2"
   },
   "scripts": {
     "cmd": "ts-node ./script.ts"
   },
   "dependencies": {
-    "@prisma/client": "6.1.0-dev.14"
+    "@prisma/client": "6.1.0-dev.18"
   }
 }

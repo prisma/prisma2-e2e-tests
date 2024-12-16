@@ -6,25 +6,25 @@ settings:
 
 dependencies:
   '@prisma/client':
-    specifier: 6.1.0-dev.14
-    version: 6.1.0-dev.14(prisma@6.1.0-dev.14)
+    specifier: 6.1.0-dev.18
+    version: 6.1.0-dev.18(prisma@6.1.0-dev.18)
   fetch-retry:
     specifier: ^6.0.0
     version: 6.0.0
 
 devDependencies:
   '@types/node':
-    specifier: 18.19.67
-    version: 18.19.67
+    specifier: 18.19.68
+    version: 18.19.68
   netlify-cli:
-    specifier: 17.37.2
-    version: 17.37.2(@types/node@18.19.67)
+    specifier: 17.38.0
+    version: 17.38.0(@types/node@18.19.68)
   prisma:
-    specifier: 6.1.0-dev.14
-    version: 6.1.0-dev.14
+    specifier: 6.1.0-dev.18
+    version: 6.1.0-dev.18
   ts-node:
     specifier: 10.9.2
-    version: 10.9.2(@types/node@18.19.67)(typescript@5.3.3)
+    version: 10.9.2(@types/node@18.19.68)(typescript@5.3.3)
 
 packages:
 
@@ -641,7 +641,7 @@ packages:
     dependencies:
       '@types/istanbul-lib-coverage': 2.0.4
       '@types/istanbul-reports': 3.0.1
-      '@types/node': 18.19.67
+      '@types/node': 18.19.68
       '@types/yargs': 16.0.5
       chalk: 4.1.2
     dev: true
@@ -715,8 +715,8 @@ packages:
       yargs: 17.7.2
     dev: true
 
-  /@netlify/build@29.56.0(@opentelemetry/api@1.8.0)(@types/node@18.19.67):
-    resolution: {integrity: sha512-x2DUxBt1MigjAX+2xpDmWKp4BlTvg4GofaR2SWSz80D+zkfWRJp01de1O5mKH9QK3saQBQUVJyi+mrK64YNf4w==}
+  /@netlify/build@29.56.1(@opentelemetry/api@1.8.0)(@types/node@18.19.68):
+    resolution: {integrity: sha512-0/4GiVTL69AXeIly6ZXIi5g4qU2Oi9djCUcJO6xCZCDgft6TD90JXlsCQ5P/+oh0CFcNPpsy9DBvY8mm0fSFVw==}
     engines: {node: ^14.16.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -729,7 +729,7 @@ packages:
       '@bugsnag/js': 7.25.0
       '@netlify/blobs': 7.4.0
       '@netlify/cache-utils': 5.1.6
-      '@netlify/config': 20.19.0
+      '@netlify/config': 20.19.1
       '@netlify/edge-bundler': 12.2.3(supports-color@9.3.1)
       '@netlify/framework-info': 9.8.13
       '@netlify/functions-utils': 5.2.93(supports-color@9.3.1)
@@ -748,7 +748,7 @@ packages:
       figures: 5.0.0
       filter-obj: 5.1.0
       got: 12.6.1
-      hot-shots: 10.1.1
+      hot-shots: 10.2.1
       indent-string: 5.0.0
       is-plain-obj: 4.1.0
       js-yaml: 4.1.0
@@ -781,7 +781,7 @@ packages:
       strip-ansi: 7.1.0
       supports-color: 9.3.1
       terminal-link: 3.0.0
-      ts-node: 10.9.2(@types/node@18.19.67)(typescript@5.3.3)
+      ts-node: 10.9.2(@types/node@18.19.68)(typescript@5.3.3)
       typescript: 5.3.3
       uuid: 9.0.1
       yargs: 17.7.2
@@ -807,8 +807,8 @@ packages:
       readdirp: 3.6.0
     dev: true
 
-  /@netlify/config@20.19.0:
-    resolution: {integrity: sha512-vkqTQ7jaudPSRME6ZzYml6qRWxIJXnUQ8csqOSx5Yv0ysj1zb2l+Ke3c5bc6Cttkg4ay2YLx4M0/7n6nT3KojQ==}
+  /@netlify/config@20.19.1:
+    resolution: {integrity: sha512-GkN8IwHilIlusFuAW+DFjhtpghnaelNcHUoZwBDcJou8eyhIZYAj6B4STMyGUggIfMobYGM28kEY3gN4uUVq0g==}
     engines: {node: ^14.16.0 || >=16.0.0}
     hasBin: true
     dependencies:
@@ -870,8 +870,8 @@ packages:
       - supports-color
     dev: true
 
-  /@netlify/edge-functions@2.9.0:
-    resolution: {integrity: sha512-W1kdwLpvUlhfI2FTOe6SEcoobW7Fw+Vm9WN5Gwb5lTCG6QXBE3gpCZk+NVQ4p/XoOcXYwWAS5pfOTMKUoYNQnA==}
+  /@netlify/edge-functions@2.11.1:
+    resolution: {integrity: sha512-pyQOTZ8a+ge5lZlE+H/UAHyuqQqtL5gE0pXrHT9mOykr3YQqnkB2hZMtx12odatZ87gHg4EA+UPyMZUbLfnXvw==}
     dev: true
 
   /@netlify/framework-info@9.8.13:
@@ -1419,8 +1419,8 @@ packages:
       config-chain: 1.1.13
     dev: true
 
-  /@prisma/client@6.1.0-dev.14(prisma@6.1.0-dev.14):
-    resolution: {integrity: sha512-Jp0YRPPH5uqGD+Qy66BPFWwy0d7orpnSXXcQlbwHZEIszlqVUTH/OGoSKbTlDIDz7bmquFbcBeHTTXEtTswGmg==}
+  /@prisma/client@6.1.0-dev.18(prisma@6.1.0-dev.18):
+    resolution: {integrity: sha512-81VODUeG0G2eCOn1ddMWRSGJ1NrB84UFiLGOnZ0C8T1Zs1AqGDVBJZ3nLI6KycuV/lxDfiThY1DQAJmg9KSxlQ==}
     engines: {node: '>=18.18'}
     requiresBuild: true
     peerDependencies:
@@ -1429,35 +1429,35 @@ packages:
       prisma:
         optional: true
     dependencies:
-      prisma: 6.1.0-dev.14
+      prisma: 6.1.0-dev.18
     dev: false
 
-  /@prisma/debug@6.1.0-dev.14:
-    resolution: {integrity: sha512-TjvGgSZaoLr90cbQiE4aG/JSEJQ2iVNd3v1UM1A5faR4oZ0mKAv4CrOtqkJntaF9sXIMvImoxOwSEmVLgS3R1Q==}
+  /@prisma/debug@6.1.0-dev.18:
+    resolution: {integrity: sha512-vCcKzeydwPs1qNRoy06CDLW6EoSqsCHvvqkamoa5yZM0WSVV+8LppbuFHE0qCsljrm2W7J4lc60ngiuuP1/Oqw==}
 
-  /@prisma/engines-version@6.1.0-5.c74f8976aaa3212c16a61537319f9024d0c21e85:
-    resolution: {integrity: sha512-CiTmkeEpXwXNbkDK/+DiibKsw1xuEvBtpi6qTzrqfaPR0i3Lq4knWtMaT4M/VOoTGb9l60wLxDptp9+cyqdWxA==}
+  /@prisma/engines-version@6.1.0-14.79c7f7d747a2f7e2c27ca452405ffdad1be6da2d:
+    resolution: {integrity: sha512-M07VId2kI/yU9aHU9poPevaxFnR/IH8GSRG5L41kkY8331m9QsPktec9y8Vf+Me3IwWe5DBaHNaK3VVKF+dv+A==}
 
-  /@prisma/engines@6.1.0-dev.14:
-    resolution: {integrity: sha512-KdISmzpy3i5Vj986un9DdgwBsjVhELLKGuwWSEw608+JQJEcdykzHQEi0duZ0UePnkWgZaRDLXUJ7lCxSNYrTg==}
+  /@prisma/engines@6.1.0-dev.18:
+    resolution: {integrity: sha512-jo1egt6EZd2xrNLCNXUR1bCDsgCY2TcsVQiPe/mwDkup7a+OkFJblEZbHYHv44XXgXLOGcY9R+tio2Wvukuviw==}
     requiresBuild: true
     dependencies:
-      '@prisma/debug': 6.1.0-dev.14
-      '@prisma/engines-version': 6.1.0-5.c74f8976aaa3212c16a61537319f9024d0c21e85
-      '@prisma/fetch-engine': 6.1.0-dev.14
-      '@prisma/get-platform': 6.1.0-dev.14
+      '@prisma/debug': 6.1.0-dev.18
+      '@prisma/engines-version': 6.1.0-14.79c7f7d747a2f7e2c27ca452405ffdad1be6da2d
+      '@prisma/fetch-engine': 6.1.0-dev.18
+      '@prisma/get-platform': 6.1.0-dev.18
 
-  /@prisma/fetch-engine@6.1.0-dev.14:
-    resolution: {integrity: sha512-vEkywa1JBvx8fpkdEg4WHC6R1YlJLtygNT3seuinGkzSZhncIgqoPgDjVp1wR7h1McHZVuo/uVhflXqZK/Abow==}
+  /@prisma/fetch-engine@6.1.0-dev.18:
+    resolution: {integrity: sha512-zKV6pB0MiMNMDeJ+M4ZfzmEQH/a7HrhPFsiDaQBkDs1ZAk/eMx6RKgk9141oi4A5o2FuMxPkW8LI5dgMehekMA==}
     dependencies:
-      '@prisma/debug': 6.1.0-dev.14
-      '@prisma/engines-version': 6.1.0-5.c74f8976aaa3212c16a61537319f9024d0c21e85
-      '@prisma/get-platform': 6.1.0-dev.14
+      '@prisma/debug': 6.1.0-dev.18
+      '@prisma/engines-version': 6.1.0-14.79c7f7d747a2f7e2c27ca452405ffdad1be6da2d
+      '@prisma/get-platform': 6.1.0-dev.18
 
-  /@prisma/get-platform@6.1.0-dev.14:
-    resolution: {integrity: sha512-/COnqaM8BI67gu3JIRb6pfm09SeOhZPcHUAoZI5YBuuThnaM/ra6JTuAplrpcBdf1YlCFwPCh3leEUhSwEt6bA==}
+  /@prisma/get-platform@6.1.0-dev.18:
+    resolution: {integrity: sha512-lhp+77OXqCdNtliB3zRQONXh5Jjtk+/kg0FnZpXSoY+SBOUx/vTPc3URBiHmWixrci5bSnC7L2BRfptUF76Xiw==}
     dependencies:
-      '@prisma/debug': 6.1.0-dev.14
+      '@prisma/debug': 6.1.0-dev.18
 
   /@rollup/pluginutils@4.2.1:
     resolution: {integrity: sha512-iKnFXr7NkdZAIHiIWE+BX5ULi/ucVFYWD6TbAV+rZctiRTY2PL6tsIKhoIOaoskiWAkgu+VsbXgUVDNLHf+InQ==}
@@ -1526,7 +1526,7 @@ packages:
   /@types/http-proxy@1.17.10:
     resolution: {integrity: sha512-Qs5aULi+zV1bwKAg5z1PWnDXWmsn+LxIvUGv6E2+OOMYhclZMO+OXd9pYVf2gLykf2I7IV2u7oTHwChPNsvJ7g==}
     dependencies:
-      '@types/node': 18.19.67
+      '@types/node': 18.19.68
     dev: true
 
   /@types/istanbul-lib-coverage@2.0.4:
@@ -1545,8 +1545,8 @@ packages:
       '@types/istanbul-lib-report': 3.0.0
     dev: true
 
-  /@types/node@18.19.67:
-    resolution: {integrity: sha512-wI8uHusga+0ZugNp0Ol/3BqQfEcCCNfojtO6Oou9iVNGPTL6QNSdnUdqq85fRgIorLhLMuPIKpsN98QE9Nh+KQ==}
+  /@types/node@18.19.68:
+    resolution: {integrity: sha512-QGtpFH1vB99ZmTa63K4/FU8twThj4fuVSBkGddTp7uIL/cuoLWIUSL2RcOaigBhfR+hg5pgGkBnkoOxrTVBMKw==}
     dependencies:
       undici-types: 5.26.5
     dev: true
@@ -1577,7 +1577,7 @@ packages:
     resolution: {integrity: sha512-oJoftv0LSuaDZE3Le4DbKX+KS9G36NzOeSap90UIK0yMA/NhKJhqlSGtNDORNRaIbQfzjXDrQa0ytJ6mNRGz/Q==}
     requiresBuild: true
     dependencies:
-      '@types/node': 18.19.67
+      '@types/node': 18.19.68
     dev: true
     optional: true
 
@@ -2342,8 +2342,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /ci-info@4.0.0:
-    resolution: {integrity: sha512-TdHqgGf9odd8SXNuxtUBVx8Nv+qZOejE6qyqiy5NtbYYQOeFa6zmHkxlPzmaLxWWHsU6nJmB7AETdVPi+2NBUg==}
+  /ci-info@4.1.0:
+    resolution: {integrity: sha512-HutrvTNsF48wnxkzERIXOe5/mlcfFcbfCmwcg6CJnizbSue78AbDt+1cgl26zwn61WFxhcPykPfZrbqjGmBb4A==}
     engines: {node: '>=8'}
     dev: true
 
@@ -4120,8 +4120,8 @@ packages:
       lru-cache: 10.2.2
     dev: true
 
-  /hot-shots@10.1.1:
-    resolution: {integrity: sha512-KTsH9hb+YZHH0IIRf22y0X8mPw8j521W5xRAUeaUlGNBDsf44ixE7ZeyXbUHd/nQ1n04UEhi2ja05/QVOS/CgQ==}
+  /hot-shots@10.2.1:
+    resolution: {integrity: sha512-tmjcyZkG/qADhcdC7UjAp8D7v7W2DOYFgaZ48fYMuayMQmVVUg8fntKmrjes/b40ef6yZ+qt1lB8kuEDfLC4zw==}
     engines: {node: '>=10.0.0'}
     optionalDependencies:
       unix-dgram: 2.0.6
@@ -5269,8 +5269,8 @@ packages:
     resolution: {integrity: sha512-9iN1ka/9zmX1ZvLV9ewJYEk9h7RyRRtqdK0woXcqohu8EWIerfPUjYJPg0ULy0UqP7cslmdGc8xKDJcojlKiaw==}
     dev: true
 
-  /netlify-cli@17.37.2(@types/node@18.19.67):
-    resolution: {integrity: sha512-jA3wijrcr4Y8NF44sTQmR/4k6QPQwoK9Vf6vKimTJ1xyGASt+Mg+iWXyg1NsmKxWs5EUnS7yuWFZJ2eb/FWyMQ==}
+  /netlify-cli@17.38.0(@types/node@18.19.68):
+    resolution: {integrity: sha512-y34vEexev5P4piJgbO8O/cBfLJkyce37Ks4yrOYx2YJk+j94G4ROAUQ7bE9GiZN/wZ/YRi+QNPsm6KbwF/yOcA==}
     engines: {node: '>=18.14.0'}
     hasBin: true
     requiresBuild: true
@@ -5278,11 +5278,11 @@ packages:
       '@bugsnag/js': 7.25.0
       '@fastify/static': 7.0.4
       '@netlify/blobs': 8.1.0
-      '@netlify/build': 29.56.0(@opentelemetry/api@1.8.0)(@types/node@18.19.67)
+      '@netlify/build': 29.56.1(@opentelemetry/api@1.8.0)(@types/node@18.19.68)
       '@netlify/build-info': 7.15.2
-      '@netlify/config': 20.19.0
+      '@netlify/config': 20.19.1
       '@netlify/edge-bundler': 12.2.3(supports-color@9.3.1)
-      '@netlify/edge-functions': 2.9.0
+      '@netlify/edge-functions': 2.11.1
       '@netlify/local-functions-proxy': 1.1.1
       '@netlify/zip-it-and-ship-it': 9.41.1(supports-color@9.3.1)
       '@octokit/rest': 20.1.1
@@ -5296,7 +5296,7 @@ packages:
       boxen: 7.1.1
       chalk: 5.3.0
       chokidar: 3.6.0
-      ci-info: 4.0.0
+      ci-info: 4.1.0
       clean-deep: 3.4.0
       commander: 10.0.1
       comment-json: 4.2.5
@@ -5357,7 +5357,7 @@ packages:
       netlify-redirector: 0.5.0
       node-fetch: 3.3.2
       node-version-alias: 3.4.1
-      ora: 8.1.0
+      ora: 8.1.1
       p-filter: 4.1.0
       p-map: 7.0.2
       p-wait-for: 5.0.2
@@ -5719,8 +5719,8 @@ packages:
       word-wrap: 1.2.3
     dev: true
 
-  /ora@8.1.0:
-    resolution: {integrity: sha512-GQEkNkH/GHOhPFXcqZs3IDahXEQcQxsSjEkK4KvEEST4t7eNzoMjxTzef+EZ+JluDEV+Raoi3WQ2CflnRdSVnQ==}
+  /ora@8.1.1:
+    resolution: {integrity: sha512-YWielGi1XzG1UTvOaCFaNgEnuhZVMSHYkW/FQ7UX8O26PtlpdM84c0f7wLPlkvx2RfiQmnzd61d/MGxmpQeJPw==}
     engines: {node: '>=18'}
     dependencies:
       chalk: 5.3.0
@@ -6136,13 +6136,13 @@ packages:
       minimist: 1.2.8
     dev: true
 
-  /prisma@6.1.0-dev.14:
-    resolution: {integrity: sha512-QJHE6ZWxqEi1fFgiR+xfpktvEy5NCB5tBRsch6VdEWPEKr+PFPQjUsyDQ4avTh60CGwq9Isk/cN+sQ/d+uoxNQ==}
+  /prisma@6.1.0-dev.18:
+    resolution: {integrity: sha512-KMD7TQAKbYDHucQRV9sRKOAAsoYqOLTUIpNamJtgoLcsUsi68wPupgoOIbP59bl+dFxJYVH8K3KiyjQCUwjCOw==}
     engines: {node: '>=18.18'}
     hasBin: true
     requiresBuild: true
     dependencies:
-      '@prisma/engines': 6.1.0-dev.14
+      '@prisma/engines': 6.1.0-dev.18
     optionalDependencies:
       fsevents: 2.3.3
 
@@ -7186,7 +7186,7 @@ packages:
     resolution: {integrity: sha512-XrHUvV5HpdLmIj4uVMxHggLbFSZYIn7HEWsqePZcI50pco+MPqJ50wMGY794X7AOOhxOBAjbkqfAbEe/QMp2Lw==}
     dev: true
 
-  /ts-node@10.9.2(@types/node@18.19.67)(typescript@5.3.3):
+  /ts-node@10.9.2(@types/node@18.19.68)(typescript@5.3.3):
     resolution: {integrity: sha512-f0FFpIdcHgn8zcPSbf1dRevwt047YMnaiJM3u2w2RewrB+fob/zePZcrOyQoLMMO7aBIddLcQIEK5dYjkLnGrQ==}
     hasBin: true
     peerDependencies:
@@ -7205,7 +7205,7 @@ packages:
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.3
-      '@types/node': 18.19.67
+      '@types/node': 18.19.68
       acorn: 8.11.2
       acorn-walk: 8.2.0
       arg: 4.1.3
