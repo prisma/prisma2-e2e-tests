@@ -8,13 +8,13 @@
   "devDependencies": {
     "@jest/globals": "29.7.0",
     "jest": "29.7.0",
-    "prisma": "6.1.0-dev.17",
+    "prisma": "6.1.0-dev.18",
     "wrangler": "3.95.0",
     "node-fetch": "2.7.0"
   },
   "dependencies": {
     "@neondatabase/serverless": "0.10.4",
-    "@prisma/adapter-neon": "6.1.0-dev.17",
-    "@prisma/client": "6.1.0-dev.17"
+    "@prisma/adapter-neon": "6.1.0-dev.18",
+    "@prisma/client": "6.1.0-dev.18"
   }
 }
