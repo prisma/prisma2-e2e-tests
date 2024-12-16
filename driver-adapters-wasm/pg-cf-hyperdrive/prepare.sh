@@ -40,13 +40,13 @@ fi
 # Example output of `wrangler hyperdrive create hyperdrive-orm-tests-foo --connection-string=$DATABASE_URL`:
 #
 # ```
-🚧 Creating 'tmp-hyperdrive-orm-tests-foo2'
-✅ Created new Hyperdrive config: aaaabbbbccccddddeeeeffff00001111
-📋 To start using your config from a Worker, add the following binding configuration to your wrangler.toml file:
-
-[[hyperdrive]]
-binding = "HYPERDRIVE"
-id = "aaaabbbbccccddddeeeeffff00001111"
+# 🚧 Creating 'tmp-hyperdrive-orm-tests-foo2'
+# ✅ Created new Hyperdrive config: aaaabbbbccccddddeeeeffff00001111
+# 📋 To start using your config from a Worker, add the following binding configuration to your wrangler.toml file:
+# 
+# [[hyperdrive]]
+# binding = "HYPERDRIVE"
+# id = "aaaabbbbccccddddeeeeffff00001111"
 # ```
 
 # if DATABASE_URL is not set, exit
