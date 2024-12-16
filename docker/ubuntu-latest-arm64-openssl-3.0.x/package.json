@@ -3,7 +3,7 @@
   "license": "MIT",
   "devDependencies": {
     "@types/node": "18.19.68",
-    "prisma": "6.1.0-dev.18",
+    "prisma": "6.1.0-dev.19",
     "ts-node": "10.9.2",
     "typescript": "5.7.2"
   },
@@ -11,7 +11,7 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "@prisma/client": "6.1.0-dev.18",
+    "@prisma/client": "6.1.0-dev.19",
     "express": "4.21.2"
   }
 }
