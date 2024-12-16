@@ -34,27 +34,19 @@ else
   grep $HYPERDRIVE_NAME $TMP_FILE | cut -f2 -d' ' | xargs npx wrangler hyperdrive delete
 fi
 
-# Create the hyperdrive to connecto the Database. Unfortunately wrangler output mixes JSON and text, so we need to filter out
-# the first two lines to parse the JSON.
+# Create the hyperdrive to connect the Database. Unfortunately wrangler output mixes TOML and text, so we need to filter out
+# the text to parse the TOML.
 #
 # Example output of `wrangler hyperdrive create hyperdrive-orm-tests-foo --connection-string=$DATABASE_URL`:
 #
 # ```
-# 🚧 Creating 'hyperdrive-orm-tests-foo'
-# ✅ Created new Hyperdrive config
-#  {
-#   "id": "427135cd3b954fd89a264977a457f32d",
-#   "name": "hyperdrive-orm-tests-foo",
-#   "origin": {
-#     "host": "db-provision-postgres0000000.0123456789ABC.us-east-1.rds.amazonaws.com",
-#     "port": 5432,
-#     "database": "maroon_raccoon",
-#     "user": "plum_colonial_alexia"
-#   },
-#   "caching": {
-#     "disabled": false
-#   }
-# }
+🚧 Creating 'tmp-hyperdrive-orm-tests-foo2'
+✅ Created new Hyperdrive config: aaaabbbbccccddddeeeeffff00001111
+📋 To start using your config from a Worker, add the following binding configuration to your wrangler.toml file:
+
+[[hyperdrive]]
+binding = "HYPERDRIVE"
+id = "aaaabbbbccccddddeeeeffff00001111"
 # ```
 
 # if DATABASE_URL is not set, exit
@@ -64,7 +56,7 @@ if [ -z "$DATABASE_URL" ]; then
 fi
 
 npx wrangler hyperdrive create $HYPERDRIVE_NAME --connection-string=\"$DATABASE_URL\" | tee $TMP_FILE
-export HYPERDRIVE_ID=$(cat $TMP_FILE | sed 1,2d | jq .id)
+export HYPERDRIVE_ID=$(grep '^id = ' $TMP_FILE | sed 's/id = "\(.*\)"/\1/')
 
 cat <<EOF > wrangler.toml
 name = "pg-cf-hyperdrive"
