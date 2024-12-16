@@ -4,9 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "prisma": "6.1.0-dev.15"
+    "prisma": "6.1.0-dev.16"
   },
   "dependencies": {
-    "@prisma/client": "6.1.0-dev.15"
+    "@prisma/client": "6.1.0-dev.16"
   }
 }
