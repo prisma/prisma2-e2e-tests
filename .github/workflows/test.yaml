@@ -1754,7 +1754,11 @@ jobs:
           - alpine-3.17-amd64-openssl-3.0.x
           - alpine-3.17-arm64-openssl-3.0.x
           - alpine-3.17-arm64-openssl-3.0.x-with-libc
+          - alpine-3.17-amd64-openssl-3.0.x
+          - alpine-3.21-arm64-openssl-3.0.x
+          - alpine-3.21-amd64-openssl-3.0.x
           - alpine-latest-amd64-openssl-3.0.x
+          - alpine-latest-arm64-openssl-3.0.x
           - amazonlinux-2022-amd64-openssl-3.0.x
           - amazonlinux-2022-arm64-openssl-3.0.x
           - archlinux-latest-amd64-openssl-3.0.x

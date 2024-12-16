@@ -1,14 +1,16 @@
 # syntax=docker/dockerfile:1
 
-FROM node:current-alpine
+FROM node:22-alpine3.21
 
 WORKDIR /usr/src/app
 COPY --from=app . ./
 COPY --from=utils . ./
 
+RUN apk update
+
 # Only OpenSSL 3 is expected to be on this system
-RUN if [ ! -e /usr/lib/libssl.so.3 ]; then echo 'OpenSSL 3 not found in /lib/libssl.so.3'; exit 1; fi
-RUN if [ -e /usr/lib/libssl.so.1.1 ]; then echo 'OpenSSL 1.1 must not be installed (found in /lib/libssl.so.1.1)'; exit 1; fi
+RUN if [ ! -e /usr/lib/libssl.so.3 ]; then echo 'OpenSSL 3 not found in /usr/lib/libssl.so.3'; exit 1; fi
+RUN if [ -e /usr/lib/libssl.so.1.1 ]; then echo 'OpenSSL 1.1 must not be installed (found in /usr/lib/libssl.so.1.1)'; exit 1; fi
 
 # Ensure the old platform-specific paths are not containing OpenSSL
 RUN if [ -e /lib/libssl.so.3 ]; then echo '/lib/libssl.so.3 must not exist'; exit 1; fi
