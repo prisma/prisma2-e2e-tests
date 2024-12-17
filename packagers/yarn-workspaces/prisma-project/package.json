@@ -3,11 +3,11 @@
   "version": "0.0.0",
   "devDependencies": {
     "@types/node": "18.19.68",
-    "prisma": "6.1.0-dev.33",
+    "prisma": "6.1.0-dev.34",
     "ts-node": "10.9.2",
     "typescript": "5.7.2"
   },
   "dependencies": {
-    "@prisma/client": "6.1.0-dev.33"
+    "@prisma/client": "6.1.0-dev.34"
   }
 }
