@@ -5,12 +5,12 @@
   "license": "MIT",
   "devDependencies": {
     "jest": "29.7.0",
-    "prisma": "6.2.0-dev.1",
+    "prisma": "6.2.0-dev.2",
     "webpack": "5.97.1",
     "webpack-cli": "5.1.4"
   },
   "dependencies": {
-    "@prisma/client": "6.2.0-dev.1"
+    "@prisma/client": "6.2.0-dev.2"
   },
   "scripts": {
     "test": "jest"
