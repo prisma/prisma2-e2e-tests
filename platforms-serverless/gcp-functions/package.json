@@ -10,7 +10,7 @@
     "typescript": "5.7.2"
   },
   "dependencies": {
-    "@google-cloud/functions-framework": "3.4.3",
+    "@google-cloud/functions-framework": "3.4.4",
     "@prisma/client": "6.2.0-dev.6",
     "@types/node": "18.19.68"
   }
