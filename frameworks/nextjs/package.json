@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "@types/node": "18.19.68",
-    "@types/react": "18.3.16",
+    "@types/react": "18.3.18",
     "prisma": "6.2.0-dev.6",
     "typescript": "5.7.2"
   }

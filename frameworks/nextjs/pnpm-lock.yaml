@@ -23,8 +23,8 @@ devDependencies:
     specifier: 18.19.68
     version: 18.19.68
   '@types/react':
-    specifier: 18.3.16
-    version: 18.3.16
+    specifier: 18.3.18
+    version: 18.3.18
   prisma:
     specifier: 6.2.0-dev.6
     version: 6.2.0-dev.6
@@ -180,8 +180,8 @@ packages:
     resolution: {integrity: sha512-gNMvNH49DJ7OJYv+KAKn0Xp45p8PLl6zo2YnvDIbTd4J6MER2BmWN49TG7n9LvkyihINxeKW8+3bfS2yDC9dzQ==}
     dev: true
 
-  /@types/react@18.3.16:
-    resolution: {integrity: sha512-oh8AMIC4Y2ciKufU8hnKgs+ufgbA/dhPTACaZPM86AbwX9QwnFtSoPWEeRUj8fge+v6kFt78BXcDhAU1SrrAsw==}
+  /@types/react@18.3.18:
+    resolution: {integrity: sha512-t4yC+vtgnkYjNSKlFx1jkAhH8LgTo2N/7Qvi83kdEaUtMDiwpbLAktKDaAMlRcJ5eSxZkH74eEGt1ky31d7kfQ==}
     dependencies:
       '@types/prop-types': 15.7.14
       csstype: 3.1.3
