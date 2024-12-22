@@ -6,7 +6,7 @@
   "devDependencies": {
     "jest": "29.7.0",
     "prisma": "6.2.0-dev.6",
-    "rollup": "4.28.1"
+    "rollup": "4.29.1"
   },
   "dependencies": {
     "@prisma/client": "6.2.0-dev.6"
