@@ -13,7 +13,7 @@
   "devDependencies": {
     "@sveltejs/adapter-auto": "2.1.1",
     "@sveltejs/kit": "1.30.4",
-    "prisma": "6.2.0-dev.7",
+    "prisma": "6.2.0-dev.8",
     "svelte": "4.2.19",
     "svelte-check": "3.8.6",
     "svelte-preprocess": "5.1.4",
@@ -23,6 +23,6 @@
   },
   "type": "module",
   "dependencies": {
-    "@prisma/client": "6.2.0-dev.7"
+    "@prisma/client": "6.2.0-dev.8"
   }
 }

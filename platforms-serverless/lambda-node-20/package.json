@@ -4,12 +4,12 @@
   "license": "MIT",
   "devDependencies": {
     "aws-sdk": "2.1692.0",
-    "prisma": "6.2.0-dev.7",
+    "prisma": "6.2.0-dev.8",
     "ts-node": "10.9.2",
     "typescript": "5.7.2"
   },
   "dependencies": {
-    "@prisma/client": "6.2.0-dev.7",
+    "@prisma/client": "6.2.0-dev.8",
     "@types/node": "20.17.10"
   }
 }
