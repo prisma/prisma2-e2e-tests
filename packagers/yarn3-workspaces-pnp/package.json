@@ -5,7 +5,7 @@
     ],
     "packageManager": "yarn@3.8.7",
     "dependencies": {
-        "@prisma/client": "6.2.0-dev.9",
-        "prisma": "6.2.0-dev.9"
+        "@prisma/client": "6.2.0-dev.10",
+        "prisma": "6.2.0-dev.10"
     }
 }
