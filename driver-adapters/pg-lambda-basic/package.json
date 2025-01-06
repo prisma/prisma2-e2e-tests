@@ -11,11 +11,11 @@
     "@types/pg": "^8.10.2",
     "esbuild": "0.24.2",
     "jest": "29.7.0",
-    "prisma": "6.2.0-dev.10"
+    "prisma": "6.2.0-dev.11"
   },
   "dependencies": {
-    "@prisma/adapter-pg": "6.2.0-dev.10",
-    "@prisma/client": "6.2.0-dev.10",
+    "@prisma/adapter-pg": "6.2.0-dev.11",
+    "@prisma/client": "6.2.0-dev.11",
     "pg": "8.13.1"
   }
 }
