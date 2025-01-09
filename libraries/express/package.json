@@ -16,6 +16,6 @@
     "@types/express": "4.17.21",
     "prisma": "6.3.0-dev.1",
     "ts-node": "10.9.2",
-    "typescript": "5.7.2"
+    "typescript": "5.7.3"
   }
 }

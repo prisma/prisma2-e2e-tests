@@ -17,6 +17,6 @@
     "@types/node": "18.19.68",
     "@types/react": "18.3.18",
     "prisma": "6.3.0-dev.1",
-    "typescript": "5.7.2"
+    "typescript": "5.7.3"
   }
 }
