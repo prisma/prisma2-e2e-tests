@@ -12,6 +12,6 @@
   },
   "dependencies": {
     "@prisma/client": "6.3.0-dev.4",
-    "express": "4.21.1"
+    "express": "4.21.2"
   }
 }
