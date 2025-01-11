@@ -6,11 +6,11 @@ settings:
 
 dependencies:
   '@apollo/client':
-    specifier: 3.12.4
-    version: 3.12.4(graphql@16.10.0)
+    specifier: 3.12.5
+    version: 3.12.5(graphql@16.10.0)
   '@apollo/server':
-    specifier: 4.11.2
-    version: 4.11.2(graphql@16.10.0)
+    specifier: 4.11.3
+    version: 4.11.3(graphql@16.10.0)
   '@prisma/client':
     specifier: 6.3.0-dev.4
     version: 6.3.0-dev.4(prisma@6.3.0-dev.4)
@@ -48,8 +48,8 @@ packages:
       graphql: 16.10.0
     dev: false
 
-  /@apollo/client@3.12.4(graphql@16.10.0):
-    resolution: {integrity: sha512-S/eC9jxEW9Jg1BjD6AZonE1fHxYuvC3gFHop8FRQkUdeK63MmBD5r0DOrN2WlJbwha1MSD6A97OwXwjaujEQpA==}
+  /@apollo/client@3.12.5(graphql@16.10.0):
+    resolution: {integrity: sha512-lOE2TlHx1el4rHs8vaTE4IroyIO9/PD2w598YYiDahF0XSMDdsXMrTpOVh+FuQ6tZ+DXT+hsaMlilZqcFRgu+A==}
     peerDependencies:
       graphql: ^15.0.0 || ^16.0.0
       graphql-ws: ^5.5.5
@@ -116,8 +116,8 @@ packages:
       graphql: 16.10.0
     dev: false
 
-  /@apollo/server@4.11.2(graphql@16.10.0):
-    resolution: {integrity: sha512-WUTHY7DDek8xAMn4Woa9Bl8duQUDzRYQkosX/d1DtCsBWESZyApR7ndnI5d6+W4KSTtqBHhJFkusEI7CWuIJXg==}
+  /@apollo/server@4.11.3(graphql@16.10.0):
+    resolution: {integrity: sha512-mW8idE2q0/BN14mimfJU5DAnoPHZRrAWgwsVLBEdACds+mxapIYxIbI6AH4AsOpxfrpvHts3PCYDbopy1XPW1g==}
     engines: {node: '>=14.16.0'}
     peerDependencies:
       graphql: ^16.6.0
@@ -125,7 +125,7 @@ packages:
       '@apollo/cache-control-types': 1.0.3(graphql@16.10.0)
       '@apollo/server-gateway-interface': 1.1.1(graphql@16.10.0)
       '@apollo/usage-reporting-protobuf': 4.1.1
-      '@apollo/utils.createhash': 2.0.1
+      '@apollo/utils.createhash': 2.0.2
       '@apollo/utils.fetcher': 2.0.1
       '@apollo/utils.isnodelike': 2.0.1
       '@apollo/utils.keyvaluecache': 2.1.1
@@ -158,8 +158,8 @@ packages:
       '@apollo/protobufjs': 1.2.7
     dev: false
 
-  /@apollo/utils.createhash@2.0.1:
-    resolution: {integrity: sha512-fQO4/ZOP8LcXWvMNhKiee+2KuKyqIcfHrICA+M4lj/h/Lh1H10ICcUtk6N/chnEo5HXu0yejg64wshdaiFitJg==}
+  /@apollo/utils.createhash@2.0.2:
+    resolution: {integrity: sha512-UkS3xqnVFLZ3JFpEmU/2cM2iKJotQXMoSTgxXsfQgXLC5gR1WaepoXagmYnPSA7Q/2cmnyTYK5OgAgoC4RULPg==}
     engines: {node: '>=14'}
     dependencies:
       '@apollo/utils.isnodelike': 2.0.1

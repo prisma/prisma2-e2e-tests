@@ -6,8 +6,8 @@
     "dev": "ts-node-dev --no-notify --respawn --transpileOnly src/server"
   },
   "dependencies": {
-    "@apollo/client": "3.12.4",
-    "@apollo/server": "4.11.2",
+    "@apollo/client": "3.12.5",
+    "@apollo/server": "4.11.3",
     "@prisma/client": "6.3.0-dev.4",
     "@types/node-fetch": "2.6.12",
     "graphql": "16.10.0"
