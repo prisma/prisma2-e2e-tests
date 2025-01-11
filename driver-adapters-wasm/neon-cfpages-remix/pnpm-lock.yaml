@@ -24,8 +24,8 @@ dependencies:
     specifier: 2.15.2
     version: 2.15.2(react-dom@18.3.1)(react@18.3.1)(typescript@5.7.3)
   isbot:
-    specifier: 5.1.18
-    version: 5.1.18
+    specifier: 5.1.21
+    version: 5.1.21
   miniflare:
     specifier: 3.20241218.0
     version: 3.20241218.0
@@ -4508,8 +4508,8 @@ packages:
     resolution: {integrity: sha512-VLghIWNM6ELQzo7zwmcg0NmTVyWKYjvIeM83yjp0wRDTmUnrM678fQbcKBo6n2CJEF0szoG//ytg+TKla89ALQ==}
     dev: true
 
-  /isbot@5.1.18:
-    resolution: {integrity: sha512-df9RdChv1DheItzN5pNKtblc9/otzJYmxjf9GhCZG/f0TCcGCbQFmtM3e+SD0e8EI3/O2tIXPYVaG4FUaIIa6Q==}
+  /isbot@5.1.21:
+    resolution: {integrity: sha512-0q3naRVpENL0ReKHeNcwn/G7BDynp0DqZUckKyFtM9+hmpnPqgm8+8wbjiVZ0XNhq1wPQV28/Pb8Snh5adeUHA==}
     engines: {node: '>=18'}
     dev: false
 
