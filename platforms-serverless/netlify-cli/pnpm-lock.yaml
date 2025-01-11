@@ -14,17 +14,17 @@ dependencies:
 
 devDependencies:
   '@types/node':
-    specifier: 18.19.68
-    version: 18.19.68
+    specifier: 18.19.70
+    version: 18.19.70
   netlify-cli:
     specifier: 17.38.1
-    version: 17.38.1(@types/node@18.19.68)
+    version: 17.38.1(@types/node@18.19.70)
   prisma:
     specifier: 6.3.0-dev.4
     version: 6.3.0-dev.4
   ts-node:
     specifier: 10.9.2
-    version: 10.9.2(@types/node@18.19.68)(typescript@5.3.3)
+    version: 10.9.2(@types/node@18.19.70)(typescript@5.3.3)
 
 packages:
 
@@ -645,7 +645,7 @@ packages:
     dependencies:
       '@types/istanbul-lib-coverage': 2.0.4
       '@types/istanbul-reports': 3.0.1
-      '@types/node': 18.19.68
+      '@types/node': 18.19.70
       '@types/yargs': 16.0.5
       chalk: 4.1.2
     dev: true
@@ -719,7 +719,7 @@ packages:
       yargs: 17.7.2
     dev: true
 
-  /@netlify/build@29.58.0(@opentelemetry/api@1.8.0)(@types/node@18.19.68):
+  /@netlify/build@29.58.0(@opentelemetry/api@1.8.0)(@types/node@18.19.70):
     resolution: {integrity: sha512-aLFJTQtP7uwoFUzq5IPLRL3Zy8FTyvW0MfHRzzV7jku416uOAcLXy9EkvpJcuvXpqvTsuKBlF553Jirz2UlNRw==}
     engines: {node: ^14.16.0 || >=16.0.0}
     hasBin: true
@@ -785,7 +785,7 @@ packages:
       strip-ansi: 7.1.0
       supports-color: 9.3.1
       terminal-link: 3.0.0
-      ts-node: 10.9.2(@types/node@18.19.68)(typescript@5.3.3)
+      ts-node: 10.9.2(@types/node@18.19.70)(typescript@5.3.3)
       typescript: 5.3.3
       uuid: 9.0.1
       yargs: 17.7.2
@@ -1567,7 +1567,7 @@ packages:
   /@types/http-proxy@1.17.10:
     resolution: {integrity: sha512-Qs5aULi+zV1bwKAg5z1PWnDXWmsn+LxIvUGv6E2+OOMYhclZMO+OXd9pYVf2gLykf2I7IV2u7oTHwChPNsvJ7g==}
     dependencies:
-      '@types/node': 18.19.68
+      '@types/node': 18.19.70
     dev: true
 
   /@types/istanbul-lib-coverage@2.0.4:
@@ -1586,8 +1586,8 @@ packages:
       '@types/istanbul-lib-report': 3.0.0
     dev: true
 
-  /@types/node@18.19.68:
-    resolution: {integrity: sha512-QGtpFH1vB99ZmTa63K4/FU8twThj4fuVSBkGddTp7uIL/cuoLWIUSL2RcOaigBhfR+hg5pgGkBnkoOxrTVBMKw==}
+  /@types/node@18.19.70:
+    resolution: {integrity: sha512-RE+K0+KZoEpDUbGGctnGdkrLFwi1eYKTlIHNl2Um98mUkGsm1u2Ff6Ltd0e8DktTtC98uy7rSj+hO8t/QuLoVQ==}
     dependencies:
       undici-types: 5.26.5
     dev: true
@@ -1618,7 +1618,7 @@ packages:
     resolution: {integrity: sha512-oJoftv0LSuaDZE3Le4DbKX+KS9G36NzOeSap90UIK0yMA/NhKJhqlSGtNDORNRaIbQfzjXDrQa0ytJ6mNRGz/Q==}
     requiresBuild: true
     dependencies:
-      '@types/node': 18.19.68
+      '@types/node': 18.19.70
     dev: true
     optional: true
 
@@ -5333,7 +5333,7 @@ packages:
     resolution: {integrity: sha512-9iN1ka/9zmX1ZvLV9ewJYEk9h7RyRRtqdK0woXcqohu8EWIerfPUjYJPg0ULy0UqP7cslmdGc8xKDJcojlKiaw==}
     dev: true
 
-  /netlify-cli@17.38.1(@types/node@18.19.68):
+  /netlify-cli@17.38.1(@types/node@18.19.70):
     resolution: {integrity: sha512-9R7KYIJac0FPbgCgIG3UuBZB2QMmSBBMygAUfRzTjT6PLOYS6xVLAlmO4/upVdSu//gREimPLlKaYVNiH2lUqQ==}
     engines: {node: '>=18.14.0'}
     hasBin: true
@@ -5342,7 +5342,7 @@ packages:
       '@bugsnag/js': 7.25.0
       '@fastify/static': 7.0.4
       '@netlify/blobs': 8.1.0
-      '@netlify/build': 29.58.0(@opentelemetry/api@1.8.0)(@types/node@18.19.68)
+      '@netlify/build': 29.58.0(@opentelemetry/api@1.8.0)(@types/node@18.19.70)
       '@netlify/build-info': 7.17.0
       '@netlify/config': 20.21.0
       '@netlify/edge-bundler': 12.3.1(supports-color@9.3.1)
@@ -7219,7 +7219,7 @@ packages:
     resolution: {integrity: sha512-XrHUvV5HpdLmIj4uVMxHggLbFSZYIn7HEWsqePZcI50pco+MPqJ50wMGY794X7AOOhxOBAjbkqfAbEe/QMp2Lw==}
     dev: true
 
-  /ts-node@10.9.2(@types/node@18.19.68)(typescript@5.3.3):
+  /ts-node@10.9.2(@types/node@18.19.70)(typescript@5.3.3):
     resolution: {integrity: sha512-f0FFpIdcHgn8zcPSbf1dRevwt047YMnaiJM3u2w2RewrB+fob/zePZcrOyQoLMMO7aBIddLcQIEK5dYjkLnGrQ==}
     hasBin: true
     peerDependencies:
@@ -7238,7 +7238,7 @@ packages:
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.3
-      '@types/node': 18.19.68
+      '@types/node': 18.19.70
       acorn: 8.11.2
       acorn-walk: 8.2.0
       arg: 4.1.3
