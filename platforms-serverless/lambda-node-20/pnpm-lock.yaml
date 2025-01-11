@@ -9,8 +9,8 @@ dependencies:
     specifier: 6.3.0-dev.5
     version: 6.3.0-dev.5(prisma@6.3.0-dev.5)
   '@types/node':
-    specifier: 20.17.10
-    version: 20.17.10
+    specifier: 20.17.12
+    version: 20.17.12
 
 devDependencies:
   aws-sdk:
@@ -21,7 +21,7 @@ devDependencies:
     version: 6.3.0-dev.5
   ts-node:
     specifier: 10.9.2
-    version: 10.9.2(@types/node@20.17.10)(typescript@5.7.3)
+    version: 10.9.2(@types/node@20.17.12)(typescript@5.7.3)
   typescript:
     specifier: 5.7.3
     version: 5.7.3
@@ -107,8 +107,8 @@ packages:
     resolution: {integrity: sha512-yOlFc+7UtL/89t2ZhjPvvB/DeAr3r+Dq58IgzsFkOAvVC6NMJXmCGjbptdXdR9qsX7pKcTL+s87FtYREi2dEEQ==}
     dev: true
 
-  /@types/node@20.17.10:
-    resolution: {integrity: sha512-/jrvh5h6NXhEauFFexRin69nA0uHJ5gwk4iDivp/DeoEua3uwCUto6PC86IpRITBOs4+6i2I56K5x5b6WYGXHA==}
+  /@types/node@20.17.12:
+    resolution: {integrity: sha512-vo/wmBgMIiEA23A/knMfn/cf37VnuF52nZh5ZoW0GWt4e4sxNquibrMRJ7UQsA06+MBx9r/H1jsI9grYjQCQlw==}
     dependencies:
       undici-types: 6.19.8
 
@@ -308,7 +308,7 @@ packages:
     resolution: {integrity: sha512-8I2a3LovHTOpm7NV5yOyO8IHqgVsfK4+UuySrXU8YXkSRX7k6hCV9b3HrkKCr3nMpgj+0bmocaJJWpvp1oc7ZA==}
     dev: true
 
-  /ts-node@10.9.2(@types/node@20.17.10)(typescript@5.7.3):
+  /ts-node@10.9.2(@types/node@20.17.12)(typescript@5.7.3):
     resolution: {integrity: sha512-f0FFpIdcHgn8zcPSbf1dRevwt047YMnaiJM3u2w2RewrB+fob/zePZcrOyQoLMMO7aBIddLcQIEK5dYjkLnGrQ==}
     hasBin: true
     peerDependencies:
@@ -327,7 +327,7 @@ packages:
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.3
-      '@types/node': 20.17.10
+      '@types/node': 20.17.12
       acorn: 8.8.2
       acorn-walk: 8.2.0
       arg: 4.1.3
