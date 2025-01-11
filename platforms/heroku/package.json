@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "18.19.68",
+    "@types/node": "18.19.70",
     "heroku": "8.11.5",
     "prisma": "6.3.0-dev.4",
     "ts-node": "10.9.2"

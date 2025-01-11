@@ -2,7 +2,7 @@
   "name": "@prisma/redhat-ubi9-amd64-openssl-3.0.x",
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "18.19.68",
+    "@types/node": "18.19.70",
     "prisma": "6.3.0-dev.4",
     "ts-node": "10.9.2",
     "typescript": "5.7.3"
