@@ -6,12 +6,12 @@
   },
   "devDependencies": {
     "@types/node": "18.19.70",
-    "prisma": "6.3.0-dev.6",
+    "prisma": "6.3.0-dev.7",
     "ts-node": "10.9.2",
     "typescript": "5.7.3"
   },
   "dependencies": {
-    "@prisma/client": "6.3.0-dev.6",
+    "@prisma/client": "6.3.0-dev.7",
     "express": "4.21.2"
   }
 }
