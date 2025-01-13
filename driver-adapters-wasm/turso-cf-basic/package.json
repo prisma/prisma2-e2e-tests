@@ -9,12 +9,12 @@
     "@jest/globals": "29.7.0",
     "jest": "29.7.0",
     "node-fetch": "2.7.0",
-    "prisma": "6.3.0-dev.8",
+    "prisma": "6.3.0-dev.9",
     "wrangler": "3.101.0"
   },
   "dependencies": {
     "@libsql/client": "^0.14.0",
-    "@prisma/adapter-libsql": "6.3.0-dev.8",
-    "@prisma/client": "6.3.0-dev.8"
+    "@prisma/adapter-libsql": "6.3.0-dev.9",
+    "@prisma/client": "6.3.0-dev.9"
   }
 }
