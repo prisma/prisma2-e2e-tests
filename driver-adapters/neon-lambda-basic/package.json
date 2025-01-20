@@ -10,12 +10,12 @@
     "@jest/globals": "29.7.0",
     "esbuild": "0.24.2",
     "jest": "29.7.0",
-    "prisma": "6.3.0-dev.14"
+    "prisma": "6.3.0-dev.15"
   },
   "dependencies": {
     "@neondatabase/serverless": "0.10.4",
-    "@prisma/adapter-neon": "6.3.0-dev.14",
-    "@prisma/client": "6.3.0-dev.14",
+    "@prisma/adapter-neon": "6.3.0-dev.15",
+    "@prisma/client": "6.3.0-dev.15",
     "undici": "6.21.0"
   }
 }
