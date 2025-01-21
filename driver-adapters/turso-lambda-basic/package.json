@@ -10,11 +10,11 @@
     "@jest/globals": "29.7.0",
     "esbuild": "0.24.2",
     "jest": "29.7.0",
-    "prisma": "6.3.0-dev.15"
+    "prisma": "6.3.0-dev.16"
   },
   "dependencies": {
     "@libsql/client": "^0.14.0",
-    "@prisma/adapter-libsql": "6.3.0-dev.15",
-    "@prisma/client": "6.3.0-dev.15"
+    "@prisma/adapter-libsql": "6.3.0-dev.16",
+    "@prisma/client": "6.3.0-dev.16"
   }
 }
