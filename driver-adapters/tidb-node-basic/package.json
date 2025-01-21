@@ -8,10 +8,10 @@
   "devDependencies": {
     "@jest/globals": "29.7.0",
     "jest": "29.7.0",
-    "prisma": "6.3.0-dev.16"
+    "prisma": "6.3.0-dev.17"
   },
   "dependencies": {
-    "@prisma/client": "6.3.0-dev.16",
+    "@prisma/client": "6.3.0-dev.17",
     "@tidbcloud/prisma-adapter": "5.20.0",
     "@tidbcloud/serverless": "0.2.0"
   }
