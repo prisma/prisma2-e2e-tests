@@ -9,7 +9,7 @@
     "migrate-deploy": "prisma db push"
   },
   "dependencies": {
-    "@prisma/client": "6.3.0-dev.22",
+    "@prisma/client": "6.3.0-dev.23",
     "@prisma/extension-accelerate": "1.2.1"
   },
   "devDependencies": {
@@ -17,7 +17,7 @@
     "@types/jest": "29.5.14",
     "@types/node": "18.19.70",
     "jest": "29.7.0",
-    "prisma": "6.3.0-dev.22",
+    "prisma": "6.3.0-dev.23",
     "ts-jest": "29.2.5",
     "ts-node": "10.9.2",
     "typescript": "5.7.3"

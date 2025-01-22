@@ -15,8 +15,8 @@
     "test": "jest index.test.js"
   },
   "dependencies": {
-    "@prisma/adapter-d1": "6.3.0-dev.22",
-    "@prisma/client": "6.3.0-dev.22",
+    "@prisma/adapter-d1": "6.3.0-dev.23",
+    "@prisma/client": "6.3.0-dev.23",
     "nuxt": "^3.11.2",
     "vue": "^3.4.27",
     "vue-router": "^4.3.2"
@@ -26,7 +26,7 @@
     "@jest/globals": "29.7.0",
     "jest": "29.7.0",
     "nitro-cloudflare-dev": "^0.2.0",
-    "prisma": "6.3.0-dev.22",
+    "prisma": "6.3.0-dev.23",
     "wrangler": "^3.57.1"
   }
 }
