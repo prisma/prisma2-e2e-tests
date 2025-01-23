@@ -8,13 +8,13 @@
   "devDependencies": {
     "@jest/globals": "29.7.0",
     "jest": "29.7.0",
-    "prisma": "6.3.0-dev.27",
+    "prisma": "6.3.0-dev.28",
     "wrangler": "3.101.0",
     "node-fetch": "2.7.0"
   },
   "dependencies": {
     "@planetscale/database": "1.19.0",
-    "@prisma/adapter-planetscale": "6.3.0-dev.27",
-    "@prisma/client": "6.3.0-dev.27"
+    "@prisma/adapter-planetscale": "6.3.0-dev.28",
+    "@prisma/client": "6.3.0-dev.28"
   }
 }
