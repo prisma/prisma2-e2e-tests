@@ -3,13 +3,13 @@
   "license": "MIT",
   "devDependencies": {
     "aws-sdk": "2.1692.0",
-    "prisma": "6.3.0-dev.28",
+    "prisma": "6.3.0-dev.29",
     "serverless": "3.40.0",
     "ts-node": "10.9.2",
     "typescript": "5.7.3"
   },
   "dependencies": {
-    "@prisma/client": "6.3.0-dev.28",
+    "@prisma/client": "6.3.0-dev.29",
     "@types/node": "18.19.70"
   },
   "resolutions": {
