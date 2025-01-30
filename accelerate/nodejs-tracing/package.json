@@ -11,15 +11,15 @@
     "@opentelemetry/resources": "1.30.0",
     "@opentelemetry/sdk-trace-base": "1.30.0",
     "@opentelemetry/semantic-conventions": "1.28.0",
-    "@prisma/client": "6.4.0-dev.3",
+    "@prisma/client": "6.4.0-dev.4",
     "@prisma/extension-accelerate": "1.2.1",
-    "@prisma/instrumentation": "6.4.0-dev.3"
+    "@prisma/instrumentation": "6.4.0-dev.4"
   },
   "devDependencies": {
     "@jest/globals": "29.7.0",
     "@types/node": "18.19.70",
     "jest": "29.7.0",
-    "prisma": "6.4.0-dev.3",
+    "prisma": "6.4.0-dev.4",
     "ts-jest": "29.2.5",
     "typescript": "5.7.3"
   }
