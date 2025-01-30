@@ -10,7 +10,7 @@
     "@redwoodjs/core": "7.7.4",
     "graphql-request": "6.1.0",
     "jest": "29.7.0",
-    "vercel": "34.4.0"
+    "vercel": "39.4.2"
   },
   "resolutions": {
     "prisma": "6.4.0-dev.2",
