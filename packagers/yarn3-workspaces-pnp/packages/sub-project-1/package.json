@@ -6,12 +6,12 @@
   "packageManager": "yarn@3.8.7",
   "devDependencies": {
     "@types/node": "18.19.70",
-    "prisma": "6.4.0-dev.9",
+    "prisma": "6.4.0-dev.10",
     "ts-node": "10.9.2",
     "typescript": "5.7.3"
   },
   "dependencies": {
-    "@prisma/client": "6.4.0-dev.9",
+    "@prisma/client": "6.4.0-dev.10",
     "@yarnpkg/pnpify": "3.1.8"
   }
 }
