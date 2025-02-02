@@ -29,8 +29,8 @@ devDependencies:
     specifier: 4.17.21
     version: 4.17.21
   '@types/express-serve-static-core':
-    specifier: 5.0.4
-    version: 5.0.4
+    specifier: 5.0.6
+    version: 5.0.6
   '@types/node':
     specifier: 18.19.70
     version: 18.19.70
@@ -434,8 +434,8 @@ packages:
       '@types/range-parser': 1.2.4
       '@types/send': 0.17.4
 
-  /@types/express-serve-static-core@5.0.4:
-    resolution: {integrity: sha512-5kz9ScmzBdzTgB/3susoCgfqNDzBjvLL4taparufgSvlwjdLy6UyUy9T/tCpYd2GIdIilCatC4iSQS0QSYHt0w==}
+  /@types/express-serve-static-core@5.0.6:
+    resolution: {integrity: sha512-3xhRnjJPkULekpSzgtoNYYcTWgEZkp4myc+Saevii5JPnHNvHMRlBSHDbs7Bh1iPPoVTERHEZXyhyLbMEsExsA==}
     dependencies:
       '@types/node': 18.19.70
       '@types/qs': 6.9.7
