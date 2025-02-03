@@ -7,7 +7,7 @@
     "@redwoodjs/graphql-server": "7.7.4"
   },
   "resolutions": {
-    "prisma": "6.4.0-dev.15",
-    "@prisma/client": "6.4.0-dev.15"
+    "prisma": "6.4.0-dev.16",
+    "@prisma/client": "6.4.0-dev.16"
   }
 }
