@@ -24,7 +24,7 @@
     "@nestjs/common": "10.4.15",
     "@nestjs/core": "10.4.15",
     "@nestjs/platform-express": "10.4.15",
-    "@prisma/client": "6.4.0-dev.18",
+    "@prisma/client": "6.4.0-dev.19",
     "reflect-metadata": "0.2.2",
     "rimraf": "5.0.10",
     "rxjs": "7.8.1"
@@ -38,7 +38,7 @@
     "@types/node": "18.19.70",
     "@types/supertest": "6.0.2",
     "jest": "29.7.0",
-    "prisma": "6.4.0-dev.18",
+    "prisma": "6.4.0-dev.19",
     "source-map-support": "0.5.21",
     "supertest": "7.0.0",
     "ts-jest": "29.2.5",
