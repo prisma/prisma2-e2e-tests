@@ -6,14 +6,14 @@ settings:
 
 dependencies:
   '@prisma/adapter-pg-worker':
-    specifier: 6.4.0-dev.16
-    version: 6.4.0-dev.16(@prisma/pg-worker@6.4.0-dev.16)
+    specifier: 6.4.0-dev.17
+    version: 6.4.0-dev.17(@prisma/pg-worker@6.4.0-dev.17)
   '@prisma/client':
-    specifier: 6.4.0-dev.16
-    version: 6.4.0-dev.16(prisma@6.4.0-dev.16)
+    specifier: 6.4.0-dev.17
+    version: 6.4.0-dev.17(prisma@6.4.0-dev.17)
   '@prisma/pg-worker':
-    specifier: 6.4.0-dev.16
-    version: 6.4.0-dev.16
+    specifier: 6.4.0-dev.17
+    version: 6.4.0-dev.17
 
 devDependencies:
   '@jest/globals':
@@ -26,8 +26,8 @@ devDependencies:
     specifier: 2.7.0
     version: 2.7.0
   prisma:
-    specifier: 6.4.0-dev.16
-    version: 6.4.0-dev.16
+    specifier: 6.4.0-dev.17
+    version: 6.4.0-dev.17
   wrangler:
     specifier: 3.101.0
     version: 3.101.0
@@ -1694,18 +1694,18 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
 
-  /@prisma/adapter-pg-worker@6.4.0-dev.16(@prisma/pg-worker@6.4.0-dev.16):
-    resolution: {integrity: sha512-h0uiySamLrIQETQgm4GjCGzalfqORHJAUt/wWfQYa9hR0tKF3UksK+yqXVv2KDbRWmjAFtCSRCtaM4kzxbY0fA==}
+  /@prisma/adapter-pg-worker@6.4.0-dev.17(@prisma/pg-worker@6.4.0-dev.17):
+    resolution: {integrity: sha512-DpEq4tr13s0qweU2xPBfHGRN5r01O0eMKZfMOXCgEC25g4dS+aM3dYph/setsCHT2mdjKFQKu+6B13bS1To2vQ==}
     peerDependencies:
       '@prisma/pg-worker': ^6.0.0
     dependencies:
-      '@prisma/driver-adapter-utils': 6.4.0-dev.16
-      '@prisma/pg-worker': 6.4.0-dev.16
+      '@prisma/driver-adapter-utils': 6.4.0-dev.17
+      '@prisma/pg-worker': 6.4.0-dev.17
       postgres-array: 3.0.2
     dev: false
 
-  /@prisma/client@6.4.0-dev.16(prisma@6.4.0-dev.16):
-    resolution: {integrity: sha512-mjbJ9nEVSXlepsU8wBc0kXt3M2IHkvy6nFcirJIouW7znFPdjnD/Gv0/vzxRybM25vwCE928I80KDijfOwGa8Q==}
+  /@prisma/client@6.4.0-dev.17(prisma@6.4.0-dev.17):
+    resolution: {integrity: sha512-mTb4eOgG2it+do46qQzzTFC+vEzEuDfLTTn4/wDxIdgYykOdPsR21lBHcnmsglRz8nCMMs32vv48j7pk5oG8Zg==}
     engines: {node: '>=18.18'}
     requiresBuild: true
     peerDependencies:
@@ -1717,44 +1717,44 @@ packages:
       typescript:
         optional: true
     dependencies:
-      prisma: 6.4.0-dev.16
+      prisma: 6.4.0-dev.17
     dev: false
 
-  /@prisma/debug@6.4.0-dev.16:
-    resolution: {integrity: sha512-+eot4y7XjLb5xUF3DJTBc7ioySV/NhkQVpd6Xqe99KIq2MQuSMKKNtDncRxB9eQwxd2usE07SIDjvqAMOJf5LQ==}
+  /@prisma/debug@6.4.0-dev.17:
+    resolution: {integrity: sha512-sFqQAIXL5ysktnYuhxIBxNLxeWuo+7N/vUuSiRsXiCSIb7to145t5d/S7jg7yxyBcSQRb0CoFMhkhTI/e2rS9g==}
 
-  /@prisma/driver-adapter-utils@6.4.0-dev.16:
-    resolution: {integrity: sha512-6uCtgbo7Wr6EaFKhFiam43WTkPlej3ZYbbm3nXRL21zFjqgfsRKa1fPqH3rs2uoDMxoBBrCujYBaoll/bHTv6Q==}
+  /@prisma/driver-adapter-utils@6.4.0-dev.17:
+    resolution: {integrity: sha512-YjdkWOAmimxx4AzEiTlBgRywd9zmd0qEHCrv6ilkpLzhmCsphjNL/lUaIvdtWF1X5i6hGtP4uYxWCE/+5gLVfA==}
     dependencies:
-      '@prisma/debug': 6.4.0-dev.16
+      '@prisma/debug': 6.4.0-dev.17
     dev: false
 
   /@prisma/engines-version@6.4.0-6.ea0929672a4a933a7dbc5b2f9031bb90560f894e:
     resolution: {integrity: sha512-7uJaMj49X4WXwk09hsW1QfJ762VVvl7Grju4W6pzAWiA/YF+nPDUakSqj4N+/CY1fTDuB2dQR4v2+YcpTCAa2Q==}
 
-  /@prisma/engines@6.4.0-dev.16:
-    resolution: {integrity: sha512-80NpG62T6JqlIsEEjVirOgEBgh1cebDS1LrZy8nKvs2fms8hf+af4pfEIs+ZcPLIuDVQphA1bE7kOTSLELXwCw==}
+  /@prisma/engines@6.4.0-dev.17:
+    resolution: {integrity: sha512-vR1aKL8oTt1GZW4OWX0YzdOkgUaGSK3QMoVxJazDKajiEdx6Ydlo76IIKOA5K0Mu/IMbV4tgyhznTU+UxwVk4g==}
     requiresBuild: true
     dependencies:
-      '@prisma/debug': 6.4.0-dev.16
+      '@prisma/debug': 6.4.0-dev.17
       '@prisma/engines-version': 6.4.0-6.ea0929672a4a933a7dbc5b2f9031bb90560f894e
-      '@prisma/fetch-engine': 6.4.0-dev.16
-      '@prisma/get-platform': 6.4.0-dev.16
+      '@prisma/fetch-engine': 6.4.0-dev.17
+      '@prisma/get-platform': 6.4.0-dev.17
 
-  /@prisma/fetch-engine@6.4.0-dev.16:
-    resolution: {integrity: sha512-XPS/POv+7GOmG9GtvC2PeYLJyofq1tToASlpUSH6c20y6oZgEFh7yJdEbV067nXeQHvO7X7uIREVRJYlSigJnA==}
+  /@prisma/fetch-engine@6.4.0-dev.17:
+    resolution: {integrity: sha512-B4Sy8j9nn0uy3ra/QtIKspIzJwPA7tg47dQEubXV5DoJR/ezGM+kvoVWexFmX+dUl56NnD45jTcSdwDKfIMDuQ==}
     dependencies:
-      '@prisma/debug': 6.4.0-dev.16
+      '@prisma/debug': 6.4.0-dev.17
       '@prisma/engines-version': 6.4.0-6.ea0929672a4a933a7dbc5b2f9031bb90560f894e
-      '@prisma/get-platform': 6.4.0-dev.16
+      '@prisma/get-platform': 6.4.0-dev.17
 
-  /@prisma/get-platform@6.4.0-dev.16:
-    resolution: {integrity: sha512-Pe2Nk5Q6ISKOrrufHtPAzZVGoJNvymdpjtWMh16Sz+efn387J0i9Wx/dKpZBqTZPQ9zX+NxY/9jFoB3hHBn7tg==}
+  /@prisma/get-platform@6.4.0-dev.17:
+    resolution: {integrity: sha512-E/p9UhvHT0Sf0CrQe0m6cHpYH/mKQBUJWK3rgckMeZcLfn4xIcOvikNTbDN9ulC7ZQaHJ9885m3EiafyRJNAKw==}
     dependencies:
-      '@prisma/debug': 6.4.0-dev.16
+      '@prisma/debug': 6.4.0-dev.17
 
-  /@prisma/pg-worker@6.4.0-dev.16:
-    resolution: {integrity: sha512-Uun/VkLHsRJpSILWeDaFw8tkduhqfvh6YZLo0v3ZZANEe2DtzcGYmmJtcuUGSfvbSFUQ942o1WWGqA5oQ4Rc5g==}
+  /@prisma/pg-worker@6.4.0-dev.17:
+    resolution: {integrity: sha512-FtYcXdMBgvWIntBudXC8YbQslngjdXHohIqat4rQGH8kqoulFQDR9KEAQFpw48jtHigoF6P0AIE1ZQlLFlB67w==}
     dependencies:
       '@types/pg': 8.11.6
     dev: false
@@ -3911,8 +3911,8 @@ packages:
     resolution: {integrity: sha512-dKp+C4iXWK4vVYZmYSd0KBH5F/h1HoZRsbJ82AVKRO3PEo8L4lBS/vLwhVtpwwuYcoIsVY+1JYKR268yn480uQ==}
     dev: true
 
-  /prisma@6.4.0-dev.16:
-    resolution: {integrity: sha512-wbpwR0pFuiNbR225pGqMs+eFNvRjuzvsQpVGVlPImmPrBlPaRaf7e7cmKa5zVNkSovEGXWEbYgfjaKLN3X2xkg==}
+  /prisma@6.4.0-dev.17:
+    resolution: {integrity: sha512-Lah9Eu8kw56FyVNY2BqWdIevNhADy5ab85fCVqc8qW4HXDzgrEjLPGEDNhRL1ZKdSNOtTaWMlKwYUMxkU2Ddpw==}
     engines: {node: '>=18.18'}
     hasBin: true
     requiresBuild: true
@@ -3922,7 +3922,7 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@prisma/engines': 6.4.0-dev.16
+      '@prisma/engines': 6.4.0-dev.17
     optionalDependencies:
       fsevents: 2.3.3
 
