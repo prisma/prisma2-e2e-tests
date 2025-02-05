@@ -1,6 +1,6 @@
 generator client {
-  provider = "prisma-client-js"
-  binaryTargets = ["native", "rhel-openssl-1.0.x"]
+  provider        = "prisma-client-js"
+  binaryTargets   = ["native", "rhel-openssl-1.0.x"]
   previewFeatures = ["driverAdapters"]
 }
 
@@ -11,8 +11,10 @@ datasource db {
 }
 
 model User {
-  id    String  @default(cuid()) @id
+  id    String  @id @default(cuid())
   email String  @unique
   name  String?
   age   Int?
+
+  @@map("user_lambda_basic")
 }

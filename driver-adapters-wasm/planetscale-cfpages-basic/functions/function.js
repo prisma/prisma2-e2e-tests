@@ -4,7 +4,7 @@ import { PrismaPlanetScale } from '@prisma/adapter-planetscale'
 
 export async function onRequest(context) {
   const client = new Client({
-    url: context.env.DRIVER_ADAPTERS_PLANETSCALE_CFPAGES_BASIC_DATABASE_URL,
+    url: context.env.DATABASE_URL_PLANETSCALE,
     // taken from cloudflare's docs https://developers.cloudflare.com/workers/databases/native-integrations/planetscale/#:~:text=fetch%3A%20(,init)%3B
     fetch(url, init) {
       delete init['cache']
