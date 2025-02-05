@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-ARG UBUNTU_VERSION="20.04"
+ARG UBUNTU_VERSION="24.04"
 
 FROM ubuntu:${UBUNTU_VERSION}
 
