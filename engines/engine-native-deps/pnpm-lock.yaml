@@ -6,16 +6,16 @@ settings:
 
 dependencies:
   '@prisma/client':
-    specifier: 6.4.0-dev.25
-    version: 6.4.0-dev.25
+    specifier: 6.4.0-integration-fix-accelerate-engine-crash-policy.1
+    version: 6.4.0-integration-fix-accelerate-engine-crash-policy.1
   zx:
     specifier: 8.3.0
     version: 8.3.0
 
 packages:
 
-  /@prisma/client@6.4.0-dev.25:
-    resolution: {integrity: sha512-yL0JyVE+2vVZl/H/op5WTCuWHdIwNk/+bL4+yAg81O/Hz2tDFC1z80+TPT2pz0ZsxaC8UkcnrviwMR0A5eE01A==}
+  /@prisma/client@6.4.0-integration-fix-accelerate-engine-crash-policy.1:
+    resolution: {integrity: sha512-k0VjYmfJsXW5mINg6LZgDwMpoDLX0YjsBBgINZe4EJ/iXvOkpypqvWoTzGVFuEk4JGVd/LVeamx4EhFZyU7pUw==}
     engines: {node: '>=18.18'}
     requiresBuild: true
     peerDependencies:

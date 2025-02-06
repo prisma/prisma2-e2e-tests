@@ -131,9 +131,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@prisma/client@npm:6.4.0-dev.25":
-  version: 6.4.0-dev.25
-  resolution: "@prisma/client@npm:6.4.0-dev.25"
+"@prisma/client@npm:6.4.0-integration-fix-accelerate-engine-crash-policy.1":
+  version: 6.4.0-integration-fix-accelerate-engine-crash-policy.1
+  resolution: "@prisma/client@npm:6.4.0-integration-fix-accelerate-engine-crash-policy.1"
   peerDependencies:
     prisma: "*"
     typescript: ">=5.1.0"
@@ -142,14 +142,14 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 8d26ab09f3ed96b73cdb8a35dd83aea5f3b8943a9cb4f7acf4d7bbba570c8f645480816523e9dea634ac7920a8da3ad5112f1432cb4947f7abd3c3f7e562f659
+  checksum: 71ca7a2a60220bb08b41fdb95b15ec42c2c211191c265d2c3496d44044feeb62e8e3785d642ebce9aed23597a8b437af0e31dac45d67ca940ca5232d1e045cc8
   languageName: node
   linkType: hard
 
-"@prisma/debug@npm:6.4.0-dev.25":
-  version: 6.4.0-dev.25
-  resolution: "@prisma/debug@npm:6.4.0-dev.25"
-  checksum: cce2b4db71d3835106e0085af909912575e66f4f3a0855f428ad92d30b59c18a2d0144b76d52b0ec00a420c06136ca9c2ca80eee0a36bad1558dd63f19e76013
+"@prisma/debug@npm:6.4.0-integration-fix-accelerate-engine-crash-policy.1":
+  version: 6.4.0-integration-fix-accelerate-engine-crash-policy.1
+  resolution: "@prisma/debug@npm:6.4.0-integration-fix-accelerate-engine-crash-policy.1"
+  checksum: 583271f0b1a04b70de5906501f147859174343ee0b9ea93d6309a9652a4343dbf47ffdbb389bbc162643fb1603d70c610f52eebc9239ebf91e4eeb7f1cdb289a
   languageName: node
   linkType: hard
 
@@ -160,35 +160,35 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@prisma/engines@npm:6.4.0-dev.25":
-  version: 6.4.0-dev.25
-  resolution: "@prisma/engines@npm:6.4.0-dev.25"
+"@prisma/engines@npm:6.4.0-integration-fix-accelerate-engine-crash-policy.1":
+  version: 6.4.0-integration-fix-accelerate-engine-crash-policy.1
+  resolution: "@prisma/engines@npm:6.4.0-integration-fix-accelerate-engine-crash-policy.1"
   dependencies:
-    "@prisma/debug": 6.4.0-dev.25
+    "@prisma/debug": 6.4.0-integration-fix-accelerate-engine-crash-policy.1
     "@prisma/engines-version": 6.4.0-9.13fef947ca01dc09ba9af220e9f8d401c14f1a57
-    "@prisma/fetch-engine": 6.4.0-dev.25
-    "@prisma/get-platform": 6.4.0-dev.25
-  checksum: 1f5bd697ca8b4ba22a25a79ffdb34ecadf203c20648cb824b7c485f556ed2008ffdddffef4a16fc3e81bab67f5c5890c3d2ccb486f01b81f02bb30e819613e2a
+    "@prisma/fetch-engine": 6.4.0-integration-fix-accelerate-engine-crash-policy.1
+    "@prisma/get-platform": 6.4.0-integration-fix-accelerate-engine-crash-policy.1
+  checksum: 67823589953178287857a5c584fe6d7793b9564f7e542bb4c6a557f845653e1be64d8ccaabf9dea31af5615262422df331d605fafac04ea0aa0f78b4f1875b05
   languageName: node
   linkType: hard
 
-"@prisma/fetch-engine@npm:6.4.0-dev.25":
-  version: 6.4.0-dev.25
-  resolution: "@prisma/fetch-engine@npm:6.4.0-dev.25"
+"@prisma/fetch-engine@npm:6.4.0-integration-fix-accelerate-engine-crash-policy.1":
+  version: 6.4.0-integration-fix-accelerate-engine-crash-policy.1
+  resolution: "@prisma/fetch-engine@npm:6.4.0-integration-fix-accelerate-engine-crash-policy.1"
   dependencies:
-    "@prisma/debug": 6.4.0-dev.25
+    "@prisma/debug": 6.4.0-integration-fix-accelerate-engine-crash-policy.1
     "@prisma/engines-version": 6.4.0-9.13fef947ca01dc09ba9af220e9f8d401c14f1a57
-    "@prisma/get-platform": 6.4.0-dev.25
-  checksum: ca8afd8b4027afa1a16aa0a411a6984941d71026fa67c49d4c4f45f2512709f509dbb1b3c6f4f19c1170cd26bd2225b47d894776d0441ef43a5728079138350c
+    "@prisma/get-platform": 6.4.0-integration-fix-accelerate-engine-crash-policy.1
+  checksum: 0a573661967a13fd3ce71edb03c5c30311b505881b35582e3e71aa2aed6c9daa5b3d397c149b6a2c90d9179ff9303d87a1919478ed02d9e734dee159dd2aa3d9
   languageName: node
   linkType: hard
 
-"@prisma/get-platform@npm:6.4.0-dev.25":
-  version: 6.4.0-dev.25
-  resolution: "@prisma/get-platform@npm:6.4.0-dev.25"
+"@prisma/get-platform@npm:6.4.0-integration-fix-accelerate-engine-crash-policy.1":
+  version: 6.4.0-integration-fix-accelerate-engine-crash-policy.1
+  resolution: "@prisma/get-platform@npm:6.4.0-integration-fix-accelerate-engine-crash-policy.1"
   dependencies:
-    "@prisma/debug": 6.4.0-dev.25
-  checksum: e6efa38b051647ce24d6e637197c5c77f54a0ee5c879d99ca4a54c7fbc66ad28436aed1fe337586a8c59d289d4757d25c5e4b00485114f379d6a16e8a15aa7b8
+    "@prisma/debug": 6.4.0-integration-fix-accelerate-engine-crash-policy.1
+  checksum: 76854a48f1ed5bb2397144015e7a85e3e5133fa74321a9aac15227acf637f01d165e828ff936e6a45bd5ecf37b92eb5cbaddd5af9f6b7cc94c4fc010ffe80fa6
   languageName: node
   linkType: hard
 
@@ -1528,11 +1528,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prisma@npm:6.4.0-dev.25":
-  version: 6.4.0-dev.25
-  resolution: "prisma@npm:6.4.0-dev.25"
+"prisma@npm:6.4.0-integration-fix-accelerate-engine-crash-policy.1":
+  version: 6.4.0-integration-fix-accelerate-engine-crash-policy.1
+  resolution: "prisma@npm:6.4.0-integration-fix-accelerate-engine-crash-policy.1"
   dependencies:
-    "@prisma/engines": 6.4.0-dev.25
+    "@prisma/engines": 6.4.0-integration-fix-accelerate-engine-crash-policy.1
     fsevents: 2.3.3
   peerDependencies:
     typescript: ">=5.1.0"
@@ -1544,7 +1544,7 @@ __metadata:
       optional: true
   bin:
     prisma: build/index.js
-  checksum: 274f0258f9b723f03ef3104c5de5a8c355828e36254ba327fef906123f6639cb8b6be6e595803046578fb7ac18269a74b185cb830bd5e363ae2efe3ae59da528
+  checksum: 2557ce3dc0f58b52530f17ea74f3f84faba943c457d47c024ebec2cc0e15223d2ac4534cf461f604e1d4c98b03dc8644d5379acd609d3d0324063415cf237eec
   languageName: node
   linkType: hard
 
@@ -1630,8 +1630,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
-    "@prisma/client": 6.4.0-dev.25
-    prisma: 6.4.0-dev.25
+    "@prisma/client": 6.4.0-integration-fix-accelerate-engine-crash-policy.1
+    prisma: 6.4.0-integration-fix-accelerate-engine-crash-policy.1
   languageName: unknown
   linkType: soft
 
@@ -1796,10 +1796,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "sub-project-1@workspace:packages/sub-project-1"
   dependencies:
-    "@prisma/client": 6.4.0-dev.25
+    "@prisma/client": 6.4.0-integration-fix-accelerate-engine-crash-policy.1
     "@types/node": 18.19.70
     "@yarnpkg/pnpify": 3.1.8
-    prisma: 6.4.0-dev.25
+    prisma: 6.4.0-integration-fix-accelerate-engine-crash-policy.1
     ts-node: 10.9.2
     typescript: 5.7.3
   languageName: unknown

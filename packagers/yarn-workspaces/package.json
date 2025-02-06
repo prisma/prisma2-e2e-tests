@@ -4,7 +4,7 @@
     "prisma-project"
   ],
   "dependencies": {
-    "@prisma/client": "6.4.0-dev.25",
-    "prisma": "6.4.0-dev.25"
+    "@prisma/client": "6.4.0-integration-fix-accelerate-engine-crash-policy.1",
+    "prisma": "6.4.0-integration-fix-accelerate-engine-crash-policy.1"
   }
 }
