@@ -10,11 +10,11 @@
     "@jest/globals": "29.7.0",
     "esbuild": "0.24.2",
     "jest": "29.7.0",
-    "prisma": "6.4.0-dev.27"
+    "prisma": "6.4.0-dev.28"
   },
   "dependencies": {
     "@planetscale/database": "1.19.0",
-    "@prisma/adapter-planetscale": "6.4.0-dev.27",
-    "@prisma/client": "6.4.0-dev.27"
+    "@prisma/adapter-planetscale": "6.4.0-dev.28",
+    "@prisma/client": "6.4.0-dev.28"
   }
 }
