@@ -10,11 +10,11 @@
   },
   "devDependencies": {
     "jest": "29.7.0",
-    "prisma": "6.4.0-dev.24",
+    "prisma": "6.4.0-dev.25",
     "vercel": "34.4.0"
   },
   "dependencies": {
-    "@prisma/client": "6.4.0-dev.24",
+    "@prisma/client": "6.4.0-dev.25",
     "next": "14.2.23",
     "node-fetch": "2.7.0",
     "react": "18.3.1",
