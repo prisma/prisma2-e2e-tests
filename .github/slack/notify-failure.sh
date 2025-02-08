@@ -13,7 +13,7 @@ if [ "$GITHUB_REF" = "refs/heads/dev" ] || [ "$GITHUB_REF" = "refs/heads/integra
   sha="$(git rev-parse HEAD | cut -c -7)"
   short_sha="$(echo "$sha" | cut -c -7)"
   commit_link="\`<https://github.com/prisma/ecosystem-tests/commit/$sha|$branch@$short_sha>\`"
-  workflow_link="<https://github.com/prisma/ecosystem-tests/actions/runs/$GITHUB_RUN_ID|$project $matrix>"
+  workflow_link=$(gh api "repos/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID/jobs" | jq -rj ".jobs[] | select(.name==\"$GITHUB_JOB\") | .html_url")
 
   export webhook="$SLACK_WEBHOOK_URL"
   version="$(cat .github/prisma-version.txt)"
