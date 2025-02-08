@@ -13,7 +13,7 @@
     "start": "node index.js"
   },
   "devDependencies": {
-    "heroku": "8.11.5",
+    "heroku": "10.1.0",
     "prisma": "6.4.0-dev.30",
     "ts-node": "10.9.2"
   }
