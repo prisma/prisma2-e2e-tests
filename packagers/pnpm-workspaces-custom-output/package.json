@@ -2,7 +2,7 @@
   "name": "pnpm-workspaces-custom-output",
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "18.19.70",
+    "@types/node": "18.19.75",
     "prisma": "6.4.0-dev.30",
     "ts-node": "10.9.2",
     "typescript": "5.7.3"
