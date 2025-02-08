@@ -11,7 +11,7 @@
   "devDependencies": {
     "@antfu/ni": "0.23.2",
     "@slack/webhook": "6.1.0",
-    "@types/node": "18.19.70",
+    "@types/node": "18.19.75",
     "ts-node": "10.9.2",
     "typescript": "5.7.3"
   },
