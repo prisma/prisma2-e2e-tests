@@ -15,8 +15,8 @@ dependencies:
     specifier: 6.4.0-dev.30
     version: 6.4.0-dev.30(prisma@6.4.0-dev.30)
   undici:
-    specifier: 6.21.0
-    version: 6.21.0
+    specifier: 6.21.1
+    version: 6.21.1
 
 devDependencies:
   '@aws-sdk/client-lambda':
@@ -3756,8 +3756,8 @@ packages:
   /undici-types@5.26.5:
     resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
 
-  /undici@6.21.0:
-    resolution: {integrity: sha512-BUgJXc752Kou3oOIuU1i+yZZypyZRqNPW0vqoMPl8VaoalSfeR0D8/t4iAS3yirs79SSMTxTag+ZC86uswv+Cw==}
+  /undici@6.21.1:
+    resolution: {integrity: sha512-q/1rj5D0/zayJB2FraXdaWxbhWiNKDvu8naDT2dl1yTlvJp4BLtOcp2a5BvgGNQpYYJzau7tf1WgKv3b+7mqpQ==}
     engines: {node: '>=18.17'}
     dev: false
 
