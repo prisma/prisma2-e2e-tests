@@ -27,5 +27,5 @@
     "reset-json-and-lockfiles": "pnpm reset-lockfiles; git restore --source=origin/dev '*.json'",
     "test:detect-jobs-to-run": "pnpm exec jest detect-jobs-to-run"
   },
-  "packageManager": "pnpm@8.15.7+sha512.c85cd21b6da10332156b1ca2aa79c0a61ee7ad2eb0453b88ab299289e9e8ca93e6091232b25c07cbf61f6df77128d9c849e5c9ac6e44854dbd211c49f3a67adc"
+  "packageManager": "pnpm@8.15.9+sha512.499434c9d8fdd1a2794ebf4552b3b25c0a633abcee5bb15e7b5de90f32f47b513aca98cd5cfd001c31f0db454bc3804edccd578501e4ca293a6816166bbd9f81"
 }
