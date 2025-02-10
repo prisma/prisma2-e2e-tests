@@ -71,13 +71,13 @@ test('prisma version and output', async () => {
 `)
   // expect(regResult.updateMany.count).toBe(1)
   expect(regResult.findFirst).toMatchInlineSnapshot(`null`)
-  //   expect(regResult.delete).toMatchInlineSnapshot(`
-  // {
-  //   "age": 27,
-  //   "email": "test-1@prisma.io",
-  //   "name": "Test 1",
-  // }
-  // `)
+  expect(regResult.delete).toMatchInlineSnapshot(`
+  {
+    "age": 27,
+    "email": "test-1@prisma.io",
+    "name": "Test 1",
+  }
+  `)
   expect(regResult.count).toBe(1)
   expect(regResult.aggregate).toMatchInlineSnapshot(`
 {
