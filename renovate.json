@@ -2,7 +2,10 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:recommended", ":noUnscheduledUpdates"],
   "reviewers": ["@prisma/orm-ts-maintain"],
-  "schedule": ["after 5:00am every weekday, before 7:00am every weekday", "every weekend"],
+  "schedule": [
+    "after 5:00am every weekday, before 7:00am every weekday",
+    "every weekend"
+  ],
   "automergeSchedule": ["before 7am every weekday"],
   "automerge": true,
   "major": {
@@ -28,7 +31,7 @@
   "packageRules": [
     {
       "groupName": "svelte packages",
-      "matchPackagePatterns": ["svelte"]
+      "matchPackageNames": ["/svelte/"]
     },
     {
       "groupName": "sveltekit directory",
@@ -36,7 +39,7 @@
     },
     {
       "groupName": "@redwoodjs packages",
-      "matchPackagePatterns": ["^@redwoodjs"]
+      "matchPackageNames": ["/^@redwoodjs/"]
     },
     {
       "groupName": "aws-sdk",
@@ -53,12 +56,18 @@
     },
     {
       "groupName": "TypeScript < 4.9.5 - typegraphql-prisma & firebase",
-      "matchFileNames": ["community-generators/typegraphql-prisma/**", "platforms-serverless/firebase-functions/**"],
+      "matchFileNames": [
+        "community-generators/typegraphql-prisma/**",
+        "platforms-serverless/firebase-functions/**"
+      ],
       "matchPackageNames": ["typescript"]
     },
     {
       "groupName": "GraphQL 15 - TypeGraphQL",
-      "matchFileNames": ["libraries/type-graphql/**", "community-generators/typegraphql-prisma/**"],
+      "matchFileNames": [
+        "libraries/type-graphql/**",
+        "community-generators/typegraphql-prisma/**"
+      ],
       "matchPackageNames": ["graphql"],
       "allowedVersions": "<16"
     }
