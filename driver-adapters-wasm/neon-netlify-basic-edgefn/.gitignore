@@ -1,0 +1,9 @@
+# Local Netlify folder
+.netlify
+
+node_modules
+netlify/edge-functions/prisma
+
+*/.DS_Store
+
+.vscode

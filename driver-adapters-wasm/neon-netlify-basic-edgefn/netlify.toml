@@ -1,0 +1,5 @@
+[dev]
+base = "./driver-adapters-wasm/neon-netlify-basic-edgefn"
+
+[build]
+command = "echo No build for this site, we are living on the edge"

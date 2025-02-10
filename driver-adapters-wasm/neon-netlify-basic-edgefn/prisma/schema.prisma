@@ -1,0 +1,19 @@
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["driverAdapters"]
+  output          = "../netlify/edge-functions/prisma/client"
+  engineType      = "wasm"
+}
+
+datasource db {
+  provider = "postgresql"
+  // fake url to ensure the driver adapter is used
+  url      = "postgresql://mills:bc6Gyme0QWAS@ep-crimson-queen-10606038.us-east-2.aws.neon.tech/mydb?sslmode=require"
+}
+
+model User {
+  id    String  @id @default(cuid())
+  email String  @unique
+  name  String?
+  age   Int?
+}

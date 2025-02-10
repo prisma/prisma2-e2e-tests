@@ -1,0 +1,27 @@
+{
+  "name": "edge-functions-examples",
+  "description": "Explore a library of reference examples for learning about Edge Functions on Netlify.",
+  "version": "1.0.0",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/netlify/edge-functions-examples.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/netlify/edge-functions-examples/issues"
+  },
+  "homepage": "https://github.com/netlify/edge-functions-examples#readme",
+  "devDependencies": {
+    "netlify-cli": "^17.9.0",
+    "@prisma/client": "5.7.0-dev.80",
+    "prisma": "5.7.0-dev.80"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "0.6.0",
+    "@prisma/adapter-neon": "5.7.0-dev.80",
+    "@prisma/client": "5.7.0-dev.80"
+  }
+}
