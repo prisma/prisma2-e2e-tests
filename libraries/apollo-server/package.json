@@ -8,13 +8,13 @@
   "dependencies": {
     "@apollo/client": "3.12.11",
     "@apollo/server": "4.11.3",
-    "@prisma/client": "6.4.0-dev.38",
+    "@prisma/client": "6.4.0-dev.39",
     "@types/node-fetch": "2.6.12",
     "graphql": "16.10.0"
   },
   "devDependencies": {
     "@types/node": "18.19.75",
-    "prisma": "6.4.0-dev.38",
+    "prisma": "6.4.0-dev.39",
     "ts-node": "10.9.2",
     "ts-node-dev": "2.0.0",
     "typescript": "5.7.3"
