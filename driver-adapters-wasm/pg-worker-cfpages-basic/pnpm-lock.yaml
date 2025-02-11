@@ -6,14 +6,14 @@ settings:
 
 dependencies:
   '@prisma/adapter-pg-worker':
-    specifier: 6.4.0-dev.35
-    version: 6.4.0-dev.35(@prisma/pg-worker@6.4.0-dev.35)
+    specifier: 6.4.0-dev.36
+    version: 6.4.0-dev.36(@prisma/pg-worker@6.4.0-dev.36)
   '@prisma/client':
-    specifier: 6.4.0-dev.35
-    version: 6.4.0-dev.35(prisma@6.4.0-dev.35)
+    specifier: 6.4.0-dev.36
+    version: 6.4.0-dev.36(prisma@6.4.0-dev.36)
   '@prisma/pg-worker':
-    specifier: 6.4.0-dev.35
-    version: 6.4.0-dev.35
+    specifier: 6.4.0-dev.36
+    version: 6.4.0-dev.36
 
 devDependencies:
   '@jest/globals':
@@ -26,8 +26,8 @@ devDependencies:
     specifier: 2.7.0
     version: 2.7.0
   prisma:
-    specifier: 6.4.0-dev.35
-    version: 6.4.0-dev.35
+    specifier: 6.4.0-dev.36
+    version: 6.4.0-dev.36
   wrangler:
     specifier: 3.101.0
     version: 3.101.0
@@ -1694,18 +1694,18 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
 
-  /@prisma/adapter-pg-worker@6.4.0-dev.35(@prisma/pg-worker@6.4.0-dev.35):
-    resolution: {integrity: sha512-G2eelCG7uEPoxmyXsH6SkvxDOI/F4wkXqCYLSl60H6HuoQit2KK1p/Mw0dq9vD/pfqTkBOv20n6kzajfgfB44g==}
+  /@prisma/adapter-pg-worker@6.4.0-dev.36(@prisma/pg-worker@6.4.0-dev.36):
+    resolution: {integrity: sha512-xMEkmYzJmcss6CMETYGHgOGir48tju55krlUyucQ+568ePQiRA4JV/RKS6aeNzPqPounWuNoRRhA+dtZIMYfDQ==}
     peerDependencies:
       '@prisma/pg-worker': ^6.0.0
     dependencies:
-      '@prisma/driver-adapter-utils': 6.4.0-dev.35
-      '@prisma/pg-worker': 6.4.0-dev.35
+      '@prisma/driver-adapter-utils': 6.4.0-dev.36
+      '@prisma/pg-worker': 6.4.0-dev.36
       postgres-array: 3.0.2
     dev: false
 
-  /@prisma/client@6.4.0-dev.35(prisma@6.4.0-dev.35):
-    resolution: {integrity: sha512-FHEhWGOYDQGEcdtVJ4aUzArFU4C5ONALtJDYAGIyDNeoxrjeKXo1L5EF9ims0QAboNW26wIG/AVcxezz4JAJnA==}
+  /@prisma/client@6.4.0-dev.36(prisma@6.4.0-dev.36):
+    resolution: {integrity: sha512-Kk1Gqc+M2qLrjuBW2oKcp13N3ztPSlj17STAPZ8wi5BsHuaQ486gv8RfVzn8mla0z+ggf+ZG2f/BvxbnhBZVQg==}
     engines: {node: '>=18.18'}
     requiresBuild: true
     peerDependencies:
@@ -1717,44 +1717,44 @@ packages:
       typescript:
         optional: true
     dependencies:
-      prisma: 6.4.0-dev.35
+      prisma: 6.4.0-dev.36
     dev: false
 
-  /@prisma/debug@6.4.0-dev.35:
-    resolution: {integrity: sha512-3M8kc1tC9iwTQO1JaSyjAGcUnGKpRUjUVACMy2fzGYqPjgvD5whvAaP4hdBKN4LTnhdOhjWqza9q05WCF9Rkfg==}
+  /@prisma/debug@6.4.0-dev.36:
+    resolution: {integrity: sha512-6NRDy+ey+qg0M9vczY+WpFXggDk73zMbe3fGTJk4fohcLdTe68APeY2vOhpn4SS3dKKspXqBg03QzQN67u3hhg==}
 
-  /@prisma/driver-adapter-utils@6.4.0-dev.35:
-    resolution: {integrity: sha512-OnRPvZExfVJpdZ3UY5LC7xaJMvrHwq3N+1NxS0IwTX/3SGxG0D553URuo462IDuxk7iS6luWsnmZVi62PvLYgQ==}
+  /@prisma/driver-adapter-utils@6.4.0-dev.36:
+    resolution: {integrity: sha512-Fv6KNtpyjsdKVhUZ5d1FOy9KULSX3R8EzMd2nBmhgnPZ/dsi7CXFuoX7aX6xpSvtrzIDmi6QtRo3sOXgmsHlzQ==}
     dependencies:
-      '@prisma/debug': 6.4.0-dev.35
+      '@prisma/debug': 6.4.0-dev.36
     dev: false
 
   /@prisma/engines-version@6.4.0-21.08b0da61b89855d81a37b120c20ccb3019379e22:
     resolution: {integrity: sha512-dk2fZkpPypQCdC8SiS1m2QP1MXXRULXI+jfQlfHeoRx9jQ0qANwSdguR8rVc1cXP7I9O0WPGgBY6WGJKEpcNJQ==}
 
-  /@prisma/engines@6.4.0-dev.35:
-    resolution: {integrity: sha512-ONgbwhoPbRVEDDZgQoSeDt8w/eGihrBTaKS1Qyq5jPqamfTYwrWI55elX8lktWthRc5Ezb1l4buqNguZsu7wKw==}
+  /@prisma/engines@6.4.0-dev.36:
+    resolution: {integrity: sha512-6GLyPYIoYNjN46ep+wZ7XgO62UrRW1bC3VuFCOhmZGEqAsb9S2jzRYBcySmU4w0GHxW66qht5MCARV/U/ff4Ww==}
     requiresBuild: true
     dependencies:
-      '@prisma/debug': 6.4.0-dev.35
+      '@prisma/debug': 6.4.0-dev.36
       '@prisma/engines-version': 6.4.0-21.08b0da61b89855d81a37b120c20ccb3019379e22
-      '@prisma/fetch-engine': 6.4.0-dev.35
-      '@prisma/get-platform': 6.4.0-dev.35
+      '@prisma/fetch-engine': 6.4.0-dev.36
+      '@prisma/get-platform': 6.4.0-dev.36
 
-  /@prisma/fetch-engine@6.4.0-dev.35:
-    resolution: {integrity: sha512-FVuq813GoeQSP8ZdzuYMKyrbiX6+KfoNdvwy0Gj5Aa7RdbuJzaSfQg/w8gUhIPunPKXCWQfaT9O1X4vTg75MpQ==}
+  /@prisma/fetch-engine@6.4.0-dev.36:
+    resolution: {integrity: sha512-9dScoPeGRY1f33ZrIXjAd0ENwNAW0jPVSUidXzlhdaXw0MbmME5IArWYDg2aviddSj3vJRqmvlG82dm1Xp6kjA==}
     dependencies:
-      '@prisma/debug': 6.4.0-dev.35
+      '@prisma/debug': 6.4.0-dev.36
       '@prisma/engines-version': 6.4.0-21.08b0da61b89855d81a37b120c20ccb3019379e22
-      '@prisma/get-platform': 6.4.0-dev.35
+      '@prisma/get-platform': 6.4.0-dev.36
 
-  /@prisma/get-platform@6.4.0-dev.35:
-    resolution: {integrity: sha512-liDENtmfv356NgWn2Kj8Qt58n6Oa8iBjzS+iFyf+EK+kV3YIZWOtIPDb8FJuI9LCsh1TCa2kbQqesb1hFnI10w==}
+  /@prisma/get-platform@6.4.0-dev.36:
+    resolution: {integrity: sha512-hiDvucDa1g9nNnnl8zrBAjxCJ/rj9KVnX95rgyV5uGDcC985bX6S4GMhsex4sKfLGssH4xWjxqVnP9BJy5lPJA==}
     dependencies:
-      '@prisma/debug': 6.4.0-dev.35
+      '@prisma/debug': 6.4.0-dev.36
 
-  /@prisma/pg-worker@6.4.0-dev.35:
-    resolution: {integrity: sha512-sQ6rZ62bhNEKIvurMjgJp5R2MIV94tzAcGHSe9Frw0IezAoGkUxzWHKWfUgnPPisfvPBiFsFZhpidvwKx70bSg==}
+  /@prisma/pg-worker@6.4.0-dev.36:
+    resolution: {integrity: sha512-z0Go6860Qrue3FaoNYAdW2Vm9PNsvMG/zUAUKS6dp/pHDoLyRmqEhhZaZOiHFJl5uY/IJuQf1MGAhGZThGrWaQ==}
     dependencies:
       '@types/pg': 8.11.6
     dev: false
@@ -3911,8 +3911,8 @@ packages:
     resolution: {integrity: sha512-dKp+C4iXWK4vVYZmYSd0KBH5F/h1HoZRsbJ82AVKRO3PEo8L4lBS/vLwhVtpwwuYcoIsVY+1JYKR268yn480uQ==}
     dev: true
 
-  /prisma@6.4.0-dev.35:
-    resolution: {integrity: sha512-9TDzTbkknn/mFWCEIcaRYY+Aumt+7pmgh4F4au++8UBG+OLUy+GPmTpSkasV4/eCfU3Pe9VzEc/ycWIEDivlFw==}
+  /prisma@6.4.0-dev.36:
+    resolution: {integrity: sha512-zJO2s0zNsKc3U+sND50+owGk5nS9ishbjPAqNWtvGO2wP68qdyplMyRjd6Eas/LKwCp4JKkf/e19KIZA7xug4Q==}
     engines: {node: '>=18.18'}
     hasBin: true
     requiresBuild: true
@@ -3922,7 +3922,7 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@prisma/engines': 6.4.0-dev.35
+      '@prisma/engines': 6.4.0-dev.36
     optionalDependencies:
       fsevents: 2.3.3
 

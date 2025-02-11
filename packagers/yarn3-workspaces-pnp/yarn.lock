@@ -131,9 +131,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@prisma/client@npm:6.4.0-dev.35":
-  version: 6.4.0-dev.35
-  resolution: "@prisma/client@npm:6.4.0-dev.35"
+"@prisma/client@npm:6.4.0-dev.36":
+  version: 6.4.0-dev.36
+  resolution: "@prisma/client@npm:6.4.0-dev.36"
   peerDependencies:
     prisma: "*"
     typescript: ">=5.1.0"
@@ -142,14 +142,14 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 7eebc71de2786cff6e30c77e8a0d0304e51d53ec15e08c6a07fdb5feccffc1dd64f4f87fefe475f85493d78e7164825f25f85ce6133b11f1ef1f53ab6c8fc4b2
+  checksum: 662cfc8e4cd8053a847d5bc05e341137b69d58519e6be9a94ab1bc3eb24edd464e7ada27cf6797a2290b43ff4142f3e2410025dbd6d23653103d581ab4645a0c
   languageName: node
   linkType: hard
 
-"@prisma/debug@npm:6.4.0-dev.35":
-  version: 6.4.0-dev.35
-  resolution: "@prisma/debug@npm:6.4.0-dev.35"
-  checksum: cb31e1c4c641e057729dcf19edf51819b7a74bf04487a88140ad2e24368d5a854ce81bd4ac7169d6f9d354318abc2154a585ef4fedc3b5a1c4bd2aaf40edddeb
+"@prisma/debug@npm:6.4.0-dev.36":
+  version: 6.4.0-dev.36
+  resolution: "@prisma/debug@npm:6.4.0-dev.36"
+  checksum: 8d7f8b1f9593fb47ec0390a5dc609ab388786e4aa30eeac29ba18029bede0ba7aa96a568e65166b5a13dbb7fd874d0307380a3135356b3183cc4bc28f0b3b02b
   languageName: node
   linkType: hard
 
@@ -160,35 +160,35 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@prisma/engines@npm:6.4.0-dev.35":
-  version: 6.4.0-dev.35
-  resolution: "@prisma/engines@npm:6.4.0-dev.35"
+"@prisma/engines@npm:6.4.0-dev.36":
+  version: 6.4.0-dev.36
+  resolution: "@prisma/engines@npm:6.4.0-dev.36"
   dependencies:
-    "@prisma/debug": 6.4.0-dev.35
+    "@prisma/debug": 6.4.0-dev.36
     "@prisma/engines-version": 6.4.0-21.08b0da61b89855d81a37b120c20ccb3019379e22
-    "@prisma/fetch-engine": 6.4.0-dev.35
-    "@prisma/get-platform": 6.4.0-dev.35
-  checksum: 8a83cbc36bbd59f534356623285d3d8feae4fc0ddf0e17df60b4424588a105de666c4e037b0d4962120631baafb14da2237cdf5313031c487eb3ccf417dbd308
+    "@prisma/fetch-engine": 6.4.0-dev.36
+    "@prisma/get-platform": 6.4.0-dev.36
+  checksum: 705207cc737eec1ad1632083b413a69cd90f69b74494df1955928de02a34707ad430d276ccd1071837c9b47128cfdfc0dc0b1e0d6379697b1da133209d4c76f3
   languageName: node
   linkType: hard
 
-"@prisma/fetch-engine@npm:6.4.0-dev.35":
-  version: 6.4.0-dev.35
-  resolution: "@prisma/fetch-engine@npm:6.4.0-dev.35"
+"@prisma/fetch-engine@npm:6.4.0-dev.36":
+  version: 6.4.0-dev.36
+  resolution: "@prisma/fetch-engine@npm:6.4.0-dev.36"
   dependencies:
-    "@prisma/debug": 6.4.0-dev.35
+    "@prisma/debug": 6.4.0-dev.36
     "@prisma/engines-version": 6.4.0-21.08b0da61b89855d81a37b120c20ccb3019379e22
-    "@prisma/get-platform": 6.4.0-dev.35
-  checksum: 3252db4b1d3e4f2d96c318c4c1058c08b99d32021486a93956c65548fd5451550e16822e1f7a4d8f6c1a89ca8601e0ad080ac5e7796c9b15bd00c5b2a7c7c4a4
+    "@prisma/get-platform": 6.4.0-dev.36
+  checksum: 5f22f4d597a38762cbf7b433835953832d13fd606643cf6a439bf9a827ede63fb4ae5da8c43400171277c84728868a3ed58ecaed0a87cd10409be03b5a570dfc
   languageName: node
   linkType: hard
 
-"@prisma/get-platform@npm:6.4.0-dev.35":
-  version: 6.4.0-dev.35
-  resolution: "@prisma/get-platform@npm:6.4.0-dev.35"
+"@prisma/get-platform@npm:6.4.0-dev.36":
+  version: 6.4.0-dev.36
+  resolution: "@prisma/get-platform@npm:6.4.0-dev.36"
   dependencies:
-    "@prisma/debug": 6.4.0-dev.35
-  checksum: 83fb87f0e3799e767535165b629f18286daddce6df359f37d23de211fee131a78785a675b6482697698620c501d862a6e734d4b03cc7cd4b40ff71f2efde1133
+    "@prisma/debug": 6.4.0-dev.36
+  checksum: b544caa82d120dbf9902fe80789ed0fb8f89a64110d167dd8013771766be65438c96383d595fb6773369782aea920c5a3af413882ad4f6d43212db4bb001acdf
   languageName: node
   linkType: hard
 
@@ -1528,11 +1528,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prisma@npm:6.4.0-dev.35":
-  version: 6.4.0-dev.35
-  resolution: "prisma@npm:6.4.0-dev.35"
+"prisma@npm:6.4.0-dev.36":
+  version: 6.4.0-dev.36
+  resolution: "prisma@npm:6.4.0-dev.36"
   dependencies:
-    "@prisma/engines": 6.4.0-dev.35
+    "@prisma/engines": 6.4.0-dev.36
     fsevents: 2.3.3
   peerDependencies:
     typescript: ">=5.1.0"
@@ -1544,7 +1544,7 @@ __metadata:
       optional: true
   bin:
     prisma: build/index.js
-  checksum: d5d0de5a596fe5460a9e3a45d0dbe7b92d68f0c657264d86635b7efa9056769c3e55a7be59c775894a2d347020e41022b67ffb8a2bb09c3ce4ed7d0859cdca03
+  checksum: 871e0b84062ff4a0627d7c85a990d9379ee0dd2311cf4a5b64b5cc796528fc45610d4157eb6882b70238921ef4f3581831f2d5b1a7f6c627196ebeae235dc354
   languageName: node
   linkType: hard
 
@@ -1630,8 +1630,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
-    "@prisma/client": 6.4.0-dev.35
-    prisma: 6.4.0-dev.35
+    "@prisma/client": 6.4.0-dev.36
+    prisma: 6.4.0-dev.36
   languageName: unknown
   linkType: soft
 
@@ -1796,10 +1796,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "sub-project-1@workspace:packages/sub-project-1"
   dependencies:
-    "@prisma/client": 6.4.0-dev.35
+    "@prisma/client": 6.4.0-dev.36
     "@types/node": 18.19.75
     "@yarnpkg/pnpify": 3.1.8
-    prisma: 6.4.0-dev.35
+    prisma: 6.4.0-dev.36
     ts-node: 10.9.2
     typescript: 5.7.3
   languageName: unknown
