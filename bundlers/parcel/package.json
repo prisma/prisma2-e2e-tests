@@ -6,10 +6,10 @@
   "devDependencies": {
     "jest": "29.7.0",
     "parcel-bundler": "1.12.5",
-    "prisma": "6.4.0-dev.37"
+    "prisma": "6.4.0-dev.38"
   },
   "dependencies": {
-    "@prisma/client": "6.4.0-dev.37"
+    "@prisma/client": "6.4.0-dev.38"
   },
   "scripts": {
     "test": "jest"
