@@ -10,11 +10,11 @@
   },
   "devDependencies": {
     "jest": "29.7.0",
-    "prisma": "6.4.0-dev.42",
+    "prisma": "6.4.0-dev.43",
     "ci-info": "4.1.0"
   },
   "dependencies": {
-    "@prisma/client": "6.4.0-dev.42",
+    "@prisma/client": "6.4.0-dev.43",
     "next": "14.2.24",
     "node-fetch": "2.7.0",
     "react": "18.3.1",
