@@ -9,8 +9,8 @@ dependencies:
     specifier: 4.11.3
     version: 4.11.3(graphql@16.8.1)
   '@prisma/client':
-    specifier: 6.4.0-dev.45
-    version: 6.4.0-dev.45(prisma@6.4.0-dev.45)(typescript@5.7.3)
+    specifier: 6.4.0-dev.46
+    version: 6.4.0-dev.46(prisma@6.4.0-dev.46)(typescript@5.7.3)
   class-validator:
     specifier: 0.14.1
     version: 0.14.1
@@ -44,14 +44,14 @@ devDependencies:
     specifier: 18.19.75
     version: 18.19.75
   prisma:
-    specifier: 6.4.0-dev.45
-    version: 6.4.0-dev.45(typescript@5.7.3)
+    specifier: 6.4.0-dev.46
+    version: 6.4.0-dev.46(typescript@5.7.3)
   ts-node:
     specifier: 10.9.2
     version: 10.9.2(@types/node@18.19.75)(typescript@5.7.3)
   typegraphql-prisma:
     specifier: 0.28.0
-    version: 0.28.0(@prisma/client@6.4.0-dev.45)(@types/graphql-fields@1.3.9)(@types/node@18.19.75)(graphql-fields@2.0.3)(graphql-scalars@1.24.1)(prisma@6.4.0-dev.45)(tslib@2.8.1)(type-graphql@2.0.0-rc.2)
+    version: 0.28.0(@prisma/client@6.4.0-dev.46)(@types/graphql-fields@1.3.9)(@types/node@18.19.75)(graphql-fields@2.0.3)(graphql-scalars@1.24.1)(prisma@6.4.0-dev.46)(tslib@2.8.1)(type-graphql@2.0.0-rc.2)
   typescript:
     specifier: 5.7.3
     version: 5.7.3
@@ -336,8 +336,8 @@ packages:
       fastq: 1.15.0
     dev: true
 
-  /@prisma/client@6.4.0-dev.45(prisma@6.4.0-dev.45)(typescript@5.7.3):
-    resolution: {integrity: sha512-w7hlIz7/kPXW4H1osYrMRetXF+ktsXl6m4xTGGRuUDRAw8RtOEKEfI3nCmSbyvNhJz4h0GBhmYHgarnjcwxQyQ==}
+  /@prisma/client@6.4.0-dev.46(prisma@6.4.0-dev.46)(typescript@5.7.3):
+    resolution: {integrity: sha512-6fZztWddxRUpPgFpXkWqRfQtMLwl8anCqOMl433G+gpXuWUi6527X3pM2G25fP2/oMirraZPSWr1mHaLhwRIwg==}
     engines: {node: '>=18.18'}
     requiresBuild: true
     peerDependencies:
@@ -349,15 +349,15 @@ packages:
       typescript:
         optional: true
     dependencies:
-      prisma: 6.4.0-dev.45(typescript@5.7.3)
+      prisma: 6.4.0-dev.46(typescript@5.7.3)
       typescript: 5.7.3
 
   /@prisma/debug@5.18.0:
     resolution: {integrity: sha512-f+ZvpTLidSo3LMJxQPVgAxdAjzv5OpzAo/eF8qZqbwvgi2F5cTOI9XCpdRzJYA0iGfajjwjOKKrVq64vkxEfUw==}
     dev: true
 
-  /@prisma/debug@6.4.0-dev.45:
-    resolution: {integrity: sha512-M01aTRTEkggSEpCOjlpNGuX12xyQI828EeMG2cAFKhU2AMy1yqNHqcFjzWQoI3Zyum2hyh7C1LZba+EHrUGiZw==}
+  /@prisma/debug@6.4.0-dev.46:
+    resolution: {integrity: sha512-W19qfaPo6I9Le+/wewRx2jvHrbEC97lA5pBpIOwoPaq8VeO8FkTWUfXlpcAj6mzPXfwf5gll4SFTWNRP5SZDqA==}
 
   /@prisma/engines-version@5.18.0-25.4c784e32044a8a016d99474bd02a3b6123742169:
     resolution: {integrity: sha512-a/+LpJj8vYU3nmtkg+N3X51ddbt35yYrRe8wqHTJtYQt7l1f8kjIBcCs6sHJvodW/EK5XGvboOiwm47fmNrbgg==}
@@ -376,14 +376,14 @@ packages:
       '@prisma/get-platform': 5.18.0
     dev: true
 
-  /@prisma/engines@6.4.0-dev.45:
-    resolution: {integrity: sha512-/y4lJmQY34UloD6pRNC3Y4ZNES4xiBYZpcvAkoMbpIvulqjpq9m0B1C9T3ZNvaOuUcyWUO52WZ9V8jEOzL1D0A==}
+  /@prisma/engines@6.4.0-dev.46:
+    resolution: {integrity: sha512-b89nFkCdvOWh4cScRau3bDwSj3vvSN3h210UsLXCq9wyjQcjT0XJb4g4/7IJ0miL76JAQm1kUJUJ2rP+5wRlhQ==}
     requiresBuild: true
     dependencies:
-      '@prisma/debug': 6.4.0-dev.45
+      '@prisma/debug': 6.4.0-dev.46
       '@prisma/engines-version': 6.4.0-22.6b762f68259116818698cc00c29790aebfc0e55e
-      '@prisma/fetch-engine': 6.4.0-dev.45
-      '@prisma/get-platform': 6.4.0-dev.45
+      '@prisma/fetch-engine': 6.4.0-dev.46
+      '@prisma/get-platform': 6.4.0-dev.46
 
   /@prisma/fetch-engine@5.18.0:
     resolution: {integrity: sha512-I/3u0x2n31rGaAuBRx2YK4eB7R/1zCuayo2DGwSpGyrJWsZesrV7QVw7ND0/Suxeo/vLkJ5OwuBqHoCxvTHpOg==}
@@ -393,12 +393,12 @@ packages:
       '@prisma/get-platform': 5.18.0
     dev: true
 
-  /@prisma/fetch-engine@6.4.0-dev.45:
-    resolution: {integrity: sha512-WDVmIGxe/x7afylnXgPr/OXf3mCXw4aHUUjfwBJroF1BxNsX0lWSQHl8FTxd774kMBKjEMoD0WBaN9mGHM7DRg==}
+  /@prisma/fetch-engine@6.4.0-dev.46:
+    resolution: {integrity: sha512-7iOJJs+Oh4N4yILFoLRBLBO8B/GQmZKz9TSPiMmD3BTX8HrOdLlLur5pcMNlRLGhdpQ3ggxOt8yLvFoeA76mEw==}
     dependencies:
-      '@prisma/debug': 6.4.0-dev.45
+      '@prisma/debug': 6.4.0-dev.46
       '@prisma/engines-version': 6.4.0-22.6b762f68259116818698cc00c29790aebfc0e55e
-      '@prisma/get-platform': 6.4.0-dev.45
+      '@prisma/get-platform': 6.4.0-dev.46
 
   /@prisma/generator-helper@5.18.0:
     resolution: {integrity: sha512-3ffmrd9KE8ssg/fwyvfwMxrDAunLF8DLFjfwYnDRE7VaNIhkUVZwB77jAwpMCtukvCsAp14WGWu4itvLMzH3GQ==}
@@ -412,10 +412,10 @@ packages:
       '@prisma/debug': 5.18.0
     dev: true
 
-  /@prisma/get-platform@6.4.0-dev.45:
-    resolution: {integrity: sha512-/ES1OKQI7SPTF5WOIuciYI4NpVuoKZfkGvQHxa536oSBqgaDkW+ZTkHUIYn1cffBTpGX0Vv/l22qheRUuAmgQw==}
+  /@prisma/get-platform@6.4.0-dev.46:
+    resolution: {integrity: sha512-Ha5jXBjhqLzRdT6kuk+w7YLj5kRJDBTbBWxbz5nWNFBtqtx6yFvvLK45AyKj8HqpoOhQZ/L65C9L/NbXI0RMlg==}
     dependencies:
-      '@prisma/debug': 6.4.0-dev.45
+      '@prisma/debug': 6.4.0-dev.46
 
   /@prisma/internals@5.18.0:
     resolution: {integrity: sha512-NYG69q0FxpPHXDtEM2GS5kU22IwgtriCceNH00dWP9dV7oHz23+8QWJMlDsICTR7gnULLCeS2gWBuXWTS1PRmA==}
@@ -1232,8 +1232,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /prisma@6.4.0-dev.45(typescript@5.7.3):
-    resolution: {integrity: sha512-t3zjJeaTgqrtd8ZG5Nugi78ND1+h5lAH6/ld5sd35KO6b/mQYdk5arSNYNndgJ80sz4fcvF79gqquqRWDTKxBA==}
+  /prisma@6.4.0-dev.46(typescript@5.7.3):
+    resolution: {integrity: sha512-lXLyE5XkrodnJHhKK6zMEGaY1nVEsz6VmNar0lWFeiKj4kB0k3AHLrYs8cxjjsRaRCCRVOIoL4OOfbBrl+vdYQ==}
     engines: {node: '>=18.18'}
     hasBin: true
     requiresBuild: true
@@ -1243,7 +1243,7 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@prisma/engines': 6.4.0-dev.45
+      '@prisma/engines': 6.4.0-dev.46
       typescript: 5.7.3
     optionalDependencies:
       fsevents: 2.3.3
@@ -1493,7 +1493,7 @@ packages:
       mime-types: 2.1.35
     dev: false
 
-  /typegraphql-prisma@0.28.0(@prisma/client@6.4.0-dev.45)(@types/graphql-fields@1.3.9)(@types/node@18.19.75)(graphql-fields@2.0.3)(graphql-scalars@1.24.1)(prisma@6.4.0-dev.45)(tslib@2.8.1)(type-graphql@2.0.0-rc.2):
+  /typegraphql-prisma@0.28.0(@prisma/client@6.4.0-dev.46)(@types/graphql-fields@1.3.9)(@types/node@18.19.75)(graphql-fields@2.0.3)(graphql-scalars@1.24.1)(prisma@6.4.0-dev.46)(tslib@2.8.1)(type-graphql@2.0.0-rc.2):
     resolution: {integrity: sha512-LMTsYEAteeXhnJRmH2sBWarR8Jc9Um13mtSpi8Vh6G8QUTlp5tRfqMjd+Fw06HS6SBshU6NilZJlsPaz26SQCw==}
     engines: {node: '>=20.11.1'}
     hasBin: true
@@ -1507,7 +1507,7 @@ packages:
       tslib: ^2.6.3
       type-graphql: ^1.1.1 || >=1.2.0-rc || >=2.0.0-beta || >=2.0.0-rc
     dependencies:
-      '@prisma/client': 6.4.0-dev.45(prisma@6.4.0-dev.45)(typescript@5.7.3)
+      '@prisma/client': 6.4.0-dev.46(prisma@6.4.0-dev.46)(typescript@5.7.3)
       '@prisma/generator-helper': 5.18.0
       '@prisma/internals': 5.18.0
       '@types/graphql-fields': 1.3.9
@@ -1515,7 +1515,7 @@ packages:
       graphql-fields: 2.0.3
       graphql-scalars: 1.24.1(graphql@16.8.1)
       pluralize: 8.0.0
-      prisma: 6.4.0-dev.45(typescript@5.7.3)
+      prisma: 6.4.0-dev.46(typescript@5.7.3)
       semver: 7.6.3
       ts-morph: 23.0.0
       tslib: 2.8.1
