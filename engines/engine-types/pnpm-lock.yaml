@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@prisma/client':
-    specifier: 6.4.0-dev.46
-    version: 6.4.0-dev.46(prisma@6.4.0-dev.46)(typescript@5.7.3)
+    specifier: 6.4.0-dev.47
+    version: 6.4.0-dev.47(prisma@6.4.0-dev.47)(typescript@5.7.3)
   execa:
     specifier: ^5.0.1
     version: 5.1.1
@@ -29,8 +29,8 @@ devDependencies:
     specifier: 29.7.0
     version: 29.7.0(@types/node@18.19.75)
   prisma:
-    specifier: 6.4.0-dev.46
-    version: 6.4.0-dev.46(typescript@5.7.3)
+    specifier: 6.4.0-dev.47
+    version: 6.4.0-dev.47(typescript@5.7.3)
   ts-jest:
     specifier: 29.2.5
     version: 29.2.5(@babel/core@7.21.3)(jest@29.7.0)(typescript@5.7.3)
@@ -852,8 +852,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.14
     dev: true
 
-  /@prisma/client@6.4.0-dev.46(prisma@6.4.0-dev.46)(typescript@5.7.3):
-    resolution: {integrity: sha512-6fZztWddxRUpPgFpXkWqRfQtMLwl8anCqOMl433G+gpXuWUi6527X3pM2G25fP2/oMirraZPSWr1mHaLhwRIwg==}
+  /@prisma/client@6.4.0-dev.47(prisma@6.4.0-dev.47)(typescript@5.7.3):
+    resolution: {integrity: sha512-vLO0CBTlEgQilyfn0Dv7NL0ZYokbkSJ2CFThkIzdvWiyTQha3WzIyC3PvwUyaKymizb0/okVtUIwfrlOTXhgUg==}
     engines: {node: '>=18.18'}
     requiresBuild: true
     peerDependencies:
@@ -865,36 +865,36 @@ packages:
       typescript:
         optional: true
     dependencies:
-      prisma: 6.4.0-dev.46(typescript@5.7.3)
+      prisma: 6.4.0-dev.47(typescript@5.7.3)
       typescript: 5.7.3
     dev: false
 
-  /@prisma/debug@6.4.0-dev.46:
-    resolution: {integrity: sha512-W19qfaPo6I9Le+/wewRx2jvHrbEC97lA5pBpIOwoPaq8VeO8FkTWUfXlpcAj6mzPXfwf5gll4SFTWNRP5SZDqA==}
+  /@prisma/debug@6.4.0-dev.47:
+    resolution: {integrity: sha512-Q+poxDI4o31yCHzjsDGXbtwzBzt9u9pfMTYC9CYLutEhZj8XhJM8weN1LRIvMYLUhZDnmshaIGuQMBpOl/ZaFA==}
 
   /@prisma/engines-version@6.4.0-22.6b762f68259116818698cc00c29790aebfc0e55e:
     resolution: {integrity: sha512-LX7Zw+3deIxEd3wimW2p1fAhlx8FksD3G9c9P00PqpYLGPVt0do3kdf1ILqhhasVEEROLW/vHz5f6E6yDDPB9A==}
 
-  /@prisma/engines@6.4.0-dev.46:
-    resolution: {integrity: sha512-b89nFkCdvOWh4cScRau3bDwSj3vvSN3h210UsLXCq9wyjQcjT0XJb4g4/7IJ0miL76JAQm1kUJUJ2rP+5wRlhQ==}
+  /@prisma/engines@6.4.0-dev.47:
+    resolution: {integrity: sha512-Ty3h+IC9+RJtOfu/yziZcyJV7A+UF/8d4sVve8JhC6ZkEBVl4JHOAHyqadevPu8xGJixZa9cr/qRsQgEjmJdpg==}
     requiresBuild: true
     dependencies:
-      '@prisma/debug': 6.4.0-dev.46
+      '@prisma/debug': 6.4.0-dev.47
       '@prisma/engines-version': 6.4.0-22.6b762f68259116818698cc00c29790aebfc0e55e
-      '@prisma/fetch-engine': 6.4.0-dev.46
-      '@prisma/get-platform': 6.4.0-dev.46
+      '@prisma/fetch-engine': 6.4.0-dev.47
+      '@prisma/get-platform': 6.4.0-dev.47
 
-  /@prisma/fetch-engine@6.4.0-dev.46:
-    resolution: {integrity: sha512-7iOJJs+Oh4N4yILFoLRBLBO8B/GQmZKz9TSPiMmD3BTX8HrOdLlLur5pcMNlRLGhdpQ3ggxOt8yLvFoeA76mEw==}
+  /@prisma/fetch-engine@6.4.0-dev.47:
+    resolution: {integrity: sha512-0yA8/Ktj7bCnVrrDN2UwfEH08DQrhkcR99kN30tSQ3JxbCYPDbHL1/GiWWYmipbnyH1TrKQk3aVj5gqxLEmImQ==}
     dependencies:
-      '@prisma/debug': 6.4.0-dev.46
+      '@prisma/debug': 6.4.0-dev.47
       '@prisma/engines-version': 6.4.0-22.6b762f68259116818698cc00c29790aebfc0e55e
-      '@prisma/get-platform': 6.4.0-dev.46
+      '@prisma/get-platform': 6.4.0-dev.47
 
-  /@prisma/get-platform@6.4.0-dev.46:
-    resolution: {integrity: sha512-Ha5jXBjhqLzRdT6kuk+w7YLj5kRJDBTbBWxbz5nWNFBtqtx6yFvvLK45AyKj8HqpoOhQZ/L65C9L/NbXI0RMlg==}
+  /@prisma/get-platform@6.4.0-dev.47:
+    resolution: {integrity: sha512-V+aOi1eh34spd5dI+WSRrXOjI2iPHvwhHGq6JUeBlDvmQKCGXlfZltddDeFDHeP/ubH8Fwnhgd6OMjLr7daj6A==}
     dependencies:
-      '@prisma/debug': 6.4.0-dev.46
+      '@prisma/debug': 6.4.0-dev.47
 
   /@sinclair/typebox@0.27.8:
     resolution: {integrity: sha512-+Fj43pSMwJs4KRrH/938Uf+uAELIgVBmQzg/q1YG10djyfA3TnrU8N8XzqCh/okZdszqBQTZf96idMfE5lnwTA==}
@@ -2338,8 +2338,8 @@ packages:
       react-is: 18.2.0
     dev: true
 
-  /prisma@6.4.0-dev.46(typescript@5.7.3):
-    resolution: {integrity: sha512-lXLyE5XkrodnJHhKK6zMEGaY1nVEsz6VmNar0lWFeiKj4kB0k3AHLrYs8cxjjsRaRCCRVOIoL4OOfbBrl+vdYQ==}
+  /prisma@6.4.0-dev.47(typescript@5.7.3):
+    resolution: {integrity: sha512-jc39QFzFQhOkWdrHZoLTiNQctOA2N9qyDYF0NGqz7o2Y3ds1NexxHAKCbfTOaKjkTkT83eGU/VIGvgWcveTRKA==}
     engines: {node: '>=18.18'}
     hasBin: true
     requiresBuild: true
@@ -2349,7 +2349,7 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@prisma/engines': 6.4.0-dev.46
+      '@prisma/engines': 6.4.0-dev.47
       typescript: 5.7.3
     optionalDependencies:
       fsevents: 2.3.3
