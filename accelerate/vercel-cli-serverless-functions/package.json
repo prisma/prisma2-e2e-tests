@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "@prisma/client": "6.4.0-dev.52",
-    "@prisma/extension-accelerate": "1.2.1",
+    "@prisma/extension-accelerate": "1.2.2",
     "fetch-retry": "6.0.0",
     "node-fetch": "2.7.0"
   },

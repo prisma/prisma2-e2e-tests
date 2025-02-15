@@ -6,7 +6,7 @@
   },
   "dependencies": {
     "@prisma/client": "6.4.0-dev.52",
-    "@prisma/extension-accelerate": "1.2.1"
+    "@prisma/extension-accelerate": "1.2.2"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "4.20250109.0",
