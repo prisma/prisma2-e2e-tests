@@ -7,7 +7,7 @@ settings:
 dependencies:
   '@prisma/adapter-pg':
     specifier: 6.4.0-dev.52
-    version: 6.4.0-dev.52(pg@8.13.1)
+    version: 6.4.0-dev.52(pg@8.13.3)
   '@prisma/client':
     specifier: 6.4.0-dev.52
     version: 6.4.0-dev.52(prisma@6.4.0-dev.52)
@@ -15,8 +15,8 @@ dependencies:
     specifier: ^2.0.6
     version: 2.0.6
   pg:
-    specifier: 8.13.1
-    version: 8.13.1
+    specifier: 8.13.3
+    version: 8.13.3
 
 devDependencies:
   '@jest/globals':
@@ -1697,13 +1697,13 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
 
-  /@prisma/adapter-pg@6.4.0-dev.52(pg@8.13.1):
+  /@prisma/adapter-pg@6.4.0-dev.52(pg@8.13.3):
     resolution: {integrity: sha512-zlMuBldktT5yeSKu0tKeLwnk+huiOeKDJckv/J/zznGUoaBS9i4KleLDyXQ06g/LUQMnlh4KKvvOetQSvXY8tw==}
     peerDependencies:
       pg: ^8.11.3
     dependencies:
       '@prisma/driver-adapter-utils': 6.4.0-dev.52
-      pg: 8.13.1
+      pg: 8.13.3
       postgres-array: 3.0.2
     dev: false
 
@@ -3815,16 +3815,16 @@ packages:
     engines: {node: '>=4.0.0'}
     dev: false
 
-  /pg-pool@3.7.0(pg@8.13.1):
-    resolution: {integrity: sha512-ZOBQForurqh4zZWjrgSwwAtzJ7QiRX0ovFkZr2klsen3Nm0aoh33Ls0fzfv3imeH/nw/O27cjdz5kzYJfeGp/g==}
+  /pg-pool@3.7.1(pg@8.13.3):
+    resolution: {integrity: sha512-xIOsFoh7Vdhojas6q3596mXFsR8nwBQBXX5JiV7p9buEVAGqYL4yFzclON5P9vFrpu1u7Zwl2oriyDa89n0wbw==}
     peerDependencies:
       pg: '>=8.0'
     dependencies:
-      pg: 8.13.1
+      pg: 8.13.3
     dev: false
 
-  /pg-protocol@1.7.0:
-    resolution: {integrity: sha512-hTK/mE36i8fDDhgDFjy6xNOG+LCorxLG3WO17tku+ij6sVHXh1jQUJ8hYAnRhNla4QVD2H8er/FOjc/+EgC6yQ==}
+  /pg-protocol@1.7.1:
+    resolution: {integrity: sha512-gjTHWGYWsEgy9MsY0Gp6ZJxV24IjDqdpTW7Eh0x+WfJLFsm/TJx1MzL6T0D88mBvkpxotCQ6TwW6N+Kko7lhgQ==}
     dev: false
 
   /pg-types@2.2.0:
@@ -3838,8 +3838,8 @@ packages:
       postgres-interval: 1.2.0
     dev: false
 
-  /pg@8.13.1:
-    resolution: {integrity: sha512-OUir1A0rPNZlX//c7ksiu7crsGZTKSOXJPgtNiHGIlC9H0lO+NC6ZDYksSgBYY/thSWhnSRBv8w1lieNNGATNQ==}
+  /pg@8.13.3:
+    resolution: {integrity: sha512-P6tPt9jXbL9HVu/SSRERNYaYG++MjnscnegFh9pPHihfoBSujsrka0hyuymMzeJKFWrcG8wvCKy8rCe8e5nDUQ==}
     engines: {node: '>= 8.0.0'}
     peerDependencies:
       pg-native: '>=3.0.1'
@@ -3848,8 +3848,8 @@ packages:
         optional: true
     dependencies:
       pg-connection-string: 2.7.0
-      pg-pool: 3.7.0(pg@8.13.1)
-      pg-protocol: 1.7.0
+      pg-pool: 3.7.1(pg@8.13.3)
+      pg-protocol: 1.7.1
       pg-types: 2.2.0
       pgpass: 1.0.5
     optionalDependencies:
