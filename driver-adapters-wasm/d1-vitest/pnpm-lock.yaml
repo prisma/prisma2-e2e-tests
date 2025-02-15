@@ -14,8 +14,8 @@ dependencies:
 
 devDependencies:
   '@cloudflare/vitest-pool-workers':
-    specifier: 0.6.15
-    version: 0.6.15(@cloudflare/workers-types@4.20250109.0)(@vitest/runner@2.0.5)(@vitest/snapshot@2.0.5)(vitest@1.5.0)
+    specifier: 0.6.16
+    version: 0.6.16(@cloudflare/workers-types@4.20250109.0)(@vitest/runner@2.0.5)(@vitest/snapshot@2.0.5)(vitest@1.5.0)
   '@cloudflare/workers-types':
     specifier: 4.20250109.0
     version: 4.20250109.0
@@ -672,8 +672,8 @@ packages:
       mime: 3.0.0
     dev: true
 
-  /@cloudflare/vitest-pool-workers@0.6.15(@cloudflare/workers-types@4.20250109.0)(@vitest/runner@2.0.5)(@vitest/snapshot@2.0.5)(vitest@1.5.0):
-    resolution: {integrity: sha512-G+yQj8t18HXw4u+S2sKwodWqVJy2bFQxOXCIUZIQRveU0NH8XTdn9bPfBi8uwpq8Jn33rYtDaNWRh/qXzQkipg==}
+  /@cloudflare/vitest-pool-workers@0.6.16(@cloudflare/workers-types@4.20250109.0)(@vitest/runner@2.0.5)(@vitest/snapshot@2.0.5)(vitest@1.5.0):
+    resolution: {integrity: sha512-fKGP+jMyrIh54QncFa7A5NE3k8fWW6oCU4v9IW6Hiu7cAVKBvhdPUAfYBQS7EU1TsjGJl/y5N4Urds3PUFocoQ==}
     peerDependencies:
       '@vitest/runner': 2.0.x - 2.1.x
       '@vitest/snapshot': 2.0.x - 2.1.x
@@ -686,9 +686,9 @@ packages:
       devalue: 4.3.3
       esbuild: 0.17.19
       miniflare: 3.20250204.1
-      semver: 7.6.2
+      semver: 7.7.1
       vitest: 1.5.0
-      wrangler: 3.109.0(@cloudflare/workers-types@4.20250109.0)
+      wrangler: 3.109.1(@cloudflare/workers-types@4.20250109.0)
       zod: 3.23.8
     transitivePeerDependencies:
       - '@cloudflare/workers-types'
@@ -2866,19 +2866,12 @@ packages:
       node-forge: 1.3.1
     dev: true
 
-  /semver@7.6.2:
-    resolution: {integrity: sha512-FNAIBWCx9qcRhoHcgcJ0gvU7SN1lYU2ZXuSfl04bSC5OpvDHFyJCjdNHomPXxjQlCBU67YW64PzY7/VIEH7F2w==}
-    engines: {node: '>=10'}
-    hasBin: true
-    dev: true
-
   /semver@7.7.1:
     resolution: {integrity: sha512-hlq8tAfn0m/61p4BVRcPzIGr6LKiMwo4VM6dGi6pt4qcRkmNzTcWq6eCEjEh+qXjkMDvPlOFFSGwQjoEa6gyMA==}
     engines: {node: '>=10'}
     hasBin: true
     requiresBuild: true
     dev: true
-    optional: true
 
   /sharp@0.33.5:
     resolution: {integrity: sha512-haPVm1EkS9pgvHrQ/F3Xy+hgcuMV0Wm9vfIBSiwZ05k+xgb0PkBQpGsAA/oWdDobNaZTH5ppvHtzCFbnSEwHVw==}
@@ -3260,8 +3253,8 @@ packages:
       - utf-8-validate
     dev: true
 
-  /wrangler@3.109.0(@cloudflare/workers-types@4.20250109.0):
-    resolution: {integrity: sha512-hh/04/2+e8lUHdJhMJTiT7Ea1kt+0b+WVM2u3RKwRBCQ3SaN6jw6h0EX3DJtC1C+wrrzTJYDcsp1tWrcGDMaGA==}
+  /wrangler@3.109.1(@cloudflare/workers-types@4.20250109.0):
+    resolution: {integrity: sha512-1Jx+nZ6eCXPQ2rsGdrV6Qy/LGvhpqudeuTl4AYHl9P8Zugp44Uzxnj5w11qF4v/rv1dOZoA5TydSt9xMFfhpKg==}
     engines: {node: '>=16.17.0'}
     hasBin: true
     peerDependencies:
