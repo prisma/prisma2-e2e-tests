@@ -9,8 +9,8 @@ dependencies:
     specifier: 6.4.0-dev.52
     version: 6.4.0-dev.52(prisma@6.4.0-dev.52)(typescript@5.7.3)
   '@prisma/extension-accelerate':
-    specifier: 1.2.1
-    version: 1.2.1(@prisma/client@6.4.0-dev.52)
+    specifier: 1.2.2
+    version: 1.2.2(@prisma/client@6.4.0-dev.52)
 
 devDependencies:
   '@faker-js/faker':
@@ -903,8 +903,8 @@ packages:
       '@prisma/fetch-engine': 6.4.0-dev.52
       '@prisma/get-platform': 6.4.0-dev.52
 
-  /@prisma/extension-accelerate@1.2.1(@prisma/client@6.4.0-dev.52):
-    resolution: {integrity: sha512-QicnMeyqL226ilT3vvRsFAqPeIdqHGKR4c25CoK5zZ1tNIv8egfgpD1gCKqOGmfAz0pIKQnMuJU3eNg9KItC7A==}
+  /@prisma/extension-accelerate@1.2.2(@prisma/client@6.4.0-dev.52):
+    resolution: {integrity: sha512-LOlfkG6If+o8PFRzLzp26ackP/d+j2HrkTJaxuV/Wd+sdAHz/AkmzEDGbo2UpHFpxEM9hWMBe3ScSwUKYUDOXg==}
     engines: {node: '>=16'}
     peerDependencies:
       '@prisma/client': '>=4.16.1'
