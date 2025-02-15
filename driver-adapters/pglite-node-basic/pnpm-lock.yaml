@@ -7,13 +7,13 @@ settings:
 dependencies:
   '@electric-sql/pglite':
     specifier: ^0.2.0
-    version: 0.2.16
+    version: 0.2.17
   '@prisma/client':
     specifier: 6.4.0-dev.52
     version: 6.4.0-dev.52(prisma@6.4.0-dev.52)(typescript@5.4.5)
   pglite-prisma-adapter:
     specifier: ^0.3.0
-    version: 0.3.0(@electric-sql/pglite@0.2.16)
+    version: 0.3.0(@electric-sql/pglite@0.2.17)
 
 devDependencies:
   '@jest/globals':
@@ -516,8 +516,8 @@ packages:
     resolution: {integrity: sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==}
     dev: true
 
-  /@electric-sql/pglite@0.2.16:
-    resolution: {integrity: sha512-dCSHpoOKuTxecaYhWDRp2yFTN3XWcMPMrBVl5yOR8VZEUprz4+R3iuU7BipmlsqBnBDO/6l9H/C2ZwJdunkWyw==}
+  /@electric-sql/pglite@0.2.17:
+    resolution: {integrity: sha512-qEpKRT2oUaWDH6tjRxLHjdzMqRUGYDnGZlKrnL4dJ77JVMcP2Hpo3NYnOSPKdZdeec57B6QPprCUFg0picx5Pw==}
     dev: false
 
   /@istanbuljs/load-nyc-config@1.1.0:
@@ -2171,12 +2171,12 @@ packages:
     resolution: {integrity: sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==}
     dev: true
 
-  /pglite-prisma-adapter@0.3.0(@electric-sql/pglite@0.2.16):
+  /pglite-prisma-adapter@0.3.0(@electric-sql/pglite@0.2.17):
     resolution: {integrity: sha512-BjyMmzUGwfzIPY/2BZvLUcKXJPitkJK5dHrG89Y0xrfcPpD2QSLR6rMCavnCgrJqyzQiQorwAChbniVbquiebQ==}
     peerDependencies:
       '@electric-sql/pglite': '>= 0.2.0'
     dependencies:
-      '@electric-sql/pglite': 0.2.16
+      '@electric-sql/pglite': 0.2.17
       '@prisma/driver-adapter-utils': 5.20.0
     dev: false
 
