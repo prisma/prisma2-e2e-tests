@@ -10,6 +10,6 @@
   },
   "dependencies": {
     "@prisma/client": "6.4.0-dev.52",
-    "@types/node": "20.17.17"
+    "@types/node": "20.17.19"
   }
 }
