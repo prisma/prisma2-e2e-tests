@@ -10,7 +10,7 @@
   },
   "devDependencies": {
     "@jest/globals": "29.7.0",
-    "@types/node": "18.19.75",
+    "@types/node": "18.19.76",
     "jest": "29.7.0",
     "prisma": "6.4.0-dev.52",
     "ts-jest": "29.2.5",
