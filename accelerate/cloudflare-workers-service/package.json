@@ -9,7 +9,7 @@
     "@prisma/extension-accelerate": "1.2.2"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "4.20250109.0",
+    "@cloudflare/workers-types": "4.20250214.0",
     "@types/jest": "29.5.14",
     "@types/node": "18.19.76",
     "@types/node-fetch": "2.6.12",
