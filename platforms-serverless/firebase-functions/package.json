@@ -4,6 +4,6 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "firebase-tools": "13.29.3"
+    "firebase-tools": "13.31.1"
   }
 }
