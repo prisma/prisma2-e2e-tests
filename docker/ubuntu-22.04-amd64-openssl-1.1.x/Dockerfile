@@ -1,7 +1,7 @@
 # syntax=docker/dockerfile:1
 # Regression test for: https://github.com/prisma/prisma/issues/25101
 
-ARG UBUNTU_VERSION="22.04"
+ARG UBUNTU_VERSION="24.04"
 
 FROM ubuntu:${UBUNTU_VERSION}
 
