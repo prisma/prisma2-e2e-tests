@@ -6,14 +6,14 @@
   "devDependencies": {
     "@types/node": "18.19.76",
     "heroku": "8.11.5",
-    "prisma": "6.4.0-dev.53",
+    "prisma": "6.4.0-dev.54",
     "ts-node": "10.9.2"
   },
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "@prisma/client": "6.4.0-dev.53",
+    "@prisma/client": "6.4.0-dev.54",
     "express": "^4.17.1"
   }
 }
