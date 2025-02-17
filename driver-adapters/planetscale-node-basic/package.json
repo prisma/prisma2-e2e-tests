@@ -8,11 +8,11 @@
   "devDependencies": {
     "@jest/globals": "29.7.0",
     "jest": "29.7.0",
-    "prisma": "6.4.0-dev.57"
+    "prisma": "6.4.0-dev.58"
   },
   "dependencies": {
     "@planetscale/database": "1.19.0",
-    "@prisma/adapter-planetscale": "6.4.0-dev.57",
-    "@prisma/client": "6.4.0-dev.57"
+    "@prisma/adapter-planetscale": "6.4.0-dev.58",
+    "@prisma/client": "6.4.0-dev.58"
   }
 }
