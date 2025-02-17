@@ -12,11 +12,11 @@ dependencies:
     specifier: 0.10.4
     version: 0.10.4
   '@prisma/adapter-neon':
-    specifier: 6.4.0-dev.55
-    version: 6.4.0-dev.55(@neondatabase/serverless@0.10.4)
+    specifier: 6.4.0-dev.56
+    version: 6.4.0-dev.56(@neondatabase/serverless@0.10.4)
   '@prisma/client':
-    specifier: 6.4.0-dev.55
-    version: 6.4.0-dev.55(prisma@6.4.0-dev.55)(typescript@5.3.3)
+    specifier: 6.4.0-dev.56
+    version: 6.4.0-dev.56(prisma@6.4.0-dev.56)(typescript@5.3.3)
   '@remix-run/cloudflare':
     specifier: ^2.8.0
     version: 2.15.3(@cloudflare/workers-types@4.20250214.0)(typescript@5.3.3)
@@ -83,8 +83,8 @@ devDependencies:
     specifier: 2.7.0
     version: 2.7.0
   prisma:
-    specifier: 6.4.0-dev.55
-    version: 6.4.0-dev.55(typescript@5.3.3)
+    specifier: 6.4.0-dev.56
+    version: 6.4.0-dev.56(typescript@5.3.3)
   typescript:
     specifier: ^5.1.6
     version: 5.3.3
@@ -2342,18 +2342,18 @@ packages:
     dev: true
     optional: true
 
-  /@prisma/adapter-neon@6.4.0-dev.55(@neondatabase/serverless@0.10.4):
-    resolution: {integrity: sha512-5nzKvaagmIbkfmYOb8hV6L7KFr5UiOBgtoYswAidNUNiZZ4CCo1Q06neeFI2TIi92Wp2mImKEnY+9f5JfJFmpg==}
+  /@prisma/adapter-neon@6.4.0-dev.56(@neondatabase/serverless@0.10.4):
+    resolution: {integrity: sha512-MeKDzk2u2oBfXnJyg8ZmBssvHI8TtDKHKwEZIA8mWSEZIcdFXdX0RBpmypmqbfQUSYSUt9nf52LIBrawdc8NcA==}
     peerDependencies:
       '@neondatabase/serverless': ^0.6.0 || ^0.7.0 || ^0.8.0 || ^0.9.0 || ^0.10.0
     dependencies:
       '@neondatabase/serverless': 0.10.4
-      '@prisma/driver-adapter-utils': 6.4.0-dev.55
+      '@prisma/driver-adapter-utils': 6.4.0-dev.56
       postgres-array: 3.0.2
     dev: false
 
-  /@prisma/client@6.4.0-dev.55(prisma@6.4.0-dev.55)(typescript@5.3.3):
-    resolution: {integrity: sha512-Q71Y6r5VbZZroqC1BKhUONrsG3n7mFpDgfRyJISwY6wER7gtEaPuOES4lIdDG8puxFttHFVBhwW3kK0O9iu91w==}
+  /@prisma/client@6.4.0-dev.56(prisma@6.4.0-dev.56)(typescript@5.3.3):
+    resolution: {integrity: sha512-Gq9LP6nGKihOAe8m62L9neLdDJ2hSIxfpThqKgQsStVAmuMEgy9r4HMtvPckKc2sCly3mT80KJARNcH0tqjmhg==}
     engines: {node: '>=18.18'}
     requiresBuild: true
     peerDependencies:
@@ -2365,42 +2365,42 @@ packages:
       typescript:
         optional: true
     dependencies:
-      prisma: 6.4.0-dev.55(typescript@5.3.3)
+      prisma: 6.4.0-dev.56(typescript@5.3.3)
       typescript: 5.3.3
     dev: false
 
-  /@prisma/debug@6.4.0-dev.55:
-    resolution: {integrity: sha512-/RZqkH1BJ7r6cTqZjZZZOw2gCUZxRQrOwu+5zW+F/OCzTVvV13QKC/MUeZRU8U9Jb35EUqiKoztOmpR6fOdHfg==}
+  /@prisma/debug@6.4.0-dev.56:
+    resolution: {integrity: sha512-zSiDRzjtXPacp8MI8HjyjROExyVF5wlyrYbrNTcsS42JZZiW7GRA4ZBi0dz9WYbHjZhsuIiBvzaoAEYclT/onA==}
 
-  /@prisma/driver-adapter-utils@6.4.0-dev.55:
-    resolution: {integrity: sha512-qh0+KnDS4GMhPr1oD2Ibtu6HWEcokvd1FZ71tt2pnGfMc6j1DJWYdHX0qujMLIPDcxKghdEflvKDpTTRLN02bA==}
+  /@prisma/driver-adapter-utils@6.4.0-dev.56:
+    resolution: {integrity: sha512-yzsPAQFwzfWYwMQFt3VCQ6TwNVbHa8BoxjldIh/lh4TwThEWj1QTz0BDLZlXOtlrH9lbT8MPDsvXM0CY6PksXA==}
     dependencies:
-      '@prisma/debug': 6.4.0-dev.55
+      '@prisma/debug': 6.4.0-dev.56
     dev: false
 
   /@prisma/engines-version@6.4.0-26.7e7c9b8394a8c99732582d1f3b0646e95e351267:
     resolution: {integrity: sha512-iE1AVVsYUFkpqSCsZzv5DMW17CcYKgf3hCkeCJg7a2a720sRyj4LeasYEvai6NJAQJ/P8MzlfZ4sEVep7TtZTA==}
 
-  /@prisma/engines@6.4.0-dev.55:
-    resolution: {integrity: sha512-2GTa7nLXMca8MPTJaUfx0OtuyZUBwbtJkZQlbHBhQdDHVH7pkjN1tDOY7Ucg/0ECLicVO+3eV5/j4IikHZxiug==}
+  /@prisma/engines@6.4.0-dev.56:
+    resolution: {integrity: sha512-ZJ/zyHOTOjymjFfhKB+JXLRxoxqrV9Nz7rryqYOa+6Xb1SIeWtJfkLn4RD+ClYMS1UMjX///ew82XLeWFC50Sg==}
     requiresBuild: true
     dependencies:
-      '@prisma/debug': 6.4.0-dev.55
+      '@prisma/debug': 6.4.0-dev.56
       '@prisma/engines-version': 6.4.0-26.7e7c9b8394a8c99732582d1f3b0646e95e351267
-      '@prisma/fetch-engine': 6.4.0-dev.55
-      '@prisma/get-platform': 6.4.0-dev.55
+      '@prisma/fetch-engine': 6.4.0-dev.56
+      '@prisma/get-platform': 6.4.0-dev.56
 
-  /@prisma/fetch-engine@6.4.0-dev.55:
-    resolution: {integrity: sha512-H1qbO69gMt84b41oLmXRVGdHLtTrIFDnmr++mLUCjFq6iu1OTM5ESd0UzPsZcdAVqZzbsD2uO2Khf/oiUs1Q7Q==}
+  /@prisma/fetch-engine@6.4.0-dev.56:
+    resolution: {integrity: sha512-yKEscZTRNc04Cr8QO8JzwJLC5Gtqls3b8un0xwZEEWzxOarGPhqTH2kq683sjmDd0GLT/WlqfhZGAOTeZs2s3g==}
     dependencies:
-      '@prisma/debug': 6.4.0-dev.55
+      '@prisma/debug': 6.4.0-dev.56
       '@prisma/engines-version': 6.4.0-26.7e7c9b8394a8c99732582d1f3b0646e95e351267
-      '@prisma/get-platform': 6.4.0-dev.55
+      '@prisma/get-platform': 6.4.0-dev.56
 
-  /@prisma/get-platform@6.4.0-dev.55:
-    resolution: {integrity: sha512-SlC8qZYVteB7HBqqZam+NlPIziLR6OGIwr+xLGQg5pDxjmkrqW4Q7zE8REB6mEQdheUZrXSsnQOSOT/LY5ND2Q==}
+  /@prisma/get-platform@6.4.0-dev.56:
+    resolution: {integrity: sha512-cpWfuah8l4yCC4/bYe89K0Btj28dMxAKlFHiDXHrovNxFBoRxSWB6Luf5Tqmd+1+JIBXATaQ8rVsTvjQ2wsmcw==}
     dependencies:
-      '@prisma/debug': 6.4.0-dev.55
+      '@prisma/debug': 6.4.0-dev.56
 
   /@remix-run/cloudflare@2.15.3(@cloudflare/workers-types@4.20250214.0)(typescript@5.3.3):
     resolution: {integrity: sha512-L5O+ejspTcAffp979BwE2tDR1KkMblYiCjV87hfjYu1ktjWCLXcizeiOl65msljOE8yrMcF+cGzl75QQGw753w==}
@@ -8179,8 +8179,8 @@ packages:
     resolution: {integrity: sha512-dKp+C4iXWK4vVYZmYSd0KBH5F/h1HoZRsbJ82AVKRO3PEo8L4lBS/vLwhVtpwwuYcoIsVY+1JYKR268yn480uQ==}
     dev: true
 
-  /prisma@6.4.0-dev.55(typescript@5.3.3):
-    resolution: {integrity: sha512-u1TCVzpdOM91P4RwuOE3zIvNlgxxZDo8tfLPHLNAejZlkI1zfuWmcA2fT/3YAgqDo3FGy2DP/fELFdkO8gbdSg==}
+  /prisma@6.4.0-dev.56(typescript@5.3.3):
+    resolution: {integrity: sha512-c1+NwjibMR1SI3i1Zx6EKxyEb4QDyNUXCthgmgGT+v3FFLN4x2w1ophmCL4QV2Sdcj5mlIV3CtnI3YOGBZWh2g==}
     engines: {node: '>=18.18'}
     hasBin: true
     requiresBuild: true
@@ -8190,7 +8190,7 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@prisma/engines': 6.4.0-dev.55
+      '@prisma/engines': 6.4.0-dev.56
       typescript: 5.3.3
     optionalDependencies:
       fsevents: 2.3.3
