@@ -6,11 +6,11 @@ settings:
 
 dependencies:
   '@prisma/client':
-    specifier: 6.4.0-dev.63
-    version: 6.4.0-dev.63(prisma@6.4.0-dev.63)(typescript@5.7.3)
+    specifier: 6.4.0-dev.64
+    version: 6.4.0-dev.64(prisma@6.4.0-dev.64)(typescript@5.7.3)
   '@prisma/extension-accelerate':
     specifier: 1.2.2
-    version: 1.2.2(@prisma/client@6.4.0-dev.63)
+    version: 1.2.2(@prisma/client@6.4.0-dev.64)
   fetch-retry:
     specifier: 6.0.0
     version: 6.0.0
@@ -35,8 +35,8 @@ devDependencies:
     specifier: 29.7.0
     version: 29.7.0(@types/node@18.19.76)(ts-node@10.9.2)
   prisma:
-    specifier: 6.4.0-dev.63
-    version: 6.4.0-dev.63(typescript@5.7.3)
+    specifier: 6.4.0-dev.64
+    version: 6.4.0-dev.64(typescript@5.7.3)
   ts-jest:
     specifier: 29.2.5
     version: 29.2.5(@babel/core@7.22.8)(esbuild@0.23.0)(jest@29.7.0)(typescript@5.7.3)
@@ -603,7 +603,6 @@ packages:
     cpu: [ppc64]
     os: [aix]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/android-arm64@0.23.0:
@@ -612,7 +611,6 @@ packages:
     cpu: [arm64]
     os: [android]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/android-arm@0.23.0:
@@ -621,7 +619,6 @@ packages:
     cpu: [arm]
     os: [android]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/android-x64@0.23.0:
@@ -630,7 +627,6 @@ packages:
     cpu: [x64]
     os: [android]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/darwin-arm64@0.23.0:
@@ -639,7 +635,6 @@ packages:
     cpu: [arm64]
     os: [darwin]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/darwin-x64@0.23.0:
@@ -648,7 +643,6 @@ packages:
     cpu: [x64]
     os: [darwin]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/freebsd-arm64@0.23.0:
@@ -657,7 +651,6 @@ packages:
     cpu: [arm64]
     os: [freebsd]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/freebsd-x64@0.23.0:
@@ -666,7 +659,6 @@ packages:
     cpu: [x64]
     os: [freebsd]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/linux-arm64@0.23.0:
@@ -675,7 +667,6 @@ packages:
     cpu: [arm64]
     os: [linux]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/linux-arm@0.23.0:
@@ -684,7 +675,6 @@ packages:
     cpu: [arm]
     os: [linux]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/linux-ia32@0.23.0:
@@ -693,7 +683,6 @@ packages:
     cpu: [ia32]
     os: [linux]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/linux-loong64@0.23.0:
@@ -702,7 +691,6 @@ packages:
     cpu: [loong64]
     os: [linux]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/linux-mips64el@0.23.0:
@@ -711,7 +699,6 @@ packages:
     cpu: [mips64el]
     os: [linux]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/linux-ppc64@0.23.0:
@@ -720,7 +707,6 @@ packages:
     cpu: [ppc64]
     os: [linux]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/linux-riscv64@0.23.0:
@@ -729,7 +715,6 @@ packages:
     cpu: [riscv64]
     os: [linux]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/linux-s390x@0.23.0:
@@ -738,7 +723,6 @@ packages:
     cpu: [s390x]
     os: [linux]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/linux-x64@0.23.0:
@@ -747,7 +731,6 @@ packages:
     cpu: [x64]
     os: [linux]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/netbsd-x64@0.23.0:
@@ -756,7 +739,6 @@ packages:
     cpu: [x64]
     os: [netbsd]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/openbsd-arm64@0.23.0:
@@ -765,7 +747,6 @@ packages:
     cpu: [arm64]
     os: [openbsd]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/openbsd-x64@0.23.0:
@@ -774,7 +755,6 @@ packages:
     cpu: [x64]
     os: [openbsd]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/sunos-x64@0.23.0:
@@ -783,7 +763,6 @@ packages:
     cpu: [x64]
     os: [sunos]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/win32-arm64@0.23.0:
@@ -792,7 +771,6 @@ packages:
     cpu: [arm64]
     os: [win32]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/win32-ia32@0.23.0:
@@ -801,7 +779,6 @@ packages:
     cpu: [ia32]
     os: [win32]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/win32-x64@0.23.0:
@@ -810,7 +787,6 @@ packages:
     cpu: [x64]
     os: [win32]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@fastify/busboy@2.1.0:
@@ -1138,8 +1114,8 @@ packages:
       fastq: 1.15.0
     dev: true
 
-  /@prisma/client@6.4.0-dev.63(prisma@6.4.0-dev.63)(typescript@5.7.3):
-    resolution: {integrity: sha512-Cq5C+8mYKsLMPLlZN1FQXqj68Z3ieQfXvN2aNA7zGkK3d1xVDZdLxaW4cfXZ7SegFPn0x6CfeK0orTcD3O++WA==}
+  /@prisma/client@6.4.0-dev.64(prisma@6.4.0-dev.64)(typescript@5.7.3):
+    resolution: {integrity: sha512-U53PHqEOAfNy/EP66N12XF781vyj0536FVs0IIMPxDzhr8IzMViE8j1U5IFnp0Q785tQCO4ztO6LU8Yuf0WUBw==}
     engines: {node: '>=18.18'}
     requiresBuild: true
     peerDependencies:
@@ -1151,45 +1127,45 @@ packages:
       typescript:
         optional: true
     dependencies:
-      prisma: 6.4.0-dev.63(typescript@5.7.3)
+      prisma: 6.4.0-dev.64(typescript@5.7.3)
       typescript: 5.7.3
     dev: false
 
-  /@prisma/debug@6.4.0-dev.63:
-    resolution: {integrity: sha512-O73Xu6mwY4Rz5V8QbKfTiVFa1vRaEZcB+vzBmNeakja3wG7JWGPgtcpPMZi+Yz87cbgeyNxblZdffpWRhcTGGg==}
+  /@prisma/debug@6.4.0-dev.64:
+    resolution: {integrity: sha512-62LBbKGy5cRkLcGqVg5BGGuKf3kIbREbQ4Eav++X/7cn8544MtKZeWf1DzAi1IRaQZwBu3GuzhBNPI+pwsqmEQ==}
 
   /@prisma/engines-version@6.4.0-29.a9055b89e58b4b5bfb59600785423b1db3d0e75d:
     resolution: {integrity: sha512-Xq54qw55vaCGrGgIJqyDwOq0TtjZPJEWsbQAHugk99hpDf2jcEeQhUcF+yzEsSqegBaDNLA4IC8Nn34sXmkiTQ==}
 
-  /@prisma/engines@6.4.0-dev.63:
-    resolution: {integrity: sha512-9qZ5wQN0SKrpcJIwQIWe3lg16wNj69qGro8yJ3LG6D3vpzzyFO1PidqUacgj0OHh+scHO1CJI3G/SsxRAxslZA==}
+  /@prisma/engines@6.4.0-dev.64:
+    resolution: {integrity: sha512-oO5PTgmGylfB/5XQ8cnHoDs91c91N+E4H3v0gqpUd4cAJ2WKEx0I2ti0C01Dm9phjXWpOVERrfdRcXV0V+byMg==}
     requiresBuild: true
     dependencies:
-      '@prisma/debug': 6.4.0-dev.63
+      '@prisma/debug': 6.4.0-dev.64
       '@prisma/engines-version': 6.4.0-29.a9055b89e58b4b5bfb59600785423b1db3d0e75d
-      '@prisma/fetch-engine': 6.4.0-dev.63
-      '@prisma/get-platform': 6.4.0-dev.63
+      '@prisma/fetch-engine': 6.4.0-dev.64
+      '@prisma/get-platform': 6.4.0-dev.64
 
-  /@prisma/extension-accelerate@1.2.2(@prisma/client@6.4.0-dev.63):
+  /@prisma/extension-accelerate@1.2.2(@prisma/client@6.4.0-dev.64):
     resolution: {integrity: sha512-LOlfkG6If+o8PFRzLzp26ackP/d+j2HrkTJaxuV/Wd+sdAHz/AkmzEDGbo2UpHFpxEM9hWMBe3ScSwUKYUDOXg==}
     engines: {node: '>=16'}
     peerDependencies:
       '@prisma/client': '>=4.16.1'
     dependencies:
-      '@prisma/client': 6.4.0-dev.63(prisma@6.4.0-dev.63)(typescript@5.7.3)
+      '@prisma/client': 6.4.0-dev.64(prisma@6.4.0-dev.64)(typescript@5.7.3)
     dev: false
 
-  /@prisma/fetch-engine@6.4.0-dev.63:
-    resolution: {integrity: sha512-uPlN8a0dYO9yZcdqWfjeAc52MVNvcUvNSmOU4vuND6NuD7bFQPuHgzeFNjRgPGTb9XrLdSc252yy1e1OdaFT7w==}
+  /@prisma/fetch-engine@6.4.0-dev.64:
+    resolution: {integrity: sha512-krCmCsHTpUVBp6bg2WcDSoVrAb277vlD9wM9+zFfjP706ICm6x/timz3AvW8mw0oFIF40t9P3DFVa5qpqISFVw==}
     dependencies:
-      '@prisma/debug': 6.4.0-dev.63
+      '@prisma/debug': 6.4.0-dev.64
       '@prisma/engines-version': 6.4.0-29.a9055b89e58b4b5bfb59600785423b1db3d0e75d
-      '@prisma/get-platform': 6.4.0-dev.63
+      '@prisma/get-platform': 6.4.0-dev.64
 
-  /@prisma/get-platform@6.4.0-dev.63:
-    resolution: {integrity: sha512-OhC4TwhewsiOcsLP/R0tBVhYzz7pNcRQbJbc2EAItE2hgZSGjGTQFE76U384cYDilQBLSuNeulo0e/3ZfQYHlA==}
+  /@prisma/get-platform@6.4.0-dev.64:
+    resolution: {integrity: sha512-bp3wjGgzw04QBqHwWIJSOICBSeHfJx/RMGHzOyi+otc/j6ko4BVETY1GwmT/ksDmvUUxjkKAkVxOGvzAdKp9BQ==}
     dependencies:
-      '@prisma/debug': 6.4.0-dev.63
+      '@prisma/debug': 6.4.0-dev.64
 
   /@rollup/pluginutils@4.2.1:
     resolution: {integrity: sha512-iKnFXr7NkdZAIHiIWE+BX5ULi/ucVFYWD6TbAV+rZctiRTY2PL6tsIKhoIOaoskiWAkgu+VsbXgUVDNLHf+InQ==}
@@ -2042,7 +2018,6 @@ packages:
         optional: true
     dependencies:
       ms: 2.1.2
-    dev: true
 
   /dedent@1.5.1:
     resolution: {integrity: sha512-+LxW+KLWxu3HW3M2w2ympwtqPrqYRzU8fqi6Fhd18fBALe15blJPI/I4+UHveMVG6lJqB4JNd4UG0S5cnVHwIg==}
@@ -2308,7 +2283,6 @@ packages:
       esbuild: 0.23.0
     transitivePeerDependencies:
       - supports-color
-    dev: true
 
   /esbuild-sunos-64@0.14.47:
     resolution: {integrity: sha512-uOeSgLUwukLioAJOiGYm3kNl+1wJjgJA8R671GYgcPgCx7QR73zfvYqXFFcIO93/nBdIbt5hd8RItqbbf3HtAQ==}
@@ -2404,7 +2378,6 @@ packages:
       '@esbuild/win32-arm64': 0.23.0
       '@esbuild/win32-ia32': 0.23.0
       '@esbuild/win32-x64': 0.23.0
-    dev: true
 
   /escalade@3.1.1:
     resolution: {integrity: sha512-k0er2gUkLf8O0zKJiAhmkTnJlTvINGv7ygDNPbeIsX/TJjGJZHuh9B2UxbsaEkmlEo9MfhrSzmhIlhRlI2GXnw==}
@@ -3563,7 +3536,6 @@ packages:
 
   /ms@2.1.2:
     resolution: {integrity: sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==}
-    dev: true
 
   /natural-compare@1.4.0:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
@@ -3811,8 +3783,8 @@ packages:
       parse-ms: 2.1.0
     dev: true
 
-  /prisma@6.4.0-dev.63(typescript@5.7.3):
-    resolution: {integrity: sha512-GHvYNhztUl7eDuEMTGpQNIbeLnKgbN3O5gU/Fn6H8gzSNdwmx145pBYNDgzNEx9HaNKO1Ejp/znFWwwoZ3tePA==}
+  /prisma@6.4.0-dev.64(typescript@5.7.3):
+    resolution: {integrity: sha512-Zom+QsRLJJ4dcggiEYy5deAgI3TDrFdFSAr+9i1LMADSfGNhYby/OpJdZ9gT3NdNqPCQURdUhtsugBlZERjmrQ==}
     engines: {node: '>=18.18'}
     hasBin: true
     requiresBuild: true
@@ -3822,10 +3794,14 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@prisma/engines': 6.4.0-dev.63
+      '@prisma/engines': 6.4.0-dev.64
+      esbuild: 0.23.0
+      esbuild-register: 3.6.0(esbuild@0.23.0)
       typescript: 5.7.3
     optionalDependencies:
       fsevents: 2.3.3
+    transitivePeerDependencies:
+      - supports-color
 
   /promisepipe@3.0.0:
     resolution: {integrity: sha512-V6TbZDJ/ZswevgkDNpGt/YqNCiZP9ASfgU+p83uJE6NrGtvSGoOcHLiDCqkMs2+yg7F5qHdLV8d0aS8O26G/KA==}
