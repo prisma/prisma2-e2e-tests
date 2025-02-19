@@ -5,14 +5,14 @@
     "test": "jest --testTimeout 300000"
   },
   "dependencies": {
-    "@prisma/client": "6.4.0-dev.64",
+    "@prisma/client": "6.5.0-dev.1",
     "@prisma/extension-accelerate": "1.2.2"
   },
   "devDependencies": {
     "@jest/globals": "29.7.0",
     "@types/node": "18.19.76",
     "jest": "29.7.0",
-    "prisma": "6.4.0-dev.64",
+    "prisma": "6.5.0-dev.1",
     "ts-jest": "29.2.5",
     "typescript": "5.7.3"
   }
