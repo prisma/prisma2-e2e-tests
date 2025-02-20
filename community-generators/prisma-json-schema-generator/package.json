@@ -4,11 +4,11 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "prisma": "6.5.0-dev.3",
+    "prisma": "6.4.1",
     "prisma-json-schema-generator": "5.1.5"
   },
   "dependencies": {
-    "@prisma/client": "6.5.0-dev.3",
+    "@prisma/client": "6.4.1",
     "jest": "29.7.0"
   },
   "scripts": {
