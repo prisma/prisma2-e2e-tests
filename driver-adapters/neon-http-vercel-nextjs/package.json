@@ -13,12 +13,12 @@
     "@jest/globals": "29.7.0",
     "@jest/types": "29.6.3",
     "jest": "29.7.0",
-    "prisma": "6.5.0-dev.3",
+    "prisma": "6.4.1-dev.1",
     "vercel": "34.4.0"
   },
   "dependencies": {
-    "@prisma/adapter-neon": "6.5.0-dev.3",
-    "@prisma/client": "6.5.0-dev.3",
+    "@prisma/adapter-neon": "6.4.1-dev.1",
+    "@prisma/client": "6.4.1-dev.1",
     "next": "14.2.24",
     "node-fetch": "2.7.0",
     "react": "18.3.1",
