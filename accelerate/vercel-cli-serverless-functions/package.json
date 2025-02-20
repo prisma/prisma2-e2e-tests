@@ -10,14 +10,14 @@
     "esbuild-register": "^3.4.2",
     "jest": "29.7.0",
     "node-fetch": "2.7.0",
-    "prisma": "6.5.0-dev.1",
+    "prisma": "6.5.0-dev.2",
     "ts-jest": "29.2.5",
     "ts-node": "10.9.2",
     "typescript": "5.7.3",
     "vercel": "34.4.0"
   },
   "dependencies": {
-    "@prisma/client": "6.5.0-dev.1",
+    "@prisma/client": "6.5.0-dev.2",
     "@prisma/extension-accelerate": "1.2.2",
     "fetch-retry": "6.0.0",
     "node-fetch": "2.7.0"
