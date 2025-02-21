@@ -5,7 +5,7 @@
   "license": "MIT",
   "devDependencies": {
     "@types/node": "18.19.76",
-    "netlify-cli": "17.38.1",
+    "netlify-cli": "18.1.0",
     "prisma": "6.5.0-dev.3",
     "ts-node": "10.9.2"
   },
