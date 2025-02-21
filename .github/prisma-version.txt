@@ -1,1 +1,1 @@
-6.5.0-dev.9
+6.5.0-integration-fix-e2e-prisma-config-2.9
