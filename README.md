@@ -34,6 +34,12 @@ Most tests use a database. The GitHub workflow creates and provides a `DATABASE_
 
 Projects that use an external database use a different environment variable name from `DATABASE_URL`.
 
+On AWS we use the following 4 databases for these tests:
+- `e2e-tests-postgres.cdoyhcosd7km.us-east-1.rds.amazonaws.com` (AWS ORM Ecosystem Tests  275927176912 us-east-1)
+- `e2e-tests-sqlserver.cdoyhcosd7km.us-east-1.rds.amazonaws.com` (AWS ORM Ecosystem Tests  275927176912 us-east-1)
+- `postgres-e2e-ts.cg7tbvsdqlrs.eu-central-1.rds.amazonaws.com` (AWS Management Account 243760423205 eu-central-1)
+- `e2e-tests-sql-server.cg7tbvsdqlrs.eu-central-1.rds.amazonaws.com` (AWS Management Account 243760423205 eu-central-1)
+
 ### Updates
 
 #### Dependency
