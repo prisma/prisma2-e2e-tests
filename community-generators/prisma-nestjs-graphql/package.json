@@ -4,11 +4,11 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "prisma": "6.5.0-dev.5",
+    "prisma": "6.5.0-dev.6",
     "prisma-nestjs-graphql": "20.1.0"
   },
   "dependencies": {
-    "@prisma/client": "6.5.0-dev.5",
+    "@prisma/client": "6.5.0-dev.6",
     "jest": "29.7.0"
   },
   "scripts": {
