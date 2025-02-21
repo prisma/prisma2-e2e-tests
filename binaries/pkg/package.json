@@ -5,9 +5,9 @@
   "license": "MIT",
   "devDependencies": {
     "pkg": "5.8.1",
-    "prisma": "6.5.0-dev.11"
+    "prisma": "6.5.0-dev.12"
   },
   "dependencies": {
-    "@prisma/client": "6.5.0-dev.11"
+    "@prisma/client": "6.5.0-dev.12"
   }
 }
