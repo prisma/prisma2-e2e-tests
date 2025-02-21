@@ -6,7 +6,7 @@
   "devDependencies": {
     "jest": "29.7.0",
     "prettier": "3.5.1",
-    "prisma": "6.5.0-dev.10"
+    "prisma": "6.5.0-dev.11"
   },
   "scripts": {
     "test": "jest"
