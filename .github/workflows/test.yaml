@@ -366,6 +366,7 @@ jobs:
           - turso-cf-basic
           - turso-cfpages-basic
           - turso-vercel-nextjs-edgemw
+          - turso-vercel-qwik-edgemw
           - d1-cf-basic
           - d1-cfpages-basic
           - d1-cfpages-nuxt
