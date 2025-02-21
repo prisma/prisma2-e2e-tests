@@ -1,0 +1,17 @@
+{
+  "name": "@prisma/alpine-3.21-node-20-arm64-openssl-3.0.x",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "18.19.67",
+    "prisma": "6.1.0-dev.34",
+    "ts-node": "10.9.2",
+    "typescript": "5.6.3"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@prisma/client": "6.1.0-dev.34",
+    "express": "4.21.1"
+  }
+}
